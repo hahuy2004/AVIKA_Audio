@@ -1,0 +1,8518 @@
+curtain &screen &fill
+time dog &beanbag &hide
+camera &cloud &move
+person &boat &drive
+person &scene &enter
+camera &team &show
+girl &toe &touch
+man &container &pick
+man &person &drop
+boy &tent &chase
+woman &camera &come
+person &fish &swim
+man &camera &look
+man &dancer &watch
+bird &tree &disappear
+cat &railing &crawl
+person &dog &put
+smoke &top image &reach
+woman &turn camera &look
+camera flash &time &see
+man &person pants &pass
+sea snake &time &see
+girl &picture &pose
+cat &screen &touch
+woman &leg &raise
+man &back chair &look
+boat &camera &pass
+finger &bottom frame &appear
+hand &book &open
+hand &time &appear
+man &time &look
+something &corner &show
+shirt &screen &walk
+child &firework &stare
+cat &object &pounce
+lady &beach &place
+light &close day &signify
+cat &screen &climb
+light &building &go
+half rainbow &screen &pass
+girl &time &put
+man &view camera &walk
+dancing man &hand &stand
+someone &front crowd &ride
+time child &finger &put
+car &truck highway &drive
+man &tunnel &slide
+cameraman &man &walk
+man &desk &sit
+something &time &throw
+woman &rain &show
+person &view &look
+person &side &come
+trolley &side &leave
+man &side &turn
+breast &front &face
+baby &moment &sit
+ant &circle &run
+girl &water &jump
+video &writing &show
+powder &machine &come
+van &camera &drive
+camera &man floor &show
+hand &office &point
+man &chair &sit
+camera &tower &zoom
+person &move &wear
+child &sink &touch
+otter &scene &leave
+singer &shirt &grab
+mouse &tree &climb
+girl &llama &touch
+man &chair &fall
+man &control ball &lose
+camera &man &move
+girl &guy &take
+man &safety net &fall
+robot &woman &walk
+woman &door &come
+man &ball &pick
+cat &chair &run
+pan &boat &show
+bird &something ground &pick
+massage therapist &lotion &pour
+dancer &time &spin
+person &back room &walk
+video &video &go
+head woman &camera &look
+person &shoulder &fall
+person &baby &walk
+bag &view &disappear
+hand &brush &grab
+camera &person &view
+camera &collection rock &focus
+train engine &time &zoom
+boy &place &hop
+cat &glass door &jump
+woman face &time &appear
+person &baby arm &rub
+someone &water &point
+petal &crack rock &pass
+person &cliff &begin
+camera pan &ocean &view
+machine &right &turn
+kayak &camera &pass
+person &frame &reappear
+camera &conductor movement &zoom
+baby &finger &point
+singer &microphone &put
+camera &sheet paper &go
+woman &water tube &jump
+puppy &puppy &pounce
+woman &item shelf &point
+hand &way eye &move
+boy &bowling ball &pick
+rope &lot &vibrate
+man &fish &clean
+man &swimming pool &stand
+dog &obstacle course &begin
+child &hat &wear
+hand &metal object &touch
+person &ball &paddle
+person &view &enter
+airplane wheel &ground &lift
+man &way &look
+dog &water &jump
+light &side piano &illuminate
+girl &head &touch
+woman head &view &come
+cat &baby &walk
+boy gesture &side camera &point
+finger &wall &point
+man &chair &touch
+singing reindeer &center &move
+water &icicle &run
+camera &painting &zoom
+woman &step &sit
+someone &pool &fall
+child &bag &put
+camera &refreshment stand &show
+father &girl &walk
+skier &time &close
+dog &foot &stand
+girl &hair &whip
+guitar player &sunglass &put
+boy &hoop &make
+dog &tub &drop
+storm &field &come
+baby &bag &find
+woman &arm &pick
+camera &device &zoom
+hand &flame &reach
+conductor &hat &touch
+man &baby sock &take
+camera operator &window &look
+girl &horn &stop
+tower &purple &turn
+child &something &grab
+squirrel &stump &run
+dog &tube &throw
+boy &guitar head &lift
+cat &camera &turn
+sky &frame &fill
+guy &time &stick
+baby &child &feed
+woman &cup &use
+paddle user &canoe &leave
+man &stick &throw
+baby &go fence &let
+dog &door &start
+baby &something screen &point
+child &pool &walk
+fish &fish &appear
+helmet &view &come
+boy &train &start
+camera &teacup &start
+someone head &frame &pass
+person &line &move
+adult &toy &shake
+boy &toy &pick
+camera &bone mat &cross
+cat &toy paw &grab
+truck &stop &come
+girl &horse &walk
+man &woman &begin
+man &view camera &skate
+woman &puff smoke &blow
+person &booklet &open
+bird &tree &run
+baby &arm head &lift
+child &end &reach
+someone &side room &walk
+glass &frame &center
+engine cowling &view &come
+man &person statue &leave
+person &staircase &ascend
+step &walkway &show
+girl &package &open
+camera &man shirt &follow
+girl &grass &pour
+cat &floor &jump
+dog &toy &chew
+train &station &cross
+person &walk &wear
+camera &bridge &pass
+cat &head &raise
+man &baby hand &shake
+person &table &point
+woman &hug &surprise
+animal &water &jump
+girl &table &sink
+man &arm &pull
+deer &fence &hop
+train track &view &come
+person &work station &walk
+dog &time &appear
+man &shush sign &give
+woman &sweater &wear
+puppy &head &lay
+man &bouquet &raise
+person &left &walk
+hockey player &goal &score
+baby &hand &look
+person &side road &see
+dog &window &walk
+child &foot &kick
+man &wheel barrow &turn
+man &ball &switch
+traffic light &view &come
+shark &frame &swim
+child &path &ride
+child &elbow &hit
+candle flame &focus &come
+person &door &come
+child &top &arrive
+girl &stick &swing
+man &hip &put
+camera &view horizon &move
+child &dog &touch
+person &screen person &go
+child &toilet lid &shut
+person &cell phone &hold
+train &bridge &pass
+singing reindeer &head &move
+hand &animal &point
+father &baby outfit &show
+baby &frame camera &start
+stage light &time &turn
+table &time &appear
+woman &camera &run
+person &doorway &stand
+dog &grass &lay
+steam engine &view &leave
+child &view &come
+child &object &pick
+baby &glass door &run
+camera person &head &shave
+soldier &left &turn
+baby &foot &kick
+band director &arm &wave
+person reflection &right &walk
+woman &left &look
+woman &left frame &appear
+man &boat &pull
+adult hand &baby &separate
+girl &bug &touch
+beginning &person prison &turn
+man &car door &shut
+guard &camera &close
+person &time &move
+someone &card &choose
+rhinoceros &rhinoceros &walk
+man &baby &hold
+firework &water &explode
+guitarist &head &move
+man &corner frame &exit
+head &television &look
+cat &table &jump
+horse rider &camera &begin
+object &view &come
+lady &plate &spread
+animal &screen stage &see
+girl &video game &play
+bubble &baby &begin
+light &view &come
+dog &rope &pull
+woman &view &walk
+boy &bike &walk
+girl &candle &blow
+vehicle &background &pass
+woman &seat &take
+boy &trail &walk
+cat &shaver foot &bite
+man &screen &face
+hand &shoulder &tap
+something &room &walk
+fan &pointer finger &put
+dad &face &touch
+plateau &focus &come
+cat &grass &start
+man &banjo &smile
+woman &air &move
+camera &road sign &zoom
+sea turtle &head &lift
+girl &baby &hand
+flag &time &see
+man &suitcase &stand
+woman &scarf &shake
+woman &piece paper &pull
+object &time &change
+boy &briefly &look
+train &right &exit
+man &sand &bury
+hand &booklet &open
+dog &room &come
+man &wine glass &pick
+car &pit stop &stop
+boy &man &kick
+lady &shirt bend &wear
+cigarette &helmet &wear
+camera &woman &move
+dog &girl &pet
+baby &person &throw
+man &music box &open
+arm &point camera &extend
+man &bite corn &take
+camera &group person &turn
+car &tunnel &drive
+boy &girl face &hold
+person &sheet paper &set
+boy &time &laugh
+hand &light &turn
+man &window &wear
+dog &person foot &sniff
+person &end frame &grab
+person &bowl &scrape
+woman hair &wind &blow
+woman &dancing &see
+model &direction way &walk
+person &camera &turn
+guitarist &leg &adjust
+person &overhead &walk
+camera &railing &look
+person &piano &walk
+girl &clapping &start
+camera &sign bar &zoom
+father &baby face &touch
+person &finger &wiggle
+bus &view &come
+dog &pool &hop
+camera &baby stripe &show
+man &bowling ball &choose
+woman &phone &hole
+woman &food &wrap
+train &bridge &appear
+light &right &float
+helicopter &frame &enter
+man &light &jump
+baby &toy &pick
+camera &car &pass
+hand &finger &appear
+truck &snow &plow
+water &river &start
+boat &view left &come
+dog &dog &stop
+woman &image &head
+woman &glass &take
+girl &woman shirt &run
+cat &map wall &jump
+video clip &snow tree &focus
+camera view &top house &reach
+fox &ball &begin
+person &stage &leave
+boy &lady &stand
+animal &path &walk
+cat &time &get touch
+cameraman &boot &show
+word &screen &see
+light &orange &change
+plane &view landing &come
+person &door building &walk
+girl &sled &pull
+dog &direction &turn
+rat &dish &eat
+child &shoulder &show
+man &view tire &block
+carriage &frame &leave
+girl &hand &eat
+cat &shelf &jump
+bird &leg &put
+baby &toy &hit
+woman &rain &drive
+drummer exit &moment &view
+woman &floor &fall
+man &fiddle something &start
+person &beer &drink
+head &screen &walk
+child &something &explain
+man &emergency worker &follow
+person &display &control
+instructor &arm &raise
+vehicle &frame &pass
+cat &painting &jump
+person &something &sprinkle
+wave &man foot &splash
+man &go &let
+photographer &shot &take
+man &lever &pull
+woman &toddler &pick
+girl &camera &come
+hand &shot &come
+bottle &camera &wave
+woman &bouquet &throw
+man &horse &approach
+child &person &run
+man &sign &stand
+paddle &side girl &show
+baby move &arm &leave
+turtle &surface water &swim
+camera &beach &move
+woman &camera &point
+train &station &leave
+man &escalator &ride
+lead car &side frame &drive
+guy &microphone &talk
+time woman &object &touch
+camera &child &turn
+rocket &sky &shoot
+camera &closet &show
+camera &right &turn
+woman &table &walk
+cat &arm &lick
+finger &something &press
+something &toilet &come
+device &time &go
+girl &staircase &push
+machine &arm &move
+sign &view &go
+boat &building &pass
+something &air &get toss
+someone &direction &pass
+child &display &stand
+singer &tree &walk
+car number &pit stop &pull
+lead guitarist &microphone &adjust
+child &side vehicle &pat
+dog &ball back &bring
+clown picture &time &show
+cat &camera &sniff
+dirt bike &puddle &leave
+time man &camera &look
+baby &left &shake
+boy &song &finish
+light &time &dim
+person &pianist &approach
+flame &bottom rocket &burst
+baby &look &sit
+cat &glass door &walk
+person &bag &hold
+man &piece table &pick
+girl &bowl &put
+helicopter &ground &touch
+bus &camera &pass
+arm &object &catch
+dog &lap &run
+boy hand &clause toy &santa
+bird &bag &fall
+gerbil &cage &climb
+man &child snow &carry
+chicken &time &see
+baby &camera &touch
+boy &chair &pick
+cat &back &turn
+something &camera &fly
+woman &camera &call
+person &decoration &move
+drummer &ham scene &go
+sail boat &tree &go
+cat &top ladder &reach
+man &cat &begin
+camera &car &follow
+man steering &time &stand
+man &camera &smile
+someone &mouse &shake
+geyser &water &show
+girl &kitchen &run
+baby &time &laugh
+duck &scene &leave
+goalee &goal net &skate
+building &view right &come
+camera &curve river &reveal
+person &foot &move
+dog &water &walk
+woman &table &set
+kitten &camera &run
+clock &house &become
+boy &mountain &ski
+guitar player &view &go
+person &time &touch
+banner &view &come
+camera pan &house &show
+reporter &camera &talk
+someone &sheet wave &cover
+spotlight &stage &appear
+man &sleeve &roll
+baby arm &blanket frame &remain
+girl head &view &come
+person &baby fist &pull
+boy &pitch &miss
+girl &mouth &open
+baby &head &pull
+man &animal &help
+water &camera lens &splash
+woman &bite food &take
+baby &knee &fall
+streak &time &see
+person &booklet &close
+train &door &close
+man &baby &talk
+guy &corner stage &walk
+man &sport coat &take
+skier &building left &pass
+dog paw &center attention &become
+girl &table &touch
+child &side &leave
+man &head &point
+person &stage &enter
+duck &left &swim
+someone hand &clapping &start
+train &caboose time &show
+man &tree &place
+person &middle building &walk
+bug &finger &climb
+baby &sleeve &touch
+baby &adult hand &put
+fan &arm &hold
+animal &camera &look
+camera &face &reveal
+baby &knee position &stand
+dog &nose &lick
+boy &fork mouth &stick
+time woman &shoulder &look
+camera &object floor &zoom
+water &show &start
+path &view &come
+boy &pool &bounce
+train &left frame &exit
+baby &camera &smirk
+girl &hose &put
+person &head &touch
+animal &moment &leave
+person &fashion &pump
+boy &tooth &brush
+fish &corner &go
+camera &step &go
+child &way &move
+person &hand &move
+clown &parade &walk
+plane &air &fly
+time bird &hand &jump
+car &frame &leave
+speaker &arm &raise
+man &foreground &stand
+bird &screen &fly
+man &turtle &turn
+arch &crowd &blink
+boy &air &throw
+time child &frame &run
+man &bowling ball &pick
+woman &head dog &pat
+camera &face &close
+time girl &face &cover
+scissors &band &cut
+woman &stack &place
+cat &string &pull
+man &phone &look
+person &icy road &run
+car &street &drive
+building &view &go
+camera &light fixture &zoom
+beginning &screen &move
+baby &arm &stop
+lady &tortilla &lay
+dog &end run &reach
+flag &view &come
+man &ground &put
+bird &view &come
+person &shoulder &take
+woman &view &go
+elevator &top &stop
+child &toy &hold
+person &stop &ride
+camera &guitarist &turn
+dog &flowerpot &decide
+person &bike &push
+person &shirt &point
+woman &shirt &lay
+camera &group individual &zoom
+cat &toy mouse &look
+chipmunk &cage &dash
+animal &chair &jump
+person &horse &walk
+camera &cat &move
+camera pan &bush &show
+cat &floor &fall
+bus &background &pass
+man &view &disappear
+dog &back &flip
+cameraman &circle person &move
+turtle &step &take
+time boy &right &turn
+individual &cat &kiss
+animal &water &fall
+man &floor &point
+thumb &screen &touch
+water &frame &show
+man &sight &go
+person hand &snake &provoke
+guy &street &cross
+man &start frame &smile
+man &mountainside &film
+camera &game &zoom
+father &child &discipline
+person &video &start
+train &camera &see come
+cat face &view &come
+person &baby &take
+plant &focus &come
+mouth &something &say
+man &audience &talk
+animal &toy column &move
+ride &time &go
+woman &time &pump
+fox &yawn &begin
+train &frame &come
+boy &hand &raise
+sky &sky &turn
+light &pattern &go
+dancing man &back &put
+man &audience &face
+person &bike &spin
+man &stomach &touch
+time &china word &see
+child &animal &throw
+camera &field &leave
+cat &wheel bike &walk
+scooter &side &lie
+dog &stick &turn
+something &right frame &shake
+person &man &sit
+sun &mountain &glare
+dog &puppy time &climb
+man &machine &move
+office man &car &enter
+plane &right &turn
+grandma &camera &look
+dish washer &camera &walk
+cat &toy &start
+camera &water &enter
+person &time &swing
+balloon &view &fall
+ball &contraption &roll
+dog &time &turn
+child &time &touch
+child &box &pull
+person &hoopla hoop &start
+man &button &press
+bear &head &lift
+somebody &dog &take
+wall &camera pan &leave
+light &time &blink
+time woman &something &hold
+woman &wolf cub &kiss
+man &shovel &throw
+toy &floor &fall
+man &thumb &give
+camera &closet &walk
+rectangle &screen &appear
+lady &camera &wave
+square &corner &show
+man &air &come
+skier &view &leave
+baby &screen &look
+baby &bunny &lay
+person &folding chair &remove
+dog &man &hide
+cat &air &jump
+foot &frame &reach
+camera &lake &go
+camera &guy microphone &zoom
+boy &book &hold
+man &beach &run
+man &top guitar &spend
+man &arm &cross
+girl &bag &adjust
+cat &nose &touch
+team &basketball game &win
+person &candle &blow
+girl briefly &camera &run
+finger &car &push
+boat &side &see
+boy &chair &stand
+man &man &poke
+camera &road &move
+woman &record &inspect
+hand &food &put
+car &frame &enter
+dog &head &turn
+cat &bench &jump
+baby &rump &sit
+control tower &view &come
+person &pier boardwalk &stand
+bus &frame &pass
+man &hand &light
+dog &shop &enter
+hand &planter &put
+hand &glass &drop
+rider &curve &make
+man &board &talk
+ball &game &begin
+water &ocean &hit
+bowl &screen &leave
+person &dinner table &take
+pole &frame &move
+girl &boy &join
+woman &head &scratch
+bag &ground &hit
+water &ledge &flow
+spotlight &time &point
+hand &machine &grab
+car &building &cross
+girl shirt &view &go
+person &swinging thing &flip
+woman &boy head &reach
+chicken &view &come
+bike &bike lane &enter
+bug &branch &fly
+presenter &right &walk
+man &snake &put
+man &stand &set
+camera &bird &zoom
+lady &toy &help
+duck &left &start
+firework &tree &move
+cat &room door &run
+monkey &fruit &eat
+girl &time &throw
+dog &water &remove
+dog &hurdle &jump
+title &view &come
+girl &bass &pick
+camera pan &greenery &show
+woman &camera &face
+child &keyboard &put
+man &briefly &look
+someone &toy &throw
+building &light &illuminate
+bagpipe player &step &take
+man &front &run
+golfer &swing &take
+seal &corner &walk
+person &finger &put
+baby &crib &stand
+woman &necklace &grab
+piper &foot &start
+bottle &camera &appear
+person &floor &fall
+tiger &water &fight
+bridge &time &see
+elephant &pool &fall
+baby &woman time &hit
+girl &shelf &remove
+man &baby &crawl
+camera &stage &show
+guy &microphone &start
+face &screen &go
+boy &somersault hill &begin
+bird &movement &make
+word &screen band &appear
+camera &chef &move
+lantern &line &hang
+grocery bag &clapping &start
+woman &swinging bat &walk
+streak &view &come
+dog ear &view &disappear
+boy &mouth &put
+hand &stomach &poke
+boy &speech &finish
+girl &boy &look
+lady &child &walk
+girl &face &bring
+woman &ring &put
+man &kitten &pick
+speaker &pocket &remove
+tractor &view &come
+person &camera &come
+baby &something &reach
+bird &camera &appear
+camera &city &shake
+man &table &finish
+boy &sand &shovel
+camera &girl stage &zoom
+chicken &board &run
+smoke &turning propeller &come
+dog &chew toy &leave
+towel &view &come
+person &man dog &walk
+bear &time &turn
+helicopter &sky &fly
+camera &ride operator &pass
+dog &circle person &run
+cart &time &pass
+bar &screen &appear
+girl &something &touch
+somebody &baby arm &jiggle
+child &foot &jump
+guy &ladder &set
+baby &person &give
+dancer &frame &enter
+man &back group &walk
+person &picture wall &look
+person &center room &walk
+man &steam engine &watch
+boy &book &flip
+camera &dashboard &lower
+camera &cook &show
+turtle &top tank &swim
+baby grab &animal &stuff
+dog &screen &run
+swimmer &frame &enter
+girl &bongo &bang
+boy &bird &reach
+elbow &view &pop
+lever &ride &start
+bird &step &run
+woman &bull &fall
+camera &back man &move
+shadow &paper &disappear
+rider &camera &move
+child &wheel &grab
+boy &help &walk
+bear &head &turn
+child &something container &pour
+woman &jug table &lift
+man &woman &back
+boy &boy &chase
+man &pizza dough &pick
+woman &finger &hold
+dog &yard &roll
+person &page &turn
+hand &foot &appear
+boy &sleigh &take
+bird &birdbath &fly
+scene &cast &take
+cat &shelf &climb
+boy &dancing &spin
+boy &girl car &push
+person &dark &film
+animal &water &go
+break dancer &head &spin
+diver &sea creature &approach
+girl &time &ride
+cat &camera &run
+head &wall &pass
+camera &cello &zoom
+camera &puppy mother &zoom
+man &camera &pass
+dog &something distance &bark
+man &edge &touch
+person &crowd &point
+girl &hair &touch
+man &go sled &let
+sofa &frame &leave
+woman &camera &speak
+player &field &run
+bee &nest &fly
+dog &float &set
+otter &hind leg &stand
+woman &camera &lean
+tube man &moment &stop
+person &girl &walk
+couple &right woman &pass
+wiper &time &swipe
+camera &window &follow
+chef &doe &grab
+climber &leg &step
+camera &tree &pass
+time cheerleader &basket catch &drop
+time woman &hair &flip
+man &raft &hold
+woman &face &raise
+girl &hoop &start
+shadow &corner &lower
+penguin &tunnel &enter
+girl &cake &start
+band member &air &pump
+man &van &appear
+man &tennis ball &remove
+baby &paper &turn
+camera &woman jacket &focus
+cat &toy &grab
+man &dog &remove
+woman &frame &run
+camera &left &zoom
+camera &stage &zoom
+man &cup &shake
+football player &frame &run
+frame &object &end
+child &camera &turn
+person camera &camera &hold
+puppet &stage &fall
+boy &toy car &ride
+camera &left &move
+baby &piano &slap
+man sign &sign &hold
+man &machine &slide
+hamster &hind leg &stand
+girl &arm &shake
+person &time &press
+hockey player &camera &pass
+bird exit &moment &view
+camera &top beer &zoom
+fish &filter &move
+child &door &approach
+child &time &drop
+dog &body &shake
+firework &night sky &explode
+suit &picture &take
+someone &cat toy &push
+man &mountain &ski
+woman &pan &shake
+person &sword &spin
+monk &item crowd &see
+man &door &put
+person &court &run
+camera &door &show
+child &mouth &pull
+man &piece board &lift
+man &monkey &reach
+child &floor &jump
+seal &camera &walk
+rain &ground &hit
+lady &arm &show
+man &bongo &start
+camera &girl hallway &zoom
+camera &performance &zoom
+camera move &person stage &show
+message &wall &post
+hand &towel &move
+woman &check &hold
+guy &dancer &join
+camera &closet &go
+boy &person &talk
+bus &bus &pass
+woman &meat &pull
+elevator &bottom &reach
+baby &clap &begin
+girl &thumb &suck
+child &keyboard &drag
+train engine &screen &pass
+car &lap &come
+bagel &oil &add
+man &mountain &jump
+baby &carpet &crawl
+word &corner &appear
+frame &person &swim
+man &group &run
+helicopter &wall &fly
+boat &dock &leave
+person &beach &sit
+dog &left camera &look
+camera &fox head &zoom
+dog &door &enter
+child &camera &put
+cow &scene &leave
+boy &piano &look
+finger &bug &lift
+crowd &view &enter
+woman &man &pan
+flag &plane &appear
+ball &field &get kick
+someone &time &touch
+woman &man &kiss
+cameraman &camera &turn
+man &boat &look
+baby &hand &raise
+time woman &bow &take
+helmsman &view &come
+person &unison &jump
+camera man &camera &raise
+rider &left &turn
+camera &wheel &zoom
+building &distance &see
+woman &drink &put
+hand &ocean &hold
+man &fist &pump
+man &hat &start
+pencil &view &come
+girl &something &notice
+man &glass &wear
+picture &camera &show
+fish &view &swim
+crane &truck &drop
+person shirt &shirt &wear
+palm tree &wind &blow
+man &plane &walk
+camera &time &flip
+man &torch &blow
+woman &scenery &look
+object &track time &begin
+person &stair &climb
+person &glass door &open
+hand &front screen &go
+man &handle container &grab
+cameraman hand &view &come
+person &camera &run
+person &window &stand
+light &center &move
+bird &cage &fly
+bridge &view &come
+diver &camera &face
+man &finger &waggle
+man &time &shoot
+child &door &run
+car &right &leave
+woman &blindfold &put
+guy &stage &walk
+camera &view &switch
+girl &peace sign &give
+alligator &bait &snap
+flag &screen &go
+baby &stomach &smack
+person &group &walk
+man &cheese &turn
+person &door frame &move leave
+dog &camera &look
+passenger &view &come
+man &time &walk
+ball &boy &get take
+audience &time &show
+worm &screen &disappear
+girl &bubble &blow
+hand &baby &play
+woman &child head &hold
+baby &right time &look
+wave &bird &hit
+person &ground &lay
+man &step table &take
+water &water fountain &fall
+person &remote &pick
+performer &march place &start
+toddler &something &pick
+man &hand &raise
+person &snow &run
+person &view &walk
+man &butt camera &bend
+dancer &face audience &turn
+person &room &shut
+wheel &ground &leave
+hand &table &slide
+woman &crowd &walk
+man &glass &place
+man &ledge &climb
+speaker &arm &spread
+boat &beach &move
+frame &dancer &end
+person &star &turn
+motorcycle &left &zoom
+person &arm &wave
+person &water &enter
+man &buddy &hand
+man &crowd &turn
+singer &hand &put
+goose duck &fence &see
+school &way &turn
+man &table &roll
+camera &animal &look
+man &hand &rest
+shirt &crowd &disappear
+bicyclist &street &turn
+hand &something &move
+cat &cat &climb
+child &child &pass
+boy &left &point
+girl &head &scratch
+dog &blanket &roll
+focus &bit &shift
+person &dirt &walk
+cat &bedroom &play
+baby &someone leg &run
+raft &water &get stick
+person &hand &put
+train &tunnel &enter
+man &umbrella &put
+van &frame &enter
+man &cigarette &take
+cat &ground &lay
+rectangle &metal surface &move
+man &toddler &grab
+foot attempt &toy &kick
+someone &baby &take
+fish &right &appear
+baby &ball &throw
+boy &sunglass &take
+dog &succession &blink
+van &view &come
+person &expression &make
+man &computer screen &point
+baby &computer &walk
+robot &weight &lift
+word &screen &fly
+person &dark &appear
+server &man cameraman &serve
+boy &toy &turn
+baby &couple step &walk
+boy &stand &hit
+face &building &appear
+girl &violin &remove
+camera span &building &show
+girl &camera &face
+head &view &obstruct
+vehicle &shot left &leave
+boy &time &take
+woman &door &shut
+dog &left frame &face
+someone &door &come
+child &pole &walk
+scooter &street &see
+baby &hill &fall
+girl &time &talk
+bird &log &jump
+cat &person hand &attack
+dog &wire string &jump
+man &camera &touch
+kitten rub &kitten &head
+woman &child &point
+turtle &time &appear
+woman &baby &lift
+camera &focus &lose
+woman &hand &run
+skeleton &clock &go
+man &face &turn
+girl &view &disappear
+baby boy &hand &suck
+girl &time &face
+camera &audience &follow
+camera &headlight &meet
+man &circle &spin
+person &man board &show
+boy &camera view &walk
+woman &hat &remove
+cat &shoe &rub
+man &instrument &play
+boy &head &get tap
+speaker &paper &hold
+boy &pot &pick
+mother dog &dog time &lick
+child &mat &fall
+person &dancer &cross
+light &right screen &leave
+monkey &person hand &follow
+camera &middle crowd &zoom
+camera &crowd &show
+camera pan &train move &watch
+person &paper &unfold
+man &something &point
+motorcycle &front camera &pass
+toy bus &right &drive
+someone &candle &blow
+man &balloon &step
+camera &girl &focus
+crane &load &release
+camera &chess board &zoom
+person &camera &point
+woman &breast &shake
+guy &plant &eat
+guy &left &appear
+cat &way &run
+camera &time &slow
+silver car &frame &pass
+camera &person audience &turn
+someone &kitten belly &scratch
+person &table &walk
+dog &pillow &grab
+person &toilet &touch
+woman &hand &reach
+dog &tunnel &go
+child &side tractor &bang
+person &bin &pop
+person &cat &tickle
+guy &beach &run
+person &step &take
+person hand &frame &come
+man &hand &move
+hand &time &reach
+dog &head bannister &stick
+light &scene &blink
+dog &right time &run
+sloth &tree &climb
+shoe foot &dog way &move
+light &orange &turn
+bicycle rider &race &crash
+dog &nose &lift
+person &gold cup &drink
+person &something floor &walk
+dog &stretch &pause
+van &camera &pass
+jumper &water &hit
+person &view camera &come
+camera person &door &open
+motorcycle &frame &ride
+baby &leg &stretch
+person &hood &pull
+person &car &stand
+camera &screen &turn
+woman &foot &squish
+time girl &camera &face
+sign &view camera &cover
+camera &ground &look
+object &camera &begin
+toddler &door &close
+guitar player &camera &grab
+boy &audience &look
+child &table &lean
+team &ball &knock
+waterfall &frame &enter
+robot &head &lift
+cat eye &camera &show
+time man &boulder &invert
+coral reef &view &disappear
+boy &camera &run
+lady &car &walk
+motorcyclist &course &ride
+boy &cow &feed
+home screen &time &show
+person &video &join
+man &stage &approach
+waterfall &view &come
+tree &frame &come
+child &hand &put
+train &screen &arrive
+engine &view &pass
+camera &baby head &zoom
+silver pole &view &come
+toddler &product &check
+cow &ramp &run
+camera flash &time &go
+woman &dress &wear
+person &sign side &go
+child &dragon costume &put
+camera &box &zoom
+camera &food &turn
+woman &head &shake
+roof &frame &stay
+camera &horn section &show
+child &dog &throw
+baby &face &rub
+pedestrian &crosswalk &spot
+woman &table &pick
+sun &view &gleam
+shed &time &view
+light &pattern &change
+person &pile wood &move
+person hand &kitten &see
+child &string &pull
+dog &face &lick
+hand &object &grab
+camera &plunger &zoom
+person &door &shut
+man &camera &swing
+toddler &hat &take
+woman &purse &place
+building &frame &fill
+man &screen &make
+paddle board &water &lay
+child &toy time &pick
+swimmer flipper &water &come
+boy &scene &pop
+woman &camera &block
+man &thing bag &begin
+child &wheel &look
+baby &person &grab
+man &area &leave
+camera pan &time &leave
+light &tower &move
+woman &podium &touch
+time man &face &touch
+cameraman &tree &walk
+man &leash &remove
+person &left &stand
+dog &scratch &stop
+child &piano &look
+animal &ground &go
+artist &presentation &enlarge
+camera &rock &zoom
+camera &snow &view
+jeans leg &frame &leave
+baby &table leg &use
+woman &baby bite &feed
+camera &frame &face
+boy &cocktail shaker &shake
+sail &view &disappear
+hand &bouquet flower &touch
+cat &microwave &go
+dog &pool &get throw
+time child &tray paint &put
+plane &camera &fly
+cat &mouth &carry
+man &picture phone &open
+panda &camera &look
+crowd &runner &watch
+dancing &hand &raise
+man &time &go
+man &boxing glove &drop
+person &knife &use
+dog &time &run
+person &thing &wipe
+camera &candle &zoom
+person &beach &sunbathe
+baby &bean &eat
+woman &blindfold &spin
+puppy &leg &kick
+car &driveway &pull
+boy &slide &ride
+jeep &puddle &leave
+object &floor &fall
+person &train &stand
+boy &ball &throw
+baby &arm &hit
+man &cave &crawl
+person &view &go
+camera pan &train car &show
+camera &bike rider &zoom
+boy &string &pull
+boulder &frame &enter
+shirt &pile &put
+camera &plate &zoom
+singer &arm &sway
+man &platform &dive
+time child &bite sandwich &take
+camera &room &look
+beer bottle &view &come
+person &tunnel &leave
+person &back &pat
+baby &toy &put
+woman &room &leave
+flag &way &lift
+camera &smoking hole &zoom
+hand &mouth &form
+girl &man &kiss
+camera &violin player &zoom
+person &paper &see
+person &coat &stand
+screen &center attention &become
+woman &picture &take
+man &worm &pick
+person &direction &ride
+girl half &item &hold
+fist &hand rise &pump
+woman &song &pick
+girl &hat &touch
+camera &left &curve
+cat &left &move
+lifeguard chair &view &come
+camera &light car &pass
+camera &soldier &zoom
+boy &marker &touch
+moment lady &hand &move
+woman bar &way &face
+breast &camera &face
+plane &ground &leave
+woman &stair &run
+puppy &group &join
+finger &shot &move
+dragon &top frame &extend
+girl &time &crawl
+someone &finger &stick
+man &cylinder &fill
+driver &hand &raise
+monkey &hand &chase
+fish &bottom &swim
+person &swinging &start
+man &crowd &sing
+girl &hair &play
+man &jacket &throw
+girl &cake &blow
+shadow &device &pass
+woman &time &turn
+groom &minister &hug
+baby &candy &flail
+man &shore &stand
+child &ball &kick
+boy &arm &move
+car &background &zoom
+child &hand &stick
+man &window &look
+sailboat &person sailboat &fill
+man &seat &shift
+child &page &turn
+mountain &view &come
+girl &towel &pick
+camera &fish &zoom
+camera &fish water &zoom
+child shirt &view &come
+animal &time &swim
+cat &cat ear &lick
+man &writing &finish
+fish &thread &dance
+boy &tube &pick
+hand &cough &face
+camera &fish &move
+robot &head &turn
+screen &movie show &introduce
+boy &view &leave
+person &peace sign &give
+person &right screen &walk
+text &screen &appear
+turtle &land &begin
+girl &sign &raise
+front &camera view &leave
+child &whip &lick
+person &book &take
+baby &food &try
+person &stage &walk
+camera &ceiling &turn
+sand pyramid &distance &see
+man &drum &hit
+man &cave &begin
+turtle &left &walk
+person &gum &chew
+riding toy &view &come
+man &sand &talk
+kitty &toy &run
+time dog &tunnel &run
+baby &right &turn
+child &truck &crawl
+girl &crowd &walk
+baby &slide &struggle
+swan &surface water &look
+person &something &drop
+cat &sofa &jump
+camera &water &zoom
+car &drummer &pass
+lady &ride &lift
+camera angel &right &turn
+cat &surface &jump
+boy &grass &run
+vehicle &train &pass
+camera &water &move
+girl &corner &go
+plane &trail smoke &emit
+camera &windmill &zoom
+tent &frame &enter
+woman &mouth &raise
+person &photo &spin
+dog &bottle &bark
+girl &penguin &grab
+camera pan &guy jacket &show
+car &corner &go
+goose &view &come
+time horse &group cone &round
+girl &camera &laugh
+girl &time &start
+ram &something &pause
+hand &dash &touch
+bird &neck &stretch
+girl &right &look
+camera &building &show
+person &parachute &take
+man &dog side &scratch
+mother &baby &put
+tent &view &come
+turkey &side frame &leave
+baby &woman &fall
+man &scooter &ride
+man &glass &drink
+girl &water &stand
+white van &traffic light &stop
+person &time &step
+bird &birdhouse &fly
+road &right &see
+man &lift &perform
+flower &wind &move
+text &window &appear
+girl &experiment &watch
+camera &timer &move
+crane &dirt &pick
+boy &water &run
+camera &left frame &see
+ivy plant &wind &get blow
+man &video camera &carry
+boy &tip &leave
+boy &camera &hold
+camera &time &view
+man &cup &pour
+boy &toy &spin
+gorilla &mouth &open
+scissors &package &cut
+puppy &back &flip
+baby &bottle &hold
+stage &guitarist &light
+dashboard &vehicle &light
+net &thing &empty
+stool &table &see
+bird &fish &begin
+girl &hand &bring
+cat &head &scratch
+camera &building &shift
+person &shotgun &raise
+man &shoulder &look
+hand &drum set &steady
+baby &crib &put
+photographer &frame &take
+boy &toy plane &play
+boy &father &help
+fire &shape &make
+turtle &water &pop
+camera &girl &move
+baby &toy &play
+man &point &reach
+parent &ground move &sit
+woman &piece clothing &set
+woman &water &touch
+camera &waterfall distance &zoom
+girl &food &stab
+saxophone player &side stage &switch
+person &shirt &walk
+engine &smoke &show
+someone &control &hold
+woman &man side &spin
+ball &bound &go
+girl &foot &throw
+person &trail &begin
+magazine &radio &appear
+child &car &pass
+crane &neck &lift
+girl &woman stomach &sit
+light &dog head &block
+dog &tube &leave
+person &machine &pull
+silver fish &frame &dominate
+cat &something &chase
+man &baby &look
+child &net &stick
+man &hand &remove
+dog &treat &sniff
+baby &cry &start
+boy &view &enter
+woman &something &pick
+car &bike &go
+sign &frame &start
+child &stair &climb
+cat &dog &smell
+man &hand &dry
+hand &frame &enter
+person &presentation &give
+man &direction train &walk
+plane &water &fly
+child &camera &run
+escalator &view &come
+jelly fish &camera &turn
+camera pan &man face &show
+man &head &nod
+dog &ground &fall
+bird &pond &land
+person &left &appear
+man &water &push
+man &side &laugh
+man &leash &detach
+camera &field &zoom
+cat &man &kiss
+hand &head &scratch
+girl &toy floor &drop
+person &run &dress
+bird &view &jump
+camera &field &move
+light &music &blink
+van &street &park
+man &leg &start
+car &car &come
+camera view &scenery &go
+climber &point &reach
+man &mountain &go
+girl &fence &ride
+jersey man &arm &raise
+wall &view &disappear
+coaster &point &reach
+baby &stair &climb
+bird &scene &fly
+cone &view &disappear
+gold fish &view &go
+person &finger &hold
+person &hall &walk
+light &camera view &move
+person &bottle &drink
+adult &right &lean
+dog &frame &leave
+guy &leg &uncross
+bug &keyboard &crawl
+baby &arm &raise
+otter &drink &take
+finger &insect &point
+baby &paper &reach
+person &drink &take
+car &screen &leave
+tennis player &game &start
+boy &object &throw
+guy &orange &juggle
+fox &darkness &run
+man &shell &stick
+baby &time &smile
+man &something ground &point
+dog &swimming &start
+elephant &bottle &grab
+wave &rock &hit
+woman &salute &make
+child &bow &put
+dog &step &run
+train &track &come
+box truck &view camera &pass
+church &view &come
+train &camera &go
+camera &person &zoom
+child &camera &reach
+woman &face &wipe
+bunny &fruit &look
+person &pass &walk
+tube &time &see
+plate &thing &place
+horse &circle &turn
+camera &drummer &zoom
+guy &head &shake
+ladybug &person knee &fly
+camera &person &move
+model &catwalk &start
+water &view &leave
+bird &body wiggle &perform
+dog &right &go
+cat &door &walk
+man &gold club &swing
+man &magnet &pour
+speaker &head &touch
+camera &bed &show
+girl &head &shake
+man &dog harness &touch
+wave &beach &wash
+toy &camera &walk
+baby &time &hit
+man &shoe &unwrap
+dog &floor &sniff
+woman &look window &take
+girl &toy closer &pull
+car &camera &go
+seal &pool &jump
+camera pan &boat &show
+child &shot &give
+performer &time &back
+woman &forehead &put
+camera &man glass &zoom
+man &man &walk
+van &picture &come
+cargo vehicle &time &pass
+dog &sofa &roll
+camera &dancer &zoom
+woman &cup &sit
+camera &man glass &move
+man &shore &appear
+police motorcycle &camera &ride
+cat &tree &hide
+flag &booth &see
+dog &room &walk
+bird &person hand &step
+person &station &walk
+man &pants &pull
+man &car &bring
+child &woman lap &sit
+ball &court &throw
+rabbit &toy truck &toss
+man &guitar neck &point
+person &thing &pick
+engine &frame &leave
+baby &railing &hold
+man &corner &scratch
+dog &baby foot &sit
+child &harmonica &give
+ball &color &change
+worm &frame &scare
+person &foot &step
+cat &chair boy &balance
+cat stick &cat &face
+guy &jacket &take
+baby &cap &remove
+horse &camera &walk
+person &train &sit
+dog &tube &enter
+boy &swinger &throw
+camera &duck water &zoom
+knife &screen &appear
+camera &lady &zoom
+kitten &pole corner &walk
+flying &time &see
+seasoning &meat &add
+finger &view &come
+dog &light &walk
+woman &rock &sit
+baby &time water &look
+baby &book &open
+toy &baby &push
+child &guitar &stand
+child &arm woman &fall
+baby &stomach &start
+camera &guy couch &change
+car &street &pass
+battery &device &take
+bee guy &clip &appear
+slinky &step &fail
+bird &view &fly
+someone hand &right &enter
+baby &adult &bring
+baby &woman &go
+cat &paw &hit
+boy &camera &face
+mascot &water &fight
+baby &something camera &crawl
+woman &camera &make
+man &gun &draw
+finger &baby belly &rub
+camera &beer bottle &zoom
+runner &line &take
+baby face &view &come
+tube &view &disappear
+picture &character &take
+boy &bite &take
+cat &food &turn
+reindeer &singing &start
+steam &clock &come
+person &booth &walk
+van &view left &come
+projector &man singing &display
+man &hand &put
+man &someone &take
+rat &edge bed &run
+person &scene &file
+duck &view &go
+spoon &table &set
+girl &stick butter &put
+word &building &appear
+man &object &put
+dog &frame &enter
+man &crowd &run
+woman &guitar &play
+camera &ground &focus
+person &pink button &point
+camera &toy &zoom
+baby &person &look
+man &jacket &wear
+woman &singer &dance
+baby &arm &move
+lady &tree &walk
+camera scan &tree &view
+man &bike cart &ride
+bear &ledge &jump
+skater &ramp &skate
+boy &plastic egg &open
+sun &water &shine
+train car &frame &drive
+girl &cameraman &smirk
+toddler &dog &lean
+man &field vision &walk
+man &ball &throw
+camera &distance &zoom
+goal &time &show
+woman &time &spin
+water fowl &screen &see
+driver &motorcycle &go
+face &sweater &bald
+catcher &ball &throw
+camera &kill &zoom
+horn player &lip &raise
+lighting &camera &fade
+woman &chicken &put
+toddler &stroller &push
+baby &step &take
+bid &right &fly
+man &cone &touch
+scissors &desk &place
+singer &microphone &grab
+camera pan &woman &show
+dolphin &water &go
+cat wink &eye &leave
+cat &fish &walk
+child &doorway &run
+camera &sign side &pass
+island &frame &leave
+bird &fence &fly
+light &front stage &see
+camera briefly &picture man &focus
+car &background &go
+crowd &person &shoot
+toy truck &view &come
+man &bullhorn &see talk
+person &rope &pull
+robot &head &spin
+child &window &move
+cyclist &view &arrive
+girl &mouth &touch
+guard &degree &spin
+deck bus &corner &turn
+ballerina &dance &perform
+person &leg &uncross
+toddler &hammer &use
+video &light &zoom
+person &flame &run
+man &trail &stand
+girl &toy &move
+person &vegetable &cut
+finger &bee &pick
+cat &baby hand &sniff
+person &time &cast
+car &floor &pull
+sunset sunrise &view time &come
+cat &bicycle &sniff
+exerciser &arm head &raise
+boy &bowling ball &throw
+cameraman &camera &point
+flag &tree &go
+woman &snow &look
+woman &half circle &dance
+smoke &engine &eject
+person &lady chin &rub
+creature &man hand &begin
+child &camera &hold
+mailbox &view &come
+girl &skirt &hold
+man &arm &move
+server &platter &carry
+boy &movement &activate
+cat &person foot &attack
+girl &position &straighten
+girl &ladder &stand
+character &stage &run
+doughnut &fryer &put
+turtle &ocean &swim
+man &rail &come
+set &tone &begin
+baby &time &stand
+batter &view time &disappear
+frame &light &start
+shirt &shirt &join
+plane &runway &take
+boy &camera &swim
+hand &exit &enter
+camera &tiger &flip
+tennis player &screen &walk
+table &view &disappear
+flower girl &hair &play
+camera &water &go
+woman &pipe &pour
+camera pan &river &reveal
+boy &time &pass
+person &hand arm &shake
+phone &back &show
+parachute &hill &rise
+woman &microphone &raise
+person &room &dance
+hair girl &girl &push
+camera &lizard &zoom
+lady &arm &write
+girl &food &grab
+vehicle &right &see
+child &bar &climb
+hand &cat &play
+girl &curtain &appear
+person &hip &thrust
+cat &cat &lick
+woman &right &scoot
+bathroom &view &come
+person &baby &turn
+pond &time &come
+rooster &left &face
+woman &leg &lift
+grass &scene &leave
+violinist &stair &walk
+ball &ramp &push
+camera &sky &look
+guitarist &finger &shake
+camera &woman crowd &move
+baseball stadium &time &show
+man &object table &pick
+girl &someone lap &jump
+dog &bed &stand
+girl &time &stop
+dance leader &view side &go
+woman &car &reach
+someone &street &cross
+bird &camera &run
+man &time &pick
+man illustration &screen &see
+forest &screen &show
+package &table &sit
+bird &back &turn
+girl &wall &walk
+smoking car &stop &come
+person &front &stand
+cat &cat food &eat
+baby &item &step
+person &hat &remove
+cat &milk &drink
+singer &karate stance &make
+gondola &side &start
+bunny &truck mouth &pick
+bird &branch &fly
+camera &band &zoom
+girl &bench &step
+person &pinkie finger &pick
+baby &book &look
+angel &camera &come
+boy &face &place
+fern &leaf &face
+man &intersection &walk
+couple &side &dance
+dog &person &run
+woman &man &pull
+person &dish &finish
+object &time &throw
+camera pan &man &leave
+man &guy camera &look
+someone &cheek &stroke
+sun &clip &show
+woman &circle &draw
+woman &man &start
+woman &arm &point
+car drive &road barge &pass
+otter &land &crawl
+object &view &go
+cat &door &go
+time man &keyboard &touch
+truck &left &pass
+light &view &go
+woman &man &record
+person &entrance building &stand
+person &waterfall &stand
+person &headphone &remove
+camera man &boy backside &move
+cat &shoe &lay
+girl &ground &stand
+person &floor &roll
+everybody &clapping &start
+van &right &pass
+man &podium &back
+boy &book &look
+man &stair &walk
+child &tongue &stick
+man &shirt &eat
+man &tie &finish
+person &right &enter
+rock island &view &come
+girl &playpen &climb
+person &hand &hold
+percussionist &time &jump
+hiker &view &come
+time bird &feeder &eat
+head &hair &move
+child &dirt field &stand
+camera &tent &pass
+woman &hand &pull
+camera &brightness &adjust
+man &machine &roll
+man &phone &hand
+train &distance &pass
+puppy &twig &chew
+man &game &show
+baby &face &pull
+man &camera view &walk
+woman &board &present
+man &bite &take
+camera &water show &zoom
+singer &throat &raise
+man &bottle &hold
+dog &person &reach
+woman &hose &begin
+baby &table &look
+spider &web &make
+hand &lotion &put
+man &face &point
+bubble &stream &appear
+woman &hand &laugh
+fish &left &swim
+stage &view &come
+boy &light &push
+dancer &knee &drop
+boy &spoon &take
+cat &ball &steal
+man &bow &take
+building &side &appear
+man &baby belly &blow
+girl &trumpet &play
+lamp post &exit frame &enter
+man &bone sample &lick
+word &frame &appear
+boy &air &look
+girl &frame &walk
+conductor &hand &raise
+screen &stage &come
+girl &piano &play
+person &time &shake
+man &mug &lift
+person &camera &wink
+bird &boat &fly
+object &bottom frame &appear
+sheep &fence child &come
+dog &view &run
+woman &page book &point
+person &left &turn
+hand &steering wheel &see
+dog &something &sniff
+hand &eye &shield
+cat &scene &exit
+camera pan &screen &show
+fish &view &enter
+lift head &camera &turn
+person &water &sit
+kitten &camera &look
+man &view &stop
+end &runner &set
+girl &toy &touch
+cameraman swing &door &open
+giraffe &man ear &lick
+man &gadget &turn
+person &water &fall
+roller coaster &building window &go
+person &cell phone &manipulate
+person &left &tilt
+water flume &ground &gush
+woman &chair &sit
+shadow &camera &see
+girl &glove &hold
+man &sign &hold
+skirt &view &come
+hand &baby &give
+figure &circle &turn
+animal &road &run
+woman &baby &pat
+building &light &light
+man &hockey puck &launch
+baby &toy &throw
+kitten &desk &sit
+person &board &swipe
+man &drink &go
+boy &lady &hug
+waterfall &frame &move
+camera &balloon &zoom
+time camera &moose &zoom
+boy &ocean &run
+frame &camera flare &show
+creature &scene &leave
+tube man &moment &move
+camera pan &food &show
+child &spoon &put
+fox &human arm &jump
+camera &seal &zoom
+water &time &fall
+boy &chair &run
+child &right &come
+child &camera &face
+rat &screen &scurry
+baby &time &move
+brass band &view &come
+man &snow &roll
+girl &chair &move
+time dog &room &leave
+foot &frame &leave
+man &water &point
+arm thing &time &move
+cat &head &shake
+boy &frame &ride
+dancer &hand &touch
+rail car &view &come
+pigeon &pigeon &walk
+girl &crib &walk
+bicyclist &frame &ride
+dolphin &boat &swim
+man &boat &touch
+man &target &celebrate
+camera &time &flash
+camera &desk &turn
+person arm &frame &enter
+group &group person &see
+woman &right &walk
+groom &face &touch
+girl &slide stomach &go
+object &chic &appear
+person &platform &stand
+light &screen &exit
+woman &microphone &walk
+girl &bow &pull
+child &hand &hold
+woman &rabbit &look
+plane &tree &disappear
+man &item &pick
+man scarf &wind &begin
+arm &picture &take
+man &jacket &pull
+boy &sleeve &pull
+someone &camera &speak
+nurse &notebook &write
+camera &ground &move
+baby girl &hand &hold
+baby &arm &swing
+cook &something &pour
+man &drum &march
+light &concert &flash
+toddler &page book &flip
+guitar neck &right &enter
+person &shot &enter
+bicyclist &side bus &stop
+baby &arm &spread
+train engine &view &pass
+van &driveway &drive
+swimmer &edge pool &leave
+woman &forehead &kiss
+girl &mouth &put
+man &time &step
+boy &shoulder &put
+child girl &item &want
+coin &jukebox &place
+baby &rag &eat
+stick &rock &light
+cat &screen &come
+baby &plant &touch
+car &bus &go
+camera &side &turn
+smoke &boat &shoot
+writing &screen &show
+man &statue &jump
+crane &object &drop
+child &something ground &set
+cellist &banjo &beat
+ball &air time &go
+shadow &corner frame &appear
+pole &fist time &enter
+fence exit &frame &leave
+guy &time &look
+person &railing &walk
+woman &microphone &peak
+someone &time &hold
+finger &screen &go
+girl &bull &get throw
+baby &coffee table &run
+girl &time &look
+dog &door &go
+bird &object &run
+glass &frame &end
+train car &view &come
+camera &rat &zoom
+owl &camera &look
+woman &folder &open
+camera &end clip &jump
+baby boy &head &scratch
+flower &person &shift
+time child &view &come
+swimming seal &water &dive
+dog &opening hurdle &jump
+man &bee swarm &pick
+camera &computer case &look
+woman &camera &carry
+light jacket &camera &carry
+keyboard player &time &touch
+bus &stop &come
+time animal &step &take
+baby &time &sit
+girl &balloon time &pick
+lion &ball &look
+girl &woman &talk
+camera &water reserve &zoom
+camera &shirt &zoom
+woman &bowl &look
+guy &camera &smile
+person &corner &see
+squirrel &head &stick
+train &past &move
+girl &hair &flip
+glass window &view &come
+puppet &stage &appear
+man &finger &pick
+fish &camera &turn
+mouse &cereal box &jump
+man &room object &pelt
+flag &view &go
+person &person &pass
+girl &ball &pick
+bird &view &go
+woman &slide &appear
+baby &clap &force
+woman &mouth &wipe
+cat &foot &knock
+lady &glass &take
+crowd &car &pass
+person &object &lay
+girl &tricycle &push
+girl &time &see
+woman &mouth &take
+clip &edge roof &start
+hamster &box &walk
+man &train track &run
+baby &arm &drop
+person &bow &straighten
+woman &camera &smile
+man &hat &adjust
+man &firecracker &run
+boat &water &sit
+automobile &view &come
+train &time &enter
+monkey &screen &disappear
+person &balloon &pick
+character &ball &throw
+cat &couch &run
+woman &time &see
+ballerina &stage &spin
+person hand &corner &take
+train &passing &film
+dog &carpet &knock
+cameraman &hut &enter
+person &duck &throw
+baby &back &roll
+woman &toddler &hold
+rectangle screen &building &appear
+person &pet snake &reach
+player &time &evade
+someone &umbrella &walk
+camera &ground &fall
+person &hand &shake
+glass door &focus &show
+leader singer &shirt &adjust
+man &kitten &kiss
+trolley &street &move
+hand &star light &turn
+dude &camera &walk
+baby &daddy &walk
+officer &motorcycle &ride
+person &van &walk
+hand finger &right &come
+camera &snake &zoom
+man &fork &pick
+man &headphone &adjust
+wave &beach &crash
+man &boat &go
+dog &person &catch
+man &man microphone &hold
+person &bong &drink
+man &drink &take
+man &device &take
+camera &creature &zoom
+person &something &surround
+race car &camera &zoom
+boy &water &dive
+person &water &go
+woman &dress &fold
+train &bridge &start
+singer &microphone stand &touch
+woman &fat &pull
+stage light &left &spin
+person &sidewalk &begin
+girl &slide time &go
+person &wall &walk
+man &paper &hold
+girl &toy &drop
+robot &right &look
+vehicle &turn camera &make
+man &side machine &move
+dog &kitchen &walk
+train car &camera &pass
+cameraman &face &show
+dog &head &lay
+toddler &toy floor &drop
+child &circle &sit
+something &machine &touch
+train &tunnel &go
+clock &view &go
+dog &left &turn
+robot &net &kick
+man &woman &hand
+girl &book &hide
+information plaque &view &come
+tiger &cameraman &charge
+man &hand &wave
+foot &camera &walk
+time dog &camera &look
+stage light &color &change
+camera &direction &travel
+woman &stuff frog &cover
+woman &view camera &go
+camera &singer &zoom
+dog &side pole &stop
+drummer &dancer &play
+camera pan &girl running &leave
+car &dirt road &drive
+camera pan &hiker &show
+boy &camera &grab
+camera &street light &view
+person &car &flick
+camera &water tower &go
+man &folding chair &pick
+woman towel &towel &hold
+boat &view &pass
+light &device fade &come
+fish &water &jump
+wave &time &splash
+train &frame &leave
+man &camera &hold
+man &alcohol cup &take
+man &scene &leave
+man &head &pick
+person &peace sign &flash
+camera &scoreboard &move
+child &food &put
+baby &sofa &walk
+fish &spot feeding &disappear
+person &video camera &hold
+figure &frame &walk
+animal &scene &jump
+dog &food &leave
+light &diamond shape &change
+skier &camera &adjust
+man &cane &set
+jeep &carriage &pass
+man &object &get pelt
+woman &step &come
+man &side &enter
+woman &baby mouth &put
+car &background &see drive
+motorcycle &past &drive
+camera &girl snow &zoom
+child &floor &stand
+girl &lollipop &eat
+lady &lip &touch
+tram &middle street &stop
+man &wood &grab
+ball &head &hit
+toy &box &run
+person &blanket &wrap
+tree &ground &hit
+dragon &view &come
+girl &camera &pose
+camera &computer screen &turn
+child &door &open
+camera &bathroom &turn
+sign &view &come
+person &rock &climb
+car &person left &pass
+camera &right screen &turn
+camera &sand &turn
+cat &person hand &jump
+lady &child &lift
+man &leg &dance
+woman &girl mouth &hold
+person &spill table &wipe
+singer swing &right &stand
+girl &circle &run
+camera &back skier &show
+president &screen &appear
+bird &tree &land
+umbrella &view &move
+person &hill &begin
+man &train &jump
+man &arm &put
+lady &shirt &wear
+pole &scene &pass
+man &sword time &raise
+snowflake &video screen &pass
+person &piano &play
+baby &plastic &eat
+child &front frame &run
+bird &camera &face
+cat &camera &look
+man &view &enter
+woman &hat &wear
+man &somebody &wave
+man &mouth &spit
+person &top &reach
+camera &man leg &zoom
+rat &sewer water &run
+dog &bite apple &take
+boy &camera &speed
+taxi &street &drive
+butterfly toy &air &lift
+person &path &walk
+crucifix pendant &view &come
+man &distance &point
+girl &something &eat
+trombone player &couple step &take
+woman &room &walk
+fish &picture &back
+screen &image &show
+player &video game &score
+woman &bench &lift
+person &side &switch
+baby &pacifier &knock
+hand &chess piece &grab
+man &woman &take
+person &cat &hold
+beetle &dirt &crawl
+boy &woman &throw
+man &line &stand
+woman &waist &tie
+girl &wig &touch
+owner &dog paw &shake
+street sign &time &show
+person &background &cross
+man &cigarette &put
+someone &right &enter
+light &change &display
+man &paper &flip
+cat &leaf lid &look
+dog &head ground &face
+baby &chair &lean
+woman &girl &kiss
+dark bird &right &stand
+person &knob &turn
+camera &man field &zoom
+hand &bar &handle
+camera &sun &face
+someone &view cam &walk
+man &top &touch
+man &something &slam
+waitress &frame &enter
+hand &clap &begin
+camera flash &flag &go
+projector &presentation &turn
+cat &side &flop
+person &structure &move
+bird &beer keg &jump
+baby &cat &startle
+dog &boy hand &lick
+mouse &button &climb
+child &tree &put
+girl &hand piano &turn
+time hand &frame &enter
+man &walk &wear
+police car &corner &drive
+lizard &rock &walk
+plane &silver building &pass
+something &dog toy &grab
+motorcycle &view &disappear
+child &jungle gym &walk
+woman &doorway &enter
+motorcycle &frame &leave
+train &view &come
+man &lever &drop
+coach &batter pose &correct
+boy &hand &shake
+man &glove &take
+child &something &pick
+mouse &cage &run
+cat &milk &look
+person &screen &point
+bug &gif &move
+camera &label &show
+baby &chest &put
+animal &rock &scoop
+car &light &pass
+woman &microphone &hand
+man &mary &lift
+car &bridge &go
+man &sandwich &bite
+squirrel &post &jump
+turkey &side &leave
+woman &frame &enter
+pool &view &come
+structure &right frame &disappear
+bird &wave &get splash
+man &dart &throw
+man &dog toy &toss
+building &view &come
+person &past &walk
+cell phone &frame &appear
+girl &book &turn
+penguin &hose &enter
+time person &air drum &play
+camera &graduation stage &zoom
+car &turn &make
+woman &view &come
+umbrella &camera pan &see
+hand &toy &touch
+ball &color &turn
+person &ledge &see
+snow &house &fall
+audience member &towel &fluff
+boy &side &hit
+dragon &time &blink
+speaker &microphone &grab
+baby &time &swipe
+man &crowd &address
+fish &obstruction &swim
+singer &overcoat &remove
+cat &wall &look
+bicyclist &view &pass
+firework &scoreboard &go
+goalie &ball &catch
+girl &neck &reach
+camera pan &butterfly &leave
+bird &wing &shake
+person &rock &go
+flag &track &remove
+guy &hand gesture &make
+hand &audience &come
+baby &time &drop
+person &center &come
+head &head &shake
+person &sign &drive
+ball &man &hit
+man &camera &talk
+obstruction &corner &appear
+child &water &walk
+dog &dog &lick
+camera &light &show
+woman &go &let
+woman &glass &hold
+everyone &hand &throw
+boy &screen &run
+camera &park bench &turn
+man &thing &hit
+baby &mouth &pull
+man &moment &strum
+boy &head &touch
+arm &air &pump
+boy &guitar &put
+night &morning &fade
+camera &lady singing &zoom
+robot &camera &walk
+man &frame &hold
+man &woman hand &take
+skier &picture &go
+man &container &drink
+cat &frame &leave
+dog &hose &bite
+dog &bush &sniff
+boy &balloon floor &pick
+boy &choir &join
+hand &dog leash &hold
+sheep &left &run
+water &wall &come
+camera view &building &zoom
+flare light &left &appear
+time cart &camera &pass
+person &rabbit &stop
+dog &object &remove
+boy &fork &stick
+baby &head &drop
+man &halt &come
+man &shoe &shake
+bird &tree limb &take
+finger &baby arm &caress
+baby &leg &raise
+man &right &run
+mushroom thing &view &swim
+train &camera &pass
+speaker &head &scratch
+time man &phone &hand
+person singing &screen &show
+girl &cameraman &wave
+camera man &girl &see
+child &man head &put
+someone &arm bottom &raise
+man &ply wood &begin
+structure &view right &come
+girl &hand &make
+girl &left &hug
+man &log fire &slam
+finger &starfish &poke
+man &hand &hold
+man head &view wall &move
+cat &doorway &look
+flag &time &appear
+baby lift &toy &chew
+violin player &view &come
+baby &cup &drink
+baby &moment &look
+calf &tail &flick
+car &background &park
+man &water ski &pick
+camera &dog &zoom
+girl &camera &smile
+man &end stage &reach
+circle &woman microphone &begin
+child &box &remove
+frame &head &begin
+woman &camera &pass
+crowd &hand &throw
+conductor &arm &raise
+person &dark &flip
+person &boardwalk &walk
+baby &toy &eat
+someone &camera &walk
+person &glove &wear
+woman &man &look
+man &destruction site &hold
+rabbit &toy car &play
+ocean &majority screen &take
+boy mime &head &pull
+car &crosswalk &pull
+child &plant &come
+stick &flame &place
+scene &rock &show
+girl &object &hand
+speaker &view &disappear
+saxophone player &microphone &put
+camera &bird sign &zoom
+man &something &take
+bike &crowd &pass
+man &something nose &stick
+writing &screen &remove
+dice &time &roll
+cat &tube &enter
+baby &butt &fall
+cat &bed &go
+man &camera &give
+guitarist &neck guitar &jerk
+hockey player &side rink &skate
+machine &arm &use
+camera &mountain side &show
+hand &card &open
+camera &land mass &zoom
+baby girl &hand &twirl
+camera &shape &go
+baby &head &put
+monkey &floor &fall
+person &street &walk
+boy &bowl &put
+swan stick &water &head
+character &stage &start
+man &head &rest
+boy &floor &climb
+dog &girl lap &jump
+train &left &exit
+woman &hand &look
+boy &car sedan &pass
+puppy &bottom pile &emerge
+cat &table &sniff
+man &wall &wear
+dog &frame &walk
+otter &left &run
+man &camera &lower
+bird &brick wall &hop
+dog &man &walk
+dog &tunnel &turn
+camera &light &zoom
+father &water &catch
+person &left &run
+everyone dancing &hand &raise
+camera &ball &follow
+flame &sky &shoot
+something &trebuchet &launch
+baby &toy &crawl
+boy &straw &bang
+woman &slinky &throw
+person &circle &draw
+person &red &wear
+person &something &shake
+woman &arm &lay
+light &light &fade
+accordion player &view &come
+person &platform &swing
+someone &baby &push
+dog &ball &run
+camera &counter &view
+cat &paw &put
+man &water &jump
+guy &ground &put
+camera pan &pole &show
+bird &left &fly
+man &bag &pat
+angel &purple &turn
+table &hail &see
+dog &water &come
+cat &frame &enter
+boy &candle &blow
+someone &back &walk
+camera &ride cup &pass
+man &lip &lick
+man &water &dive
+preacher &view &walk
+color &frame &leave
+man &foot &stand
+man hand &screen woman &cover
+man &animal &pet
+cat &view &come
+child &bike &stop
+man &half &cut
+cat &fabric &jump
+ornament &lighting &start
+child &closet &stand
+ballerina &curtain &hide
+man &explosion &walk
+hand &baby nose &touch
+cat &painting &attack
+water &bed rock &run
+baby &lady &start
+thing &view &come
+guy &lever &pull
+police car &past &fly
+orange &track &kart
+time dog &food &run
+man &chin &take
+child &pool &throw
+shirt lady &position &shift
+baby &girl arm &put
+woman &sheet &pick
+van &screen &pass
+sun bather &beach &lie
+man &wall &place
+camera &man jacket &switch
+dog &side bed &run
+girl &peace sign &show
+child &mouth &touch
+man &board &walk
+dad &son foot &tickle
+man &cut &finish
+child &rug &leave
+child &head &turn
+lady &hand &wash
+girl &animal &play
+woman &piece cloth &move
+hand &time &enter
+woman &glass &wear
+camera pan &statue &leave
+baby &time &stick
+hand &something &place
+man &eye &close
+dog &water fountain &climb
+racket &time &lift
+camera &sky &zoom
+camera &rope &move
+someone &baby &swaddle
+baby place &mattress &head
+baby &foot &lift
+boy &camera &look
+dog leg &time &show
+light &time &even
+singer &face &wipe
+camera &boy &pass
+camera &stage &turn
+boy &movement train &activate
+water &mail box &come
+time finger &screen &touch
+plane &camera &pass
+camera &sky &move
+cat &toy &chase
+man &picture &take
+diver &frame &enter
+camera &baby window &zoom
+girl &moment &appear
+guy &thumb &give
+frame &foot &start
+sun &plane &come
+otter &side bank &swim
+man &soccer goal &score
+cheerleader &air &get toss
+robot guy &head &shake
+camera &man leg &go
+camera operator &wave &back
+figure &flag &lower
+hand &worm &pick
+hand &blanket &adjust
+camera &shutter &reveal
+woman &object &display
+tree branch &ground &show
+sail boat &view &come
+child &podium &go
+man &fire &light
+man &hand sign &make
+woman &brow &wipe
+person &car &ride
+person &baby &hold
+person &roller &use
+hand &cuff &raise
+frame &man &start
+man &clip &walk
+man &microphone hand &put
+sign &time &show
+camera &locomotive &zoom
+team &dugout &walk
+person &bench &sit
+hand &mountain dew &lift
+child &neck &put
+man &twist balloon &make
+man &head &appear
+girl &stair &grab
+man &chest &touch
+cat &mouth &lick
+waiter &napkin &pick
+camera &bottom ocean &turn
+man &food &put
+guy &hand &carry
+cat &object &make
+camera &boy &move
+guy &side pool &start
+boy &step &climb
+woman &hair &sweep
+kitten &food bowl &switch
+bike &frame &enter
+man &bike &push
+man &child &hold
+plane &horizon &begin
+dog &group man &run
+man &walk &start
+performer &water &start
+ride &time &reach
+cat &cushion &leave
+person &shore &walk
+frame &hand &start
+man &hug &exchange
+woman &bull grass &feed
+man &train &climb
+squirrel &man &run
+road &view &come
+bird &time &lift
+bull &time &look
+camera &top tree &show
+jelly fish &camera &swim
+man &fountain &touch
+woman &bouquet &toss
+dog &piece food &fetch
+lady &lap &put
+person &right &walk
+man &printer &put
+camera &valley &show
+cab &background &pass
+person &helicopter &climb
+adult hand &water &splash
+man &net &catch
+someone &frame &walk
+woman &building &hit
+man &floor &move
+child &video &walk
+camera &left &begin
+fish &left screen &swim
+hand &broom &knock
+diver &view fish &come
+man &person &jump
+car &scene &leave
+model &view &pass
+girl &stool &sit
+dog &barn &run
+baby &couch &throw
+dog &chair &sit
+camera &time &raise
+video &distance &start
+boy &drum set &walk
+robot &circle &spin
+person &bowl bowl &pour
+toddler &side swing &walk
+woman &hair &push
+car &person foot &go
+someone &shirt &pick
+plane &sky &fly
+clock tower &view &disappear
+fly &bird &land
+someone &podium &put
+boy &handle &turn
+camera &coin &zoom
+camera &time &show
+man &dish &pick
+group &time &see
+person &earthworm &pick
+man &seat &move
+person hand &frame &leave
+camera pan &girl running &focus
+dog &tube &go
+cat &person hand &steal
+chef &bowl pitcher &pour
+child &adult &wander
+dog &grass &run
+boy &truck &walk
+fish &scene &move
+baby &clapping &start
+drummer &line &march
+man &hand &shake
+woman &person &hold
+car &road &drive
+man &ear briefly &touch
+van &turn &make
+puppy &dog &show
+man &helmet &sit
+man &object &shake
+dancer &view &leave
+truck &frame &drive
+iguana &hole &back
+person &pretend microphone &sing
+plane &right &enter
+animal &fighting &see
+boy &girl &fall
+time man &woman &hand
+bird &water &dive
+child &peacock &watch
+camera &van &move
+crowd &stage &rush
+baby &finger &put
+train &direction &pass
+boy &wave &run
+mother dog &crib &leave
+sun &horizon &appear
+cameraman &set door &walk
+man &rope &spin
+baby &liquid &spill
+baby &floor &fall
+dog &water &run
+bird &bird &steal
+puppy &mouth &pick
+horse &camera &pass
+table &time &see
+person &escalator &ride
+bird &back camera &turn
+woman pick &table &object
+car &view &enter
+door &dog &open
+vendor &step &walk
+baby &right &start
+tree &wind time &begin
+woman &boy arm &take
+girl &mother &sit
+hand &baby &cover
+girl &water &throw
+hand &left &point
+car &camera &head
+man &corner room &kick
+camera &body water &pass
+camera &sailboat &settle
+car &corner &turn
+lid &time &pop
+camera &bridge &look
+man &head &hang
+child &face &take
+ant &surface &climb
+boy &pool &hold
+elevator tube &passenger &move
+camera &building &pass
+boy &swinging thing &begin
+child &couch &run
+man &bridge &step
+hedgehog &blanket &climb
+girl &medal &show
+woman &book &point
+person &microphone &touch
+train &frame &exist
+man &back &start
+boy &baby &pick
+windshield wiper &time &come
+child &house &enter
+person &man ear &pick
+guitarist &sleeve &roll
+man &arm &scratch
+man &something &pick
+man &bottle champagne &shake
+shadow &camera &walk
+waitress &kitchen &walk
+boy &grass &look
+man &motorcycle &sit
+light &center &begin
+billboard exit &time &view
+woman &animal &pick
+girl &point &come
+girl &camera &pass
+girl &egg &find
+sky &cloud &cover
+person &film &walk
+camera pan &girl &show
+camera &menu &show
+man &podium &walk
+person &time &see
+creature &right &appear
+light &distance &move
+camera &tree &shift
+toddler &stick &grab
+girl &boy glass &put
+baby &floor &touch
+background &left &lighten
+girl &scene &enter
+smoke &plane &come
+light &house &go
+time &tent &see
+horse &cone &round
+structure &view &come
+baby &toy &grab
+car &scene &enter
+boy &mother &kick
+camera &time &zoom
+device &stop &make
+man &escalator &go
+turtle &pole &swim
+someone &food &point
+boy &hand &spin
+rock island &frame right &exit
+child &food &throw
+bird &food &find
+man &video camera &change
+person &banner &hold
+cat &chair &hop
+child &room &return
+cab &street &pass
+deer &fence &jump
+man head &video &show
+person &table &put
+bird &bird &go
+hand &toy &play
+foil &basket &pull
+camera briefly &guy beard &zoom
+baby &couch &hold
+boy &window &stand
+man &boy hand &pat
+train &foreground &pass
+man &right &wear
+baby &person &go
+someone &drum set &move
+camera &school fish &zoom
+thing &person face &drop
+baby &girl &walk
+father &daughter &drop
+cameraman &door &open
+person &flag &start
+child &side pool &throw
+clip &circle &complete
+plant &scene &enter
+person leg &view &come
+person hand &view &come
+girl &point &stop
+hand &toy car &retrieve
+person &shaving cat &stop
+woman &hooping &start
+candle &focus &come
+man &hand &keep
+man &head &lift
+woman &pile toy &jump
+girl &air &stop
+baby &mouth &open
+guitar player &frame &center
+camera move &table &show
+person &scrap book &turn
+man &arm &throw
+bride &bouquet &lift
+woman &tree &walk
+guy &line &walk
+hand &piece sign &show
+girl &wall &rest
+moment camera &distance &show
+time dog &camera &bark
+man &boat &step
+boy &bite food &take
+view &focus &gain
+man &hay bale &drop
+girl &end runway &turn
+hand &girl &push
+gerbil &time &leave
+man &bowl &put
+camera &car &look
+cat &garden hose &walk
+everyone &clapping &start
+crowd &hand &shake
+family &clapping &see
+girl &towel &throw
+baby &spoonful &take
+bite &face &make
+girl &object &pick
+car &snow &plow
+person &rock &pick
+child &camera &look
+jeep &wheel &turn
+camera &person train &show
+log &view &come
+tree &view &come
+camera briefly &window &turn
+person &baby mouth &put
+bicycle &camera &pass
+man &hillside &stand
+someone &cat nose &tickle
+guitar player &front &face
+baby &finger &play
+player &ball &serve
+wall &scene &leave
+camera &way &zoom
+sign &front tractor &show
+man &girl &walk
+girl &stack thing &bring
+person &microphone &remove
+camera &spider &zoom
+player &touchdown &make
+dog &track &jump
+mouse &camera &move
+baby &side crib &crawl
+instrument &gauze &touch
+person &bridge &cross
+boy &side wall &run
+drummer &head side &stop
+cameraman &time &push
+man &camera &use
+person &burrito &scoop
+trolley &camera view &leave
+man &mouth &open
+baby &basket &dig
+cat &pillow &leave
+person &monument &walk
+tour guide &hand &raise
+buggy trailer &time &exit
+kitty &head &scratch
+man &hatchet &put
+camera &hill &zoom
+tiger &animal &chase
+dog &ground &flop
+spider &prey &bring
+girl &start &talk
+car &stop &come
+person &hat &wear
+boy &time &throw
+toy car &track &race
+woman &ear &touch
+buff guy &weight &lift
+cat &screen &jump
+camera &left &spin
+baby &spoon &eat
+dog &pool &jump
+mascot &boat &run
+child &magnet &put
+woman &window &look
+guy &boat &see
+camera &focus &go
+person &hand &leave
+camera &phone &move
+hand &fish &reach
+camera &mountain &show
+baby &arm &hold
+guy &time &walk
+camera &sky &go
+dog &floor &smell
+object &standstill &take
+turtle &water &turn
+sign &frame &move
+stick &position &pull
+shadow briefly &right &see
+man &hand &begin
+head &way &look
+man &field &walk
+child &tire &fall
+man &guitar &play
+girl &time &walk
+dog &snow &step
+man &phone &shake
+person &button &press
+guy &hand &raise
+woman &face &sweep
+scooter &street &park
+boy &drink &put
+boat &picture &appear
+person &thumb &give
+bridge &hand &shake
+camera &land &zoom
+frame &cage sticker &start
+everyone &floor &touch
+thing &floor &see
+man &sheet &begin
+train &building &pass
+person &coat &wear
+woman &container &stir
+grille &number &appear
+boat &side tunnel &come
+sky &view &come
+sign &right &pass
+something &hand &put
+man &taffy &pick
+cat &top chair &jump
+car &circle &drive
+frame &engine &end
+cat &tent toy &play
+camera &rainbow &show
+table &view &come
+turtle &left &turn
+person &place &march
+man &hat &take
+child &side pool &hold
+woman &something &reach
+camera &bridge building &move
+dog tail &screen &go
+man &top head &touch
+baby &food &hold
+baby &side crib &start
+hand &go animal &let
+boy &thing &drop
+man &person &walk
+hand &baby mouth &put
+lady &picture &take
+person &end &reach
+man &truck &lean
+teacher &moment &walk
+penguin &water &swim
+man &pool &throw
+woman &hair &run
+baby &baby &throw
+camera &formation &zoom
+baby &side &fall
+man &cameraman &look
+man &flag &wave
+boy &microscope &look
+man &arm &hold
+person &doorway &dance
+truck &camera view &drive
+dog &grass field &lay
+person &cat &grab
+finger &point animal &appear
+man &table &lay
+woman &stance &readjust
+jar &time &shake
+woman &photo &take
+guitarist &view &come
+guard rail &barrier &become
+person &doorway &enter
+bus &past &drive
+lighting &density tree &cut
+child &chair &climb
+man &dog belly &rub
+man &press &put
+motorcycle &strip &pass
+man &way &push
+girl &pole &lean
+guy guitar &guitar &play
+dog &toy &drag
+camera &frame &move
+girl &something shirt &notice
+person &trail &walk
+woman &something &throw
+baby &side screen &look
+girl bend &something &reach
+dog &bed &run
+man &board &take
+time dog &view &run
+singer &someone audience &point
+child &slide &stand
+boy &bread &throw
+arm &view &come
+video &child &end
+guy &couch &pop
+baby &time &reach
+woman &bag &reach
+bird &pea &eat
+person &front &run
+ice skater &tunnel &emerge
+camera &room &pan
+object &left screen &show
+hand &screen &touch
+hand &kitten toy &play
+cat &picture &come
+person &baby alligator &walk
+person &view &come
+title screen &image &fade
+woman &towel &hold
+girl &statue nose &pick
+swing rider &church &look
+dancer &time &turn
+plant &table &see
+child &frame &leave
+man &scene &move
+boy &right &look
+child &step time &step
+hand &puppy &play
+worker &scaffolding elevator &go
+camera &mountain &zoom
+camera &person stage &zoom
+poodle &dog &sniff
+everyone &rice &throw
+child &tunnel &emerge
+man &musician &give
+man &accordion &wear
+someone &fire &put
+brush &eye &handle
+man &roof top &walk
+camera &object &move
+building &frame &move
+ram &something &sniff
+person &kitten &pick
+person &frame briefly &enter
+bike &hill &jump
+batter &time &hit
+animal bone &view time &come
+animal &road &cross
+child &ground &touch
+girl &post &run
+rubric cube &cube &pick
+boy &spoon &put
+man &handle &turn
+child &book &put
+sun &mountain &disappear
+child &belly &slide
+box &food &reveal
+camera &center room &show
+car &pass &drive
+person &rock &stand
+man &head &put
+clock &cuckoo &begin
+buck &head &lift
+man &landscape &look
+person &hand gesture &make
+land &frame &leave
+mascot &ball &dribble
+hand &bottle &give
+child &object &fold
+umbrella &view &disappear
+cat &split &pop
+boat &view &disappear
+man &ramp &walk
+everyone &arm &hold
+man &print press &pull
+baby &head &throw
+person &helmet &wear
+menu &time &show
+bird &eye &blink
+person &smile &show
+cat &paw &reach
+man &switch screen &reach
+car &hill &pass
+light &streak &shine
+baby &book &put
+dog &tunnel &run
+dancer &back audience &turn
+baby &basket &make
+finger &lens &uncover
+frog &hole &hp
+bird &bird side &scare
+bottle &mouth &put
+audience member &right frame &raise
+cat &toy mouth &carry
+girl &ground &reach
+plane &background &move
+bus &frame &leave
+woman &fist &shake
+player &hat &put
+person &child &take
+camera &left &stay
+stomach &alcohol &clean
+mask &floor &lift
+time camera &left &move
+man &side &touch
+girl &door frame &walk
+duck &duck &swim
+boy &finger &run
+cat &string &reach
+camera &horizon &see
+light &bottom &shine
+cat &poster &touch
+car &hay truck &pass
+ride &camera &zoom
+woman &pool noodle &dangle
+woman &clap &start
+person &camera &pass
+camera &light machinery &look
+hand rail &view &come
+cabinet &time &open
+rectangle &right &move
+tube &view &leave
+man &ladder &walk
+woman hair &wind &start
+orange &seat &adjust
+woman &doorway &walk
+time arm &frame &pass
+boy break &bat &open
+man &bread &put
+person &photo &take
+light &time &come
+boy &room &walk
+dog &leg &kick
+man &water &make
+bicycle &side &enter
+boy &softball &hit
+balloon &sky &appear
+knee &time &bend
+man &eye &raise
+brother &brother &play
+plane &mountain &fly
+hand &baby belly &rub
+person &car &pull
+skater &trick &fall
+woman &hand &raise
+person &camera pan &turn
+man &mouse &scare
+man &floor &put
+camera &television &move
+grass &river &surround
+turtle &air &swim
+person &background walking &see
+bike &side street &take
+car &front frame &pass
+person &person &run
+lady &leg &hit
+man &object &grab
+jeep &camera &go
+man &banjo &look
+dirt &camera &fling
+horse &line &walk
+light &corner &blink
+baby &smile &give
+toddler &doorway &cross
+woman &pants &pull
+jet &direction &change
+man &table &walk
+someone &time &walk pass
+cat &tail &move
+black dot &bottom frame &show
+person &mountain &ski
+camera pan &driver &leave
+camera &fox &zoom
+truck &camera &pass
+dog &person &look
+dog &blanket &walk
+police car &cameraman &pass
+boy &peace sign &give
+boy &cup &bang
+dog &bottle &retrieve
+stand person &something &pick
+lighthouse &view &leave
+boy &hand &rub
+car &bridge &pass
+woman &black &wear
+fish &mouth &close
+man &microphone &adjust
+freight &ground &hit
+object &frame &go
+person &guitar duck &play
+boy &bubble &blow
+cat &stomach &turn
+machine &sky &launch
+camera &top object &zoom
+time man &dough &lean
+camera &light &dim
+robot &ground &lift
+elephant &frame &walk
+dog &view &leave
+girl &table &lean
+robot &group person &go
+woman &baby &make
+car &traffic &block
+boy &something &drop
+someone &cat &pull
+cat &woman &look
+dog &couch &jump
+someone &toilet &flush
+woman hand &table &appear
+ball &frame &come
+camera &dog face &zoom
+bird scratch &foot &face
+dog &scene &enter
+woman &item &remove
+wave &person &come
+time dog &hose &squirt
+baby &table &take
+driver &intersection &pass
+train &car end &pass
+baby &eye &wipe
+camera &window &look
+land &view &come
+writing &pool &appear
+cat &toy &pounce
+object &corner &appear
+woman &ear &put
+cat &camera &touch
+girl &shirt &tie
+bird &ocean &dive
+dog &crab toy &chew
+man car &time &appear
+person &photo &pose
+cat &animal &pounce
+person &button toilet &press
+dragon &parade &go
+field &view &come
+person leg &time &show
+angle &fence &catch
+cat &screen &walk
+camera man &crowd &look
+boy &ingredient &whisk
+man &table &set
+otter &view &run
+man &cylinder &walk
+smoke &frame &disappear
+object &sky &hover
+man &arm &place
+fish &hole &come
+dog &structure &run
+man &platform &hop
+someone &mop &pick
+baby elephant &pool &leave
+person &guitar &arm
+ship &bridge &pass
+camera &man &show
+camera &child &zoom
+skier &finish &cross
+girl &eye &hold
+person &fist &pump
+camera &side &rotate
+hand &screen &swipe
+cat &frame &move
+man &food &throw
+flag &view &lift
+person &lever &pull
+man fillet &fish &flip
+person &background &pass
+flame &bottom spaceship &shoot
+hand &table &see
+man &view person &come
+camera &right &move
+duck &frame &leave
+slider &hand &push
+head &cameraman &pass
+picker &vegetable sleeve &pick
+girl &ear &touch
+drum stick &time &hit
+woman &ball &throw
+dragon &hind leg &stand
+rock &frame &see
+plastic ball &structure &knock
+girl &window &look
+cow &leg &lift
+water &downspout &rush
+word &screen &come
+weed &view &come
+ball &pillar &hit
+guitarist vocalist &head &bob
+camera &window &see
+boy &man &punch
+camera &ground shoe &show
+man &arm &shake
+concert light &rouse crowd &change
+camera &artist &show
+tarp backdrop &wind time &start
+man face &screen &see
+baby briefly &tongue &take
+camera &water stream &zoom
+time child &camera &reach
+rider &car &pass
+person &fiddle wall &play
+barge operator &barge &dump
+person thumb &pea &expose
+time boy &something &throw
+guitarist &hair &sweep
+woman &hand &move
+camera &leaf &zoom
+person &slab butter &put
+person &pool &make
+person &tray &pick
+someone &left &run
+toddler &water &run
+baby &tongue &stick
+couple &camera &walk
+camera &leaf &move
+dog &shrub &stop
+dog &baby &walk
+rat &screen &run
+singer &view &lead go
+water &rock &hit
+camera &clothesline &pass
+dog &garden hose &play
+camera &fish tank &close
+kitten &bookcase &jump
+firework &background &take
+hand &blanket &emerge
+movement &side &rock
+man &shelf &put
+ball &time &throw
+snowplow &car &pass
+woman &swinging arm &stop
+dancer &circle &make
+deer &water &cross
+man &stream &point
+ceiling light &living room &light
+water &air &spurt
+man &view &go
+rabbit &orange &turn
+water bottle &view &come
+device &building &zoom
+man &tent &walk
+arm &sleeve &clothe
+someone &baby mouth &put
+girl &camera person &splash
+kitty &stair &run
+cat &human hand &climb
+object &beach &start
+guy &side pool &dance
+raccoon &gate &run
+parent &baby &splash
+fabric &view &come
+camera pan &water fall &show
+trunk &man &hand
+person &time &jump
+man &picture &appear
+person &side &shimmy
+man &street &stop
+person &something bed &pick
+dancer &dance &start
+boy &door &walk
+animal &water &swim
+dog &pool &climb
+person &frame &pass
+man &time &rub
+child &room &go
+screen &guitar player &show
+building &view distance &come
+camera &person costume &zoom
+day &night &become
+girl &floor &laugh
+woman &box &open
+dog &ramp &run
+turtle &ground &descend
+balloon &right &roll
+baby &towel &take
+singer &stage &come
+woman &sunglass &remove
+girl &page &turn
+sphere &view &come
+lady &toddler &chase
+camera &man &zoom
+dog &person foot &drop
+man &money &give
+camera &musician &zoom
+baby &right &look
+person &stage &come
+wheeler &view bottom &disappear
+guard rail &view &come
+dump truck &contents &empty
+camera &side &start
+woman &top stair &appear
+camera &flower &move
+dog &tubing &run
+puppy &back &fall
+skier &gauntlet tree &travel
+boy &camera &move
+skier &pool &fly
+hat &baby head &place
+box &pizza &unveil
+guard &step &march
+person &top mountain &reach
+woman &bag &wear
+finger &object &point
+hand &top device &turn
+bike &right &pass
+man &woman &turn
+man &chair &set
+camera &view &fade
+duck &view &come
+person &direction &walk
+man &piece &pick
+swan dip &water &head
+woman &something camera &hold
+man &ball &hit
+man &bowling ball &look
+child &step &run
+girl &helmet &remove
+woman &stick &take
+someone &pool &walk
+woman &shirt &wear
+cabinet &view &come
+cat &back &sit
+woman &seat &leave
+man &time &kick
+car &woman &pass
+baby &slide &go
+van &view &pass
+child &toy &pick
+woman &umbrella &hold
+fish &right frame &appear
+man &box &pick
+light &time &flash
+dog &end hall &leave
+object &contents &spill
+woman &edge campfire &pour
+wheel &ground &lift
+page &book &turn
+turtle &plant &enter
+bird &ground &fly
+girl &knee &put
+person &wave beach &come
+fish &food &eat
+child &soccer goal &make
+person &frame &appear
+man &mesh &touch
+dog &lip &lick
+man &snow bridge &walk
+frog puppet &camera briefly &turn
+man &hammer &use
+woman &man &touch
+car &left frame &pass
+camera &person shirt &show
+writing &screen &appear
+man &food &prepare
+man &ground &fall
+finger &time &appear
+girl &tree &go
+surfer &head &touch
+bus &cone &strike
+time girl &page &turn
+cat &bookshelf &climb
+cyclist &camera &crash
+girl &drum &pick
+person umbrella &view &come
+tent &distance &see
+girl &wall &put
+man &end guitar &look
+person &snow &slide
+hand &time &tickle
+cat &toy &catch
+view &bush &cover
+tree &wind &show
+baby bird &egg &break
+camera &man leg &pass
+car &lamp post &pass
+lamp post &frame &leave
+boy &swinging leg &come
+dog &water &pull
+ship exit &time &view
+diver &ocean floor &sit
+someone &front &run
+camera &woman &show
+cat &bottom frame &enter
+camera &computer &zoom
+camera &penguin &film
+woman &light &step
+dog &plain &walk
+cup &something &pick
+girl &column &run
+person &plane &fall
+woman &snowball &make
+truck &view &enter
+turtle poke &water &head
+tower light &distance &blink
+child &time &jump
+camera &floor &stop
+man &frame &leave
+man &baby hand &lift
+man &candle &pick
+hand &baby chin &touch
+hand &chess piece &move
+time child &hand &put
+spoon &view &come
+hand &time &touch
+baby &time &shake
+canopy &view &come
+nurse &mask &adjust
+woman &magazine &hold
+liquid &vat &add
+goalie &ball &kick
+person &ground &throw
+camera &kitten &turn
+woman &letter &write
+beam &middle &meet
+organ &arm &wave
+bear &tree &climb
+toy &dog &throw
+girl &book &lean
+man &tank &point
+light &plane &blink
+boy &camera &fall
+person &fan &move
+frame &building &focus
+light &time &see
+robot &camera &pass
+singer performer &dress &wear
+parent &spoon &feed
+donkey &parade &walk
+kitty &toy &swat
+guy &left &look
+cannon &flag &fire
+camera &jeep &pass
+girl &ball &run
+fish &right &enter
+person &foot &jump
+baby &mirror &stand
+man &glove &put
+girl &sombrero &put
+baby &blanket &drag
+boy &slide &slide
+baby &head &shake
+poster &view &return
+man &drum &begin
+girl &left &look
+baby &table &pick
+man &table &hand
+man &left &appear
+pole &camera &go
+view &water &go
+individual &street &see
+person &sand &poke
+performer &stair &walk
+fish &end &pass
+man &stick &roll
+man &hand &flash
+hand &frame &appear
+mouse &left &leave
+camera move &person &leave
+finger &metal object &touch
+man &hand &cover
+camera &bit &shake
+bubble &right &enter
+man &dance line &enter
+man &bag &set
+child &violin &play
+camera man &camera &point
+someone briefly &camera &look
+camera &bridge &move
+man &boat &begin
+something &man &throw
+person &cat &pet
+baby &side crib &back
+van &bridge &pass
+bungee jumper &tower &jump
+person &water &begin
+woman &cake &cut
+man &headset &take
+man &tree &hug
+camera &sheet music &zoom
+guy &rock head &raise
+baby &face cup &hit
+sea snake &view &come
+cameraman &scooter &stroll
+man &shirt cuff &unbutton
+guy &hand &put
+cat &room &run
+person &line &walk
+diver &turtle &swim
+camera &bit &wobble
+woman &chair &pull
+camera &branch &zoom
+man &spot &switch
+boy &soccer ball &run
+dog &fence &stand
+someone &camera &pass
+foot &view &enter
+boy &rug &walk
+face &view &come
+turtle &hole &go
+person &dog chin &scratch
+thing &pole &go
+greenhouse &right time &become
+person &stage &run
+dog &time &sit
+dog &water &drink
+person &person &wear
+person &paper &shuffle
+girl &boy &push
+dog &lake &look
+woman &hair &adjust
+camera &woman &zoom
+baby &rope &walk
+camera &concrete tree &move
+man &weight &deadlift
+someone &fire &run
+thumb &view &come
+man &pony &jump
+person &go toy &let
+hand &dog leash &see
+instructor &hand gesture &make
+head &camera &pass
+man &frame &sneeze
+woman &sunglass &take
+lamp post &frame &enter
+person &sand &kick
+baby &toy cart &push
+cat &position &stand
+woman &liquid &pour
+child &phone &pick
+creature &left &move
+dog &sidewalk &sit
+wirework &night sky &launch
+man &dough &form
+light &view &disappear
+man &mountain &point
+man &frame &enter
+animal &object &dash
+cameraman &view &come
+woman &hand &remove
+woman &camera &throw
+view &left &change
+speaker &screen &raise
+cat &bed &hide
+car headlight &distance &pass
+woman &landscape &point
+baby &camera &walk
+dancer &time &sping
+tube &time &appear
+guy &arm &stand
+man &jacket &touch
+coaster &cave &leave
+woman &hand &spread
+camera &drum &zoom
+man &toy head &smash
+cat &floor &lay
+person &writing &finish
+fire cart &view &go
+man &job &switch
+someone &screen &walk
+skier &view &come
+camera &drum &move
+person &guitar &strum
+man &boat &paddle
+woman &child &put
+man &paper &light
+cap &air &throw
+man &table &take
+tube &water &show
+singer &frame &seem
+robot &goal &make
+singer &hand &raise
+woman &statue nose &touch
+camera pan &crowd &show
+person &jug &swing
+mile marker &right &pass
+babe &bike &ride
+view &flock bird &block
+camera &boat &zoom
+dog &time &touch
+dog &dog &break
+camera &front woman &turn
+dog &leg &jump
+baby &toilet &reach
+person &hand &raise
+camera &boat &move
+camera &left waterfall &zoom
+skirt &stage &walk
+time man &hand &put
+bird &rock &pick
+man &shadow &walk
+worm &grass &sprint
+person singing &arm &raise
+cannon &view &come
+tour guide &arm &raise
+woman &phone &put
+wave &boat &create
+camera &car &zoom
+man &something &put
+woman &something &pull
+girl &eye &keep
+man &head &reach
+camera &penguin &move
+child &keyboard &touch
+boy &animal &pick
+camera &something &show
+man &time &face
+kangaroo race &left screen &fast
+monkey &right time &come
+person &sidewalk &walk
+woman &something &start
+seal &camera &swim
+baby &railing &fall
+camera &car &move
+ball &time &pitch
+flag &frame &leave
+koala face &view &disappear
+square &briefly &turn
+car &guy &pass
+train leader &camera view &leave
+window &frame &move
+toy &cat &fly
+camera &man instrument &zoom
+video &side &emerge
+banner &time &see
+man &chicken &pick
+woman &leg &cross
+dog &leash &get let
+girl &baby &take
+girl &box &open
+woman &crowd &face
+person &go ball &let
+baby &cat &reach
+girl &air &jump
+baby &mouth &raise
+animal &end &yawn
+foot &time &move
+man &woman &push
+man &drum &beat
+motorcycle &view camera &go
+woman &finger &lick
+boy &face &touch
+kitten &crate &jump
+baby &chair &stand
+child &goal &kick
+orangutan &rope &climb
+toddler &playhouse door &close
+rooster &manhole cover &walk
+light &tower &travel
+leader &sight &walk
+man &nose &put
+someone &hole &uncover
+baby pacifier &mouth &pop
+baby &food &grab
+cat &doorway &chase
+camera &light &pass
+climber &time &face
+woman &bag &pull
+woman &screen &appear
+driver &woman arm &hold
+baby &car &push
+goalie &goal &go
+man &mug &set
+camera &man &go
+baby &time &start
+panda &time &see eat
+person &stand &pick
+bike &man &go
+cat &grass &play
+person &shoulder &look
+man &arm &use
+person &door &run
+glass &beer &pour
+baby &book &throw
+skier &camera &pass
+man &foodstuff &set
+woman &window &move
+woman &time &smile
+dog &footprint &examine
+mat &background &appear
+camera man &side fence &walk
+man &pipe &point
+vehicle &side screen &pass
+boy &head &shake
+singer &frame &move
+child &bucket &play
+referee &field &appear
+man &woman &spin
+hand &baby &tickle
+darkness &city &fall
+bird &beak &open
+lady &water &drop
+camera &floor &look
+hand &contact globe &make
+child &air &throw
+ocean &view &slip
+screen &corner &light
+someone &dog &find
+car &distance right &pass
+girl &end fence &reach
+boy &puzzle &try
+window &frame right &exit
+hand &camera &come
+bird &flight &take
+bug &flower &fly
+person head &view &come
+hand &something time &reach
+camera &junk fountain &zoom
+hand &dog swimming &reach
+person &hill &walk
+person &pass &run
+man &woman sunglass &turn
+fish &net &catch
+driver &cap &put
+woman &camera &hold
+man &jacket &remove
+girl &life vest &wear
+man &podium &stand
+dog &baby &take
+baby &hand &bring
+man &piece paper &pick
+stage &light &outline
+dog leg &head frame &move
+person &cape &wear
+player &camera &hit
+person &building &appear
+hand area &time &steady
+person &ski &look
+camera &porch swing &move
+person &front &start
+glass jar &note &show
+person cross &foot &uncross
+dog &person &jump
+guy &obstacle time &jump
+man &tree &knock
+man &shot &walk
+man &time &speak
+person &plastic bag &carry
+person &leg &pull
+dog &time &fetch
+woman &hand &put
+dog &door &come
+camera &stop monument &move
+baby picture &time &show
+man &right &look
+crowd &view &come
+man face &view &come
+bottle &view &come
+ocean &view &come
+boy &park ride &begin
+sign &beginning &see
+boy &hat &put
+train &view &go
+person head &center frame &appear
+dog &room &run
+woman &jacket &wear
+person instrument &way &look
+model &camera &walk
+camera &harbor &pan
+man &object &plunge
+boy &ground &pick
+camera &road &show
+man &tie &adjust
+baby &container &put
+man &crouch &hold
+plank bridge &view &come
+child &adult hand &take
+piece &place &set
+man &barber chair &sit
+dog &camera &lunge
+man &sunglass &adjust
+child &hand &raise
+scene &light &go
+woman &partner &switch
+girl &lantern &release
+person &cage &open
+dog &mouth &keep
+stair &view &leave
+camera &food time &show
+chef &something &pour
+sunglass &man hat &appear
+camera &stage performer &zoom
+horse &side &walk
+horse &camera &run
+person &clap &start
+person &clap &begin
+boy &ball &drop
+water &building &show
+child &lady &appear
+person &tube &fall
+dog &raft &bark
+man &violin &put
+cat &scene &walk
+horse &front &walk
+camera &cat &zoom
+camera &drummer shirt &focus
+bird &thing &drag
+person &doorway &walk
+man &eye &wipe
+column &instant &obstruct
+fox &man &jump
+cup &time &approach
+puppy &crib &escape
+girl &wall &disappear
+animal &wall &push
+man &shot &set
+man &pole &throw
+elephant &pool &splash
+dog &picture &enter
+child &arm &make
+camera &guitar &focus
+waitress &drink &serve
+baby &bottle &hand
+man &nose &stick
+camera &creature bed &zoom
+man &bird &put
+object &view ground &come
+seal &land pool &jump
+person &man &walk
+person &dog &dress
+frame &jelly fish &fill
+frame &water &start
+plane &cloud &go
+man &side road &jog
+man &runway &walk
+car &car &pass
+girl &toy carpet &rub
+person &train approach &start
+dog &scoreboard &see
+cat &cat &jump
+man &log &throw
+bug &leaf &walk
+girl &floor &go
+person &syringe &remove
+someone &guitar case &place
+camera &farm animal &pass
+man &child &kick
+something &corner &leave
+head &pencil &put
+rider &ride &start
+girl &camera &run
+man &dog &walk
+handrail &view &come
+alligator &something string &swim
+person &water &pour
+baby boy &mother &walk
+camera &left frame &turn
+boy &toilet &reach
+child &ornament &pick
+lady &barrel &touch
+camera pan &diver &see
+person &bird &pet
+dog &stick &drop
+lake &hill &see
+dog head &time woman &grab
+someone &baby &check
+camera &flag &zoom
+boy &hair &run
+woman &step &take
+man &tuxedo &wear
+puppy &shoe &investigate
+person &hand &walk
+cat &fight cat &pick
+boy place &lap &lego
+camera &band curb &zoom
+person &cameraman &run
+man &raft &stand
+mother &bite &take
+boat &right &appear
+man &booth &sit
+train &track &pass
+man &sneeze &wear
+someone &spoon &feed
+person &speaker &walk
+child &road &run
+girl &mouth &cover
+guy &dog &start
+finger &video device &start
+display &silver wheel &show
+person &parachute &pull
+camera pan &brick building &show
+girl &hand &stick
+camera holder &side &switch
+person &side catwalk &walk
+man &cake &blow
+man &concert &carry
+woman &tent area &walk
+view &man suit &zoom
+camera &file cabinet &stop
+ball &dog mouth &drop
+girl &toy drum &play
+ladybug &knee &fly
+stroller &bench &see
+child &something &point
+hand &melting bird &squish
+camera &person &back
+dog &owner trainer &run
+motorcycle &road &pull
+water &time &come
+person &item &remove
+man &contraption &release
+camera &cat standing &cut
+man &left &turn
+someone &phone &film
+girl &bug &take
+door &view &come
+pond &scene &enter
+cat &trash lid &inspect
+person &bumper &sit
+girl &frame &disappear
+finger &something phone &press
+battery &view &hold
+man &wave helicopter &turn
+person &plate &turn
+drummer &stage &walk
+camera &screen &pass
+boy &shoulder &look
+baby swing &person &leave
+person &board &look
+baby &brother &look
+boat &left &come
+train &bridge &go
+boy &string &roll
+man &orange &juggle
+woman &front frame &go
+hand &baby &go
+flag &appearance &make
+car &left &pass
+person &crowd &run
+child &hand &move
+cruise ship &frame &exit
+person &horn &play
+man &glass &roll
+girl &object &play
+train &track &move
+flower &view &come
+baby &parent &walk
+man &table &pick
+bird briefly &wing &spread
+person &hand &plug
+man &bridge &unfold
+ship &edge screen &reach
+person &left &enter
+flame &bottom rocket &begin
+person coat &collar &adjust
+child &face &put
+man &butt &shake
+person &ball &throw
+boy &fist &raise
+car &tunnel &enter
+chair &frame &go
+man &mary &drink
+man &camera briefly &look
+man &bike &walk
+man &bite sandwich &take
+music sheet &view &come
+cameraman &face &turn
+cart &corner &turn
+truck &time &go
+man &parade &wear
+skater &pole &pass
+woman &camera &talk
+dog &baby hand &lick
+child &stream &kneel
+man &shirt &take
+camera &turntable &zoom
+car &building &approach
+girl &trampoline &jump
+harmonica player &leg &uncross
+bus &frame &move
+camera &screen &move
+camera &cliff &show
+soccer player &pass &receive
+camera &left &show
+plane &horizon &fly
+girl &machine &ride
+helicopter &sky &show
+man &half &pull
+baby &daddy mommy &start
+baby &window &point
+man &violin &play
+baby bird &mouth &open
+camera speed &motorcycle &pass
+person &mountain &take
+man &branch &run
+wheel &ground &come
+boy &walkway floor &drop
+player &view &come
+killer whale &splash crowd &make
+camera &street &pan
+man &camera &raise
+truck &left &drive
+woman &potty &place
+lead racer &camera &pass
+lake &hole house &show
+whale &audience &jump
+acrobat &rope &flip
+man &torch &spin
+man &arm &unfold
+camera &fish tank &zoom
+cargo &vessel &leave
+hamster &plastic holder &crawl
+lady &frame &enter
+time ball &air &toss
+man &edge &fall
+diner &glass &clang
+child &button keyboard &press
+limb &frame &come
+head &road &reveal
+woman &bottle &rotate
+camera &food &move
+wood piece &triangle &make
+bird &sky &fly
+car &hill &disappear
+camera &person &reveal
+camera &window &zoom
+camera &woman dress &zoom
+car &left &appear
+girl &leg &cross
+boy &doorway &walk
+snake &head &shake
+man &head &wear
+camera &guy &zoom
+child &foot &squeeze
+camera &park &view
+man &team &ride
+alligator &food &bite
+woman &sign &hold
+child &adult &turn
+gold dome &view &come
+bird &head &hold
+wolf &bowling ball &throw
+cat &cell phone &play
+dog &ball &wait
+person &shirt &flip
+woman &candle &laugh
+someone &sound board &reach
+toy &boy &approach
+girl &stair &climb
+child &leaf &raise
+boy &floor &collapse
+lady &go &let
+man &arrow &fire
+man &time &lay
+lady &stove &lay
+person &baby pacifier &grab
+truck &video frame &leave
+child &foot &start
+bush &frame &wiggle
+boy &podium &put
+boy &wall &climb
+band director &right &turn
+boy &egg &pick
+boy &eye &squint
+animal &truck &walk
+person &bite something &take
+girl &shirt &start
+tree &right &appear
+boy &water &hop
+boy &reading spot &stand
+squirrel &nut &eat
+girl &background &throw
+man &mouth &touch
+taxi &camera &pass
+adult arm &left frame &show
+person &line &form
+platform &lever &pull
+girl &frame &run
+bird &floor &run
+dog &beach &sit
+light &stage &come
+girl &hand &wash
+someone &time &walk
+child &table &hold
+woman &audience &sit
+woman &stage &walk
+dancer &time &face
+girl &man hand &touch
+man &face &touch
+child &arm &free
+girl &bite food &take
+number &view &come
+style bus &camera &pass
+man &desk &pick
+person &shirt &wear
+man &kerchief &wear
+dog &toy &pull
+arm &frame &go
+girl &arm &lift
+man &tree branch &pull
+time &bridge &see
+dough &pan oil &place
+baby &lady &fall
+woman &side man &move
+man &person &pass
+something &left view &appear
+puppy &view &get roll
+car &arch &go
+woman &lip &lick
+page &cow &show
+car &driveway &exit
+person &hand &remove
+boy &court &dribble
+cat &woman &walk
+girl &towel &fold
+man &crate &push
+start &bridge &walk
+baby &toy &walk
+book &book return &place
+rabbit &camera &face
+camera pan &umbrella &leave
+shirt &frame &leave
+someone &tub water &bring
+light &sky &shoot
+bird &drink &reach
+child &hand &touch
+person &camera view &walk
+person &ankle &rub
+dog &time &sniff
+man &tool &use
+train &train &pass
+person &bottle &hold
+child toy &stop couch &come
+child &fish tank &point
+diver &view &leave
+hand &right frame &emerge
+lady &board &reach
+person &bike &run
+camera &car radio &zoom
+man &car &push
+hand &box &open
+camera &tree &move
+man &cat &kiss
+plane &line &pass
+boy &gift &unwrap
+book &table &sit
+guy &book &open
+dog &bench &jump
+plane &stop &come
+man &table &stand
+woman &blanket &slam
+baby &time &slap
+object &frame &appear
+baby &look &take
+ant &picture &come
+person &goat &feed
+baby &drink &give
+duck &view &swim
+dancer &front frame &come
+toy train &track &move
+light &frame &appear
+person &beach &walk
+hand &aisle &appear
+dog &blanket &stand
+lady &drink &grab
+jogger &scene &run
+camera move &lady &show
+boy &man shoulder &ride
+woman &item &hold
+woman &jug &lift
+instrument &hand &lift
+hand &face &cover
+screen &time &see
+bicycle &squirrel &go
+camera &ceiling &move
+tablet &water &drop
+dog &circle &make
+camera &baby &zoom
+man &bar &reach
+man cup &arm &put
+man &fork &eat
+hand &lever &pump
+woman &time &appear
+baby &someone &look
+time woman &tire &touch
+camera &bird sky &follow
+boy &end slide &hop
+person &toy &put
+man &back car &run
+girl &bottle &show
+child &floor &pull
+man &sword &raise
+hand &ear &play
+baby move &hand &leave
+artist &stage &perform
+camera &right &pan
+cat &right &put
+trunk &ground &retract
+dog &bowl &pay
+man face &time &show
+airplane &camera &fly
+graphic &bottom &appear
+child &scooter &ride
+man &air &throw
+person &leg &cross
+golf cart &view &come
+house &frame &leave
+man &side &hold
+drink &mouth &wipe
+lead guitarist &front stage &walk
+girl &tongue &stick
+woman &dress &release
+animal &screen &appear
+boy &piece bread &throw
+dog &something wheel &scoot
+boy &window &point
+dog &step &hop
+street light &scene &show
+title &screen &fade
+person &top wall &reach
+bear &tree &lick
+plane &cloud &write
+man &nail time &hammer
+baby &dog tail &pull
+woman &piano &sit
+light &corner &flicker
+dog &paw &touch
+star &time &see
+person &scene &fade
+singer &arm &raise
+man &screen &fade
+woman &wine &take
+girl &shelf &take
+item &bag &get drop
+girl &step &take
+light &street &appear
+lighting &dark &go
+camera &dog &begin
+camera &middle structure &reach
+woman &guitar &move
+man &camera &walk
+baby &finger &use
+man &guitar &strum
+musician &drink &take
+seal &water &fall
+girl &top &climb
+cat &counter &walk
+man &toy model &pick
+dog &something &jump
+leader &orange shirt &pass
+folder &woman &close
+object &ledge &attach
+runner &finish line &rush
+bird &tree &begin
+van &video &go
+light &middle frame &move
+head &man &observe
+man &cut salmon &make
+girl &bite cupcake &take
+man &vehicle &pick
+alcohol &bottle &cap
+bench &right &see
+person hand &camera &hold
+person &cake &cut
+guy &head &bang
+baby &book &eat
+woman &door bus &walk
+man &tree &grab
+dog &right &start
+man &bag &pick
+person &right &turn
+baby &mouth &drop
+contraption &camera operator &run
+man &something &reach
+child &hand &remove
+woman &drink &take
+hand &light &reach
+woman &truck &leave
+person &something &shoot
+shirt &view &come
+baby &stomach &roll
+camera &performer &zoom
+model bus &bridge &enter
+person &fire &stop
+singer &stage &jump
+fan &head &hold
+camera &bus &pass
+woman &pass &walk
+man &wind &shake
+concert performer &stage &put
+train cross &time &trestle
+camera &sky &turn
+octopus &moment &disappear
+woman &fan &hold
+guitar player &leg &kick
+child &balloon &hold
+lady &hair time &put
+plane &ground &come
+dog &table &walk
+girl &bar &go
+woman &hand &wave
+camera &word strawberry &zoom
+gentleman &view &come
+shirt &corner &appear
+boy &blanket &pull
+man &card &lower
+rat &escape &make
+foot &thong sandal &wear
+baby &time &pat
+man &something &throw
+person &airplane &throw
+moment island &view &come
+bird &left &turn
+wolf &lane &throw
+van &left &pass
+girl &camera &talk
+woman &candle &walk
+hand &dial &turn
+person &piece toy &pull
+baby &time &leave
+camera person &starfish &back
+man &thing &shake
+woman &pile pillow &run
+girl &head &stand
+smoke &plane &emerge
+child &rail &stick
+object &right &pass
+traffic &distance &go
+jacket &frame &enter
+plane &time &appear
+boy &toy &drop
+video &guy talking &move
+person &cat &walk
+view &creature briefly &move
+cat &ear &scratch
+someone &baby nose &touch
+woman &package &pull
+boy &view &come
+boy &drum &walk
+woman &counter &clean
+woman &sleeve &pull
+man &cup &put
+dog &swimming pool &jump
+dog &nose &touch
+street light &color &change
+baby &mouth &put
+hand &frame &come
+woman &right &point
+baby &head &pat
+rat &back couch &run
+toddler &baby &take
+animal &top hill &climb
+camera &mountain top &zoom
+bird &food &grab
+baby &arm &bring
+baby &lady &go
+woman &object shelf &point
+rider &top hill &reach
+finger &belly &touch
+dog &person &wander
+house &view &come
+hand &boat &touch
+meat &frame &fill
+guy &hand &hold
+woman &spot &move
+money person &statue &sing
+foot &time &smush
+person &toy &play
+person &finger &pick
+boy &bow &take
+dolphin &water &jump
+man &stick &grab
+bucket &floor &show
+dog tuck &paw &head
+couple &camera man &walk
+man &surface &press
+woman &neck &touch
+concert light &color &change
+lady &folder &close
+dog &girl &walk
+woman &arm &put
+child &man &walk
+baby &juice &take
+time cat &head &turn
+man &lap &place
+tractor &time &start
+everyone &joy &jump
+baby &time &look
+man &head &pull
+truck &left &enter
+lady &hair &push
+batter &home plate &hit
+tree &view &go
+woman &moment &stop
+baby &fist &put
+camera &watcher &view
+man &light &dance
+man &device &knock
+car &stone structure &go
+cat &bicycle &walk
+eye &view &leave
+baby &belly &turn
+brick house &majority frame &see
+water &frame &leave
+excavator machine &left &turn
+girl &bar &hand
+camera &nursing puppy &zoom
+man &tank &walk
+man &stick &smell
+ball &air &throw
+harbor &right &see
+pan &sink &lift
+firework &orange &turn
+palm &camera &face
+boy &toy &put
+frame &flamingo &go
+man &microphone &pick
+baby &chair &hop
+baby &pillow &fall
+swan &viewer &face
+person &arm &resituate
+man &mouth &put
+cat &cover book &show
+someone &dog &throw
+someone &hand &tickle
+camera &individual &zoom
+bear &road &appear
+individual &street &walk
+man &table &appear
+boy &chest &pat
+girl &camera &give
+boy &circle &run
+man &piece wood &see
+baby &camera &smile
+lightning &time &see
+wind &camera &blow
+porch &view &come
+boy &front car &approach
+girl &something ground &set
+man &face &put
+pole &camera &pass
+athlete &swing &join
+baby &object &drop
+cat &person &look
+baby &event &smile
+car &shot &leave
+man &track &approach
+light &color &change
+hand &picture &move
+screen &view &come
+baby &animal &touch
+person &cow &feed
+woman &child &hold
+man &drink &spit
+camera &water &dive
+person &stage &arrive
+hand camera &object &hold
+wind &lady skirt &blow
+bay &bite &take
+person &sand &walk
+cameraman &shot buddy &drink
+girl &goal net &kick
+man &contents cup &dump
+time person &shirt &put
+fish &top &swim
+something &camera &nudge
+bike tire &view &come
+motorcycle &strip car &pass
+dog &garden hose &start
+person &leg &look
+person &time &smile
+monkey &go &let
+sun &time &see
+camera &volcano &view
+woman &frame right &enter
+man &book &flip
+boy &dog tail &pull
+vehicle &turn &make
+man &rock &climb
+moonlight &view &come
+person &frame &run
+bulldozer &scoop &pick
+girl &table &pick
+baby &dog tail &grab
+baby &wood box &push
+baby &time &kick
+robot &ball &kick
+man &frame &walk
+person &window plane &reflect
+woman &organ &point
+bridge &view left &come
+child &ornament &hang
+car &water &pass
+woman &item &shake
+cat &phone &reach
+guitar woman &guitar &play
+woman &left &walk
+hand &start &raise
+alligator &something string &stop
+person &camera &hold
+cat &screen &appear
+person &scene &leave
+man &screen &leave
+girl &hand &point
+bird &frame &fly
+baby &time &close
+light &stage &see
+child &ball &throw
+bird &camera &chase
+baby &toy &drop
+kiosk &view &come
+camera &fish &show
+man &head &shift
+girl &stage &fall
+lady &time &lay
+chicken &bush &walk
+bird &hole &fly
+rodent &something corner &flip
+child &drum &bang
+girl &something bird &pour
+computer &something &download
+light &stage &reveal
+horse &view moment &block
+trapeze artist &ground &lower
+cat &window &move
+wave &camera &crash
+time person &screen &walk
+man &rock &slide
+woman &plate &rotate
+dancer &right &enter
+finger &plant &point
+baby &toy &hand
+toddler &chair &crawl
+camera &picture &take
+toddler &keyboard &play
+dog &bar &hop
+finger circle &hand &point
+baby &side tub &hit
+fire &view &disappear
+hand &cat &tickle
+fish &time &see
+deck &view &come
+cat &something &steal
+dog &stick &run
+camera &hay grass &move
+spider &hole &go
+man &pants &wear
+man &string &catch
+spoon &food &go
+woman &decoration &hold
+child &tablet &touch
+bus &left &come
+man &shirt table &wear
+girl &eye &close
+bird &line &cross
+dog &jump &begin
+car &screen &come
+baby &adult &run
+person &fish tank &walk
+woman &beverage &try
+dog &cow &charge
+climber &top &reach
+toddler &step &climb
+man &street &walk
+camera &windmill &show
+man &animal &appear
+guy &punch &take
+camera &tree water &move
+man &screen &look
+finger &corner &creep
+wave &angle &come
+door &car &open
+person &time &bow
+bush &view &go
+woman &horse &touch
+skier &person &start
+bee &hand corner &fly
+dog &ground &lay
+water &view &come
+person &flag &slide
+camera &stage &leave
+bicycle &trash &pass
+head &bottom corner &see
+camera &violinist &zoom
+woman &dress &lift
+hand &chin &tickle
+girl &drum &play
+someone &crystal ball &touch
+child &ornament tree &hang
+baby &xylophone &bang
+man &left &run
+guitarist &note &hit
+rubber duck &color &change
+man &sea &look
+vehicle &light &turn
+baby &blanket &crawl
+dog &table &go
+sunlight &seal snout &reflect
+vehicle &left turn &make
+dog &ear &scratch
+man bike &curb &jump
+girl &time &turn
+car &slide &take
+camera &motorcycle &move
+person &hose &take
+camera &dinosaur skeleton &show
+camera &pole &pass
+woman &screen &disappear
+person &group &leave
+child &magnet sticker &drop
+person &swinging &begin
+plane &ground &spiral
+man &question &laugh
+bicyclist &hand &take
+man &chair &appear
+person hand &baby &touch
+person &screen &touch
+sign &view &pass
+video &snake &zoom
+dog &hose &play
+pole &frame end &come
+hand move &time &monitor
+baby &mother &hit
+camera &stair &focus
+man &woman &lean
+camera &girl &show
+truck &view &go
+keyboard player &view &come
+object &side &grind
+start &saw &use
+bird &face &hop
+coast &view &come
+crowd &clap &begin
+insect &view &fly
+flag &air &throw
+cat &person leg &run
+seal &water &hop
+cab &frame &pull
+girl &balloon &look
+man &stage &step
+dog &object &kick
+woman &dog &poke
+boy &fist &put
+hand &grill &open
+boat &view &leave
+hand &frame &reach
+man &head &grab
+man &stair bathroom &go
+boy &hand &steady
+man &frame &slide
+camera &man &pass
+bike &water &splash
+man &crock pot &scoop
+man &right &move
+camera &curtain &show
+train &left frame &approach
+man &circle &run
+robot &side &walk
+camera &girl face &zoom
+boat &boat &zoom
+man &team &begin
+woman &coat &take
+dog &fountain &run
+man &grin &sport
+red van &man &pass
+person &foot &pick
+car &person &pass
+woman &go toddler &let
+boat &pier &dock
+child &time &lick
+man &tree &back
+arrow &ground &appear
+person &podium &speak
+girl &camera &pull
+man &mouth dog &retrieve
+man &table &lift
+girl &camera &begin
+camera &table &move
+woman &picture &pose
+person &head man &sit
+cat &eye &open
+baby &rainbow tube &crawl
+car &camera &drive
+girl &seat &move
+person &time &stand
+person &netting &move
+man &guitar case &put
+hand &cat stomach &reach
+hose &mouth &put
+dog &stair &go
+girl &time &begin
+computer screen &view &come
+stage light &left &appear
+man &cigarette &inhale
+view &frame &block
+person &camera &wear
+man &light hair &scratchinb
+someone &girl lap &put
+man &boy weight &collapse
+girl &snowball &stomp
+camera &woman face &show
+woman &face &make
+cook &something bowl &pour
+camera &thing &zoom
+lady &time &walk
+head &view &block
+sky &light dark &go
+person &watch &check
+baby &animal &drop
+baby &view &come
+dog &tube &run
+fan &head &sign
+baby &cameraman &hold
+bowling ball &post &knock
+individual &blanket &hide
+person &view background &come
+sled &baby &fall
+wheel &hand &turn
+girl &butt &wiggle
+camera &douche &reveal
+woman &something head &lift
+baby &end carpet &reach
+parachute &frame &come
+person &camera &talk
+vehicle &stop &come
+child &pink shirt &pick
+person &hand &pick
+camera &person &show
+hand &child &push
+man &suit case &hold
+cat &frame &fill
+baby &bite &take
+someone &camera &run
+woman &box &remove
+boy &ball foul &hit
+person &carriage &walk
+cat &box &jump
+object &dog &throw
+woman &head &put
+girl &shirt &fold
+bus &traffic &stop
+stage &band &show
+log &river &drift
+wave &soul &crash
+man &left &point
+time cat &camera &look
+bear &head &scratch
+girl &place &bounce
+child &computer keyboard &touch
+hand &cat &go
+animal &horn &move
+singer &arm &swing
+girl &box &move
+door dark &flashlight &use
+tent &view &disappear
+camera &girl &zoom
+person &golf club &swing
+robot &way &come
+camera &computer screen &focus
+squirrel &camera &turn
+knife &right view &set
+cat &cat &nudge
+ball &track &release
+person &art &show
+lantern &view &go
+camera span &ocean &show
+person &chick &point
+man &child &walk
+camera &passenger &show
+girl &neck &touch
+man &corner eye &scratch
+man &camera &take
+man &right &walk
+baby &pool &climb
+camera &man &follow
+lady &kiss &lean
+man &computer &show
+dog &food &eat
+girl &something &pick
+someone &view &walk
+dog &piece food &leave
+mother &baby &take
+camera &motion &go
+dog &frame &run
+man &rock &hop
+camera &dinosaur picture &move
+bus &turn &make
+liquid &glass &start
+bird &cone &jump
+camera &item &turn
+dog &man &run
+light &tombstone &shine
+defender &ball &scoop
+baby &hand &slam
+shed &time &come
+camera &chicken &zoom
+hand &dog &begin
+boat &view &enter
+artist &guy &catch
+man &screen &shadow
+wave &camera &surge
+someone &girl &open
+man &woman &twirl
+mountain view &hillside &see
+otter &tail &flip
+goose &left &appear
+something &thing &pour
+snake &owner hand &slither
+fish &view &come
+person &baby &tickle
+man &bike &pick
+gator &bait &catch
+boy &water &throw
+rain &watering &fall
+van &screen &drive
+mouse &pot &perch
+woman &leg &move
+woman &note &rearranger
+woman &hair &whip
+surf board &frame &enter
+man &sign &pick
+woman &door building &turn
+man &dagger &lift
+camera &lighthouse &watch
+hand &clapping &see
+hand &motion &wave
+bubble &view &come
+kitten &owner finger &nibble
+car &background &drive
+rock &view &come
+child &necklace &put
+someone &left &enter
+camera &bus &turn
+dog &pill &eat
+dancing boy &bow &take
+man &baby head &kiss
+man &change left &make
+man &zebra toy &grab
+man &bunny ear &give
+boy &screen &touch
+boy &puzzle &play
+cameraman &escalator &enter
+dog &pot dirt &hop
+car headlight &dark &float
+child &time &stand
+lady &table &wear
+cat &toy &bring
+scene &time &switch
+camera &structure &zoom
+book &camera &show
+animal &time &start
+man &table &turn
+sky &cloud &become
+server &platter food &enter
+girl &forehead &put
+man &float &put
+girl &ball &bounce
+baby &boy face &touch
+person &water &jump
+person &hat &walk
+man &beverage &drink
+otter &water &dive
+sail boat &right rower &appear
+vehicle &road &drive
+cook &spatula &set
+man &something &say
+person &water &dive
+man &hand &make
+fish &circle &swim
+man &bee &pick
+wing &frame &leave
+man &paper &write
+camera &right &shake
+head &toy &play
+camera pan &taxi &leave
+plane &sky &spin
+picker &vegetable &pick
+camera pan &mountain &see
+camera &frog creature &zoom
+bird &greenery &hand
+man &shelf &grab
+child &bite &take
+man &arm &raise
+train engine &frame &pass
+child &hallway &run
+man &person &play
+firework &top screen &touch
+person &deck &walk
+child &child &put
+camera pan &actor &leave
+person &counter &wipe
+person hand &box &touch
+fist &air &go
+block &ground &sit
+man &something &rotate
+dog &camera &jump
+woman &restaurant &drink
+baby &bathtub &stand
+car &frame &drive
+machine &time &pick
+boy &baby hand &grab
+girl &sand &pick
+lady &butter &spread
+woman &hand &shake
+camera &leg &zoom
+person &area &walk
+person &camera move &walk
+man &street &drop
+baby &blanket &grab
+hand &machine &adjust
+man &finger &make
+woman &habitat &point
+someone &man podium &bring
+hand &finger &hold
+car &rain &sit
+snake &guy &knock
+alligator &lure &snap
+camera &oven &walk
+tiger &leg &stand
+boy &hand &pick
+smoke &frame &enter
+guy &guitar &play
+dancer &hand &raise
+camera &monkey tree &zoom
+person &round stairway &stand
+man &direction camera &look
+light &hole wall &shine
+firework &air &shoot
+officer &policeman &clear
+dog &floor &investigate
+dog &lawn mower &begin
+goose &camera &walk
+person &cliff edge &walk
+person &drum &play
+camera &person &walk
+dog &camera briefly &look
+car &sedan &pass
+man &wheel cheese &pivot
+hockey player &side rink &crash
+light &water &flash
+item &air &fly
+person &top ledge &touch
+woman &baby &wash
+horse &head &turn
+frame &violinist &focus
+camera &tape measurer &zoom
+woman &closet door &open
+person &spinning wheel &walk
+person &arm &spread
+friend &party &make
+puppy &man face &lick
+camera &grill &zoom
+girl &time &spin
+toddler &someone leg &walk
+dog &right &look
+train &station &go
+child &finger &lick
+duck &bird &swim
+lorry truck &street &pass
+someone hand &frame right &see
+shot &someone couch &change
+cat &room &leave
+flame &stage &appear
+woman &dog jump &make
+child &truck &push
+boat &stop &come
+birthday boy &candle &blow
+person head &view &block
+woman &document &pull
+girl &hat &take
+person &food &put
+lady &stage &come
+camera pan &light &show
+sun &water &reflect
+woman &camera &look
+woman &floor &sit
+camera &book &move
+finger &scene &come
+person &record player &spin
+fence &view &come
+man &corn &eat
+person &vehicle &enter
+everyone &arm &raise
+person &side frame &walk
+someone &grill &open
+woman &child &start
+man &picture gathering &take
+person &light &spin
+guy &water &walk
+girl finish &shoe &tie
+girl &arm &reach
+mascot &camera &run
+man &bike &stand
+camera &sled &show
+camera &person dog &zoom
+shirt &something table &pick
+cat &curtain &jump
+rock formation &picture &come
+person &door &open
+man &piece gravel &pick
+dog &paw &lick
+tower &time &see
+girl &head &turn
+otter &water &drink
+flood light &stage &illuminate
+child &elbow &scratch
+walrus head &time &touch
+baby &arm &yawn
+person &thumb &remove
+woman &hip &remove
+hand &screen &come
+dancer &circle &spin
+number &pass train &go
+man &right &wander
+bicycle &car &approach
+stage &light &illuminate
+man &hand &take
+camera &fire &zoom
+engine &frame &enter
+woman &phone &pull
+building &camera &see
+conductor &left &turn
+man &something &pull
+time child &keyboard &look
+man &face child &wipe
+player &number &wear
+sign &side road &appear
+cat &yard &run
+person &object &place
+person &building &ride
+turtle &frame &come
+crab &hole &enter
+silhouette &camera &walk
+camera &scenery &zoom
+person &conga line &make
+firework &stadium &shoot
+cat &toy &lean
+object &side &fall
+man &head &cover
+spider &left &crawl
+rabbit &person hand &tug
+lady &hand &move
+baby &table &run
+woman &microscope &look
+head &right screen &block
+man &ball &roll
+cat &box &walk
+cat &door &open
+horse &view &pass
+koi fish &branch &swim
+everyone &stage &exit
+girl &face &make
+person &place picture &run
+camera &dancer leg &zoom
+person &water &splash
+ant &thing &collide
+adult &baby &wipe
+man &mustache &adjust
+ice skater &cave &come
+woman &ball &hit
+child &screen &fall
+head &statue &observe
+time child &floor &put
+bird &bridge &fly
+baby &chair &reach
+video &side &turn
+child &drape &walk
+person &snow &begin
+child &hill &roll
+car &side &pass
+someone &object &throw
+moon &view &come
+man &boot &set
+driver &view &come
+girl &finger &count
+dog &beach &run
+camera &sand &zoom
+child &time &appear
+dog &grass &fall
+camera &window &aim
+guitarist &something &pick
+girl &position line &straighten
+man &robe &wear
+cat &sleep &yawn
+person &left &swing
+person &parade &appear
+woman &wind &sing
+liquid &glass &pour
+hand briefly &view side &come
+camera &group &zoom
+person hand &picture &take
+adult hand &view &come
+walkway &view &come
+someone &light &turn
+child &dog &turn
+baby &cat &look
+cat &circle &make
+boy &woman foot &grab
+camera span &control &show
+fish &front camera &swim
+hand &door &open
+man &doorway &enter
+child &table &slap
+someone &stage &walk
+baby &leg &kick
+woman &door &enter
+man &time &hit
+woman &mouth &open
+claw &water &reach
+camera &right &start
+camera &right &begin
+car &tunnel &go
+person &arm &put
+cat &scene &appear
+camera &end hallway &reach
+person &clapping &start
+person &something &pick
+woman &gas &set
+man &puppy &touch
+person &doorway &appear
+diver flipper &view &appear
+boy &trailer &put
+camera &seal &show
+man &ball &hold
+rider &camera &wave
+dog &head &shake
+man &plant &chww
+host &purple &show
+machine &line &draw
+camera pan &hill &reveal
+baby grab &edge blanket &leave
+pitcher &pitch &throw
+person &sign air &lift
+frog puppet &frame &come
+woman &door &close
+hand &right frame &appear
+car &cross walk &pull
+line &camera &go
+camera &man &turn
+person &map &twirl
+man &view &come
+car &truck &pass
+child &line &return
+vehicle &view bush &drive
+woman &orange shirt &grab
+woman &leg &spread
+horse &window clock &appear
+person &screen &sing
+girl &leg &move
+woman &hand &start
+dog &tail &wag
+someone &cliff &jump
+car &direction &travel
+time crucifix &view &come
+baby &head &raise
+camera &object pole &zoom
+train &cat &pass
+man &raspberry &blow
+camera &animal &zoom
+boy &camera &turn
+dealer &something table &pick
+hand &time &begin
+animal &toy &move
+man &bike &pass
+animal &head &turn
+man &something computer &demonstrate
+person &moment &cross
+woman &food &chew
+man &baby mouth &play
+dog &head &lower
+cat &toy &bite
+man &corner &appear
+baby &news paper &grab
+view &tree &cover
+man ground &shoe &play
+person &background &begin
+animal &log &shake
+child &book &close
+baby &girl &reach
+object &view &leave
+box &screen &appear
+dog &dog &watch
+baby &toy piano &look
+cat &chair boy &look
+camera view &ground &look
+time finger &switch &flip
+person &water &walk
+woman &towel &toss
+baby &eye &rub
+hand briefly &view &disappear
+cat &box &pop
+hat &bucket &sit
+woman &lighthouse &stand
+baby &dog &play
+boy &stuff &put
+cat &toy &jump
+person &circle &go
+sky &frame &start
+television &background &play
+child &sofa &lean
+crow &time &move
+server &cameraman &serve
+cameraman hand &bird time &reach
+person &cake &point
+son &park &play
+person &building &exit
+camera &truck &show
+chef &grill &cook
+brick &ground &show
+man &water &throw
+boy &arm &take
+person &fire &jump
+water &time &shoot
+dog &room &leave
+hand &baby head &touch
+person &boy &give
+object &stage &fly
+cat &bed &jump
+person &photo &hold
+boat &circle &go
+woman &arm &hold
+man &camera &wave
+car &shirt &pass
+light &screen &appear
+dog &ball &drop
+grill &meat &open
+hand &right &see
+person &beach &stand
+craft &bottom &show
+someone &pop &fall
+clock &frame &disappear
+nursery building &view &come
+person &ball &bounce
+stage &view &disappear
+rooster &step ladder &climb
+man &laughter &burst
+girl &curb &step
+camera &girl headband &back
+dog &drink water &go
+woman &cup &hand
+baby &fist &hold
+camera &man shoe &show
+light &tent &begin
+camera &top mountain &zoom
+man &ball &catch
+person &glass &sit
+person &sea creature &spit
+dog &camera &walk
+cat tail &ground &hit
+child &something &look
+model airplane &camera &fly
+man &wood &stab
+dog &person leg &jump
+man &knife &drop
+camera pan &man &reveal
+cat &stick &chase
+man &bowl &carry
+road &camera &lead
+cat &door &look
+man &child &take
+truck &shot &leave
+man &right &take
+child &chair &reach
+cyclist &view &come
+boy &hump &go
+person &wound &perform
+rat &man hand &jump
+man &bag &put
+man &mouth &hold
+man &ceremony &play
+bug &cricket &fly
+cat &table &sit
+horse &barrel &move
+train &bystander &pass
+cat &head &lift
+woman &frame &come
+sink &view &go
+child &toy head &raise
+motorcycle &car &follow
+man &hand &tuck
+boy &camera &begin
+man &man &look
+gerbil &exercise wheel &run
+magazine &screen &drop
+person &table &hit
+person &canoe &stand
+man &step &back
+man &shirt &put
+boy &object &lift
+tower &view &come
+someone &sign &hold
+dog &yard &run
+bicyclist &frame &pass
+fish &screen &swim leave
+woman &fist &slam
+boy &finger &raise
+man &top rock &reach
+arm &boy &teach
+dog &ball &chase
+wire &right frame &see
+dog &pool &spin
+batter &base &hit
+item &table &take
+hand &book &pick
+hand &center console &push
+baby &hand &pick
+parent &baby &help
+person &platform &jump
+man &boy &pick
+child &arm &put
+light &purple &go
+camera pan &valley &show
+man &pool &walk
+head &bottom &pop
+bird &head &bob
+boy &ladder &hold
+guy &torch &throw
+child &screen &remove
+girl &water &go
+boy &leather &slap
+person &chair &adjust
+camera &woman camera &go
+woman &start &smile
+elephant &man bottle &give
+camera &doll &zoom
+person &orange shirt &wear
+time person &hand &put
+camera &ground &zoom
+camera &room &show
+dog &owner &start
+shell &view &come
+man &time &stand
+camera &bit &zoom
+hand &roof &point
+palm tree &frame &move
+girl &skirt &lift
+person &field &walk
+camera pan &bridge &leave
+baby &camera &turn
+skater &circle &move
+camera &gerbil &zoom
+baby &side &back
+tree &ground &crash
+train car &frame &see
+person &guitar case &walk
+man &hammer &take
+person &oven lid &open
+pin &board &poke
+child &view left &enter
+person &leg &move
+drummer &view &come
+camera &bird &move
+cat &toy &lay
+cat &chicken &walk
+cat &toy &lie
+brick wall &appearance &make
+man &end runway &turn
+river &bridge &see
+conductor hand &view &come
+car &headlight &flash
+guy &camera &carry
+man &stick fire &hold
+man &dog leash &grab
+woman &fan &open
+patio &view &come
+cat &table &climb
+building &view time &come
+girl &camera &look
+ball &view &come
+child &floor &wrestle
+cyclist &camera &pass
+man &object &pick
+camera &turtle &zoom
+dragon head &view time &come
+baby &corner frame &look
+chef &chunk meat &throw
+foot &cat &escape
+woman &microphone &set
+person &newspaper &read
+person &man board &listen
+girl &bed &fall
+bottle &glass &tip
+man &sheep leg &grab
+team &hand &put
+car &street &go
+person &pool &throw
+car &end camera &turn
+dog &bull &charge
+person hand &view &appear
+person &time &tilt
+lady &footing &lose
+person &headphone &take
+woman &case &take
+boy &something &kick
+man &person &throw
+woman &soda &drink
+sunlight &sky &appear
+baby &cup &knock
+woman &hand &use
+woman &hand &grab
+girl &bug &play
+girl &twirl &make
+woman &head &throw
+object &corner &flutter
+dog &tunnel &move
+girl &mouth &take
+squirrel &camera &run
+girl &hole &crawl
+woman &shirt &sit
+wing &view &come
+light &light &turn
+dog &snow &dig
+man &woman scarf &sit
+hiker &camera &walk
+shadow &right frame &enter
+baby &lady &follow
+hand &screen &see
+person &picture &pose
+wave &shore &hit
+woman &police officer &get hold
+man &door subway &approach
+woman &stage &appear
+person &bike &chug
+head &vehicle &look
+camera &frame &bounce
+light &pink &turn
+squirrel &left &look
+girl &back head &scratch
+person &suit &wear
+shrub &left scene &enter
+cat &desk &sit
+girl &cupcake &lick
+sign &frame &cover
+drummer &view screen &come
+dog &floor &roll
+car &stop &move
+person &time &put
+guy &ball &hit
+car &time &see
+smoke &crowd &appear
+girl &chair &set
+camera &bird statue &pass
+cat &head &turn
+boy &ground &throw
+camera &left &pass
+boy &park ride &walk
+road sign &view &come
+baby bird &time &open
+drummer &camera &pass
+vehicle &view &pass
+hand &leg &move
+dog &side hole &jump
+car &camera &hit
+girl &table &put
+man &baby head &place
+fish &splash &create
+woman &bench &sit
+person &plant &fix
+time girl &camera &look
+repeller &floor &reach
+person &picture fire &take
+man &baseball cap &wear
+cat &chair &jump
+cat &right camera &put
+child &stance &adjust
+cake &table &place
+cat &faucet &drink
+something &sky &fall
+boy &music sheet &look
+woman &exhibit &point
+boy &page &turn
+camera &something grass &zoom
+someone &toy &kick
+man &trombone &play
+woman &scooter &go
+camera &guy shirt &zoom
+dog &leash &walk
+person &person &move
+woman &man &come
+camera &baseball field &turn
+motorcycle &train &pass
+peace sign &view &go
+camera &spark air &show
+baby &flap arm &begin
+hummingbird &container &fly
+man &hammer &work
+alligator &camera &swim
+girl &bye &bid
+screen &man &show
+bird &dirt ditch &walk
+speaker &screen &gesture
+woman &hair &touch
+waiter &left &walk
+object &back &flip
+man &guitar &raise
+car &moment &pass
+curler &weight &push
+person &road &stand
+person &view &pass
+girl &ground &fall
+camera &crab &zoom
+camera &stage &move
+man &counter &set
+man &information booklet &review
+person &shorts &wear
+boy &camera &push
+person &roof &wear
+someone &object &apply
+animal &camera &stare
+tree &frame &start
+singer &clapping &start
+person &skull &gather
+man &hand &switch
+water &time &go
+man &table &run
+man &woman &look
+flame &view &disappear
+man &side table &reach
+child &time &turn
+image &gap cloud &show
+man &guitar case &hold
+target &view &come
+cat &head &put
+person &train approach &walk
+singer stretch &crowd &arm
+fish &person &swim
+camera &temple &zoom
+people leg &view &walk
+girl &book &lift
+person &screen &run
+girl &frame &join
+man &sign &lift
+baby &foot &raise
+man &bride &kiss
+baby &cup &eat
+man &screen &walk
+girl &frame &leave
+dog &guard &stand
+woman &left stage &spin
+porch rail &view &go
+lady &time &smile
+truck &group &pass
+text &screen &disappear
+woman &left &stand
+man &set stair &walk
+ball &net &hit
+dog &track &run
+woman &ground &set
+girl &hair &lift
+cat &toilet &sit
+girl &shelf &put
+child &stroller &pass
+woman &pie &cut
+hen &yard &eat
+woman &window &turn
+thumb &moment &block
+bench &view time &leave
+pole &shoulder height &lift
+squirrel &stump &jump
+man &frame &step
+boy &planter plant &point
+camera &woman coat &zoom
+man &screen &discuss
+woman &head &hold
+child &toe &touch
+ball &camera &appear
+man &camera &appear
+boy &box &grab
+dog &man &pull
+sled &view &slide
+girl &air &lift
+woman &fire &stoke
+derrick &time &lift
+dog &man &start
+camera &shot &show
+person head &bottom &pop
+figure &move center &wear
+slide &view &come
+baby &control &play
+camera &instrument player &zoom
+camera pan &mountain &show
+man &time &appear
+car &spin &make
+man &child &pick
+waterfall &time &see
+animal &time &see
+coach &jug &start
+umbrella &left &leave
+girl &room &walk
+lady &hand &put
+tanker car &view &pass
+man &window &walk
+camera pan &post crowd &leave
+person &microphone &adjust
+person &boat &stand
+boy &paper &put
+someone &light show &run
+animal &object &walk
+dog move &hand &head
+person &man face &apply
+hamster &house &come
+man &weight &pick
+man &book &point
+grab &hand &cart
+horse &right &walk
+sea horse &camera &swim
+character &stool &sit
+fan &view &come
+child &hand &shake
+woman &baby mouth &take
+camera light &background &flash
+woman &cake &blow
+person &fairy wing &wear
+baby &plate &eat
+insect &hole &run
+man &microphone &sing
+girl &toy &take
+clock &steam &blow
+machinery &view &go
+camera &rock formation &zoom
+airplane &camera &pass
+light &top building &turn
+person &platform &walk
+light &start frame &shine
+woman &dog &kneel
+baby girl &hand &shake
+whale &water &see breach
+diver &view camera &leave
+person &lot &walk
+keyboard player &ear &touch
+woman &habitat &show
+woman &child hat &adjust
+baby &lip &move
+person hair &wind &blow
+man &guitar &move
+baby foot &flurry bubble &kick
+guy &side side &look
+person &view trail &come
+animal &time &close
+someone &drink &pick
+man &fire &point
+man &knee &touch
+car &corner &drift
+baby hand &camera &reach
+player &field &see
+man &scarf &kiss
+guy &baby &throw
+woman &dog leash &remove
+camera &city &begin
+woman face &beginning video &show
+boy &left &look
+cat &table &hop
+person &ground &lie
+puppy &ground &lay
+turtle &tray &leave
+woman head &view &obstruct
+shirt cyclist &camera &pass
+camera &door &zoom
+balloon &boy &leave
+shark &view &come
+train &frame &enter
+baby &head &remove
+camera &writing &zoom
+man &scene &enter
+camera pan &sunlight &leave
+jeep &left &pass
+cyclist &sign &pass
+car &pic &enter
+shark &bottom &swim
+joe &water &walk
+girl &frame &enter
+man &sky &move
+man &spatula &put
+traffic &direction &go
+couple &view &walk
+camera &junk fountain &begin
+girl &tree &point
+camera person &snow &start
+mountain &sun &see
+woman &towel &take
+book &time &open
+hand &piano &play
+horse &jacket &follow
+kitten &grass &jump
+camera &instrument &zoom
+massage therapist &hand &pour
+girl &view &come
+sled &view &go
+person &leg &remove
+cat &finger &smell
+singer &air &raise
+driver &clip &show
+car &view &come
+woman &right &look
+diver &mouth &close
+animal &hole &pop
+camera &ground &go
+camera &stop monument &start
+coach &jug &drink
+projector &letter &fade
+time dancer &arm &bring
+woman &head &flip
+man &tree &walk
+man &wheelbarrow &push
+lady zombie &jiggle &walk
+car &wheeler &pass
+bicyclist &bird &scare
+pole &left &enter
+child &duck &pick
+man &table &ride
+hand &baby &push
+baby &toy time &pick
+man &monkey branch &reach
+light &time &appear
+pitcher &ball &throw
+cat &furniture &jump
+bird &tree &fly
+guy &something &put
+firework &screen &begin
+man &animal &throw
+guy &time &face
+helicopter &side &see
+something &right &appear
+car &sign &pass
+dog &piece &fetch
+man &something &look
+someone &rock &lay
+person hand &side &appear
+someone &field view &run
+hair &wind &blow
+child &time &stick
+woman &something &find
+pacifier &time &see
+man &child &switch
+roller skater &camera &come
+everyone &edge &pull
+video clip &snow tree &end
+clock &moment &view
+fish &top screen &swim
+warning sign &fence &see
+pool &view &disappear
+boy &arm chicken &flap
+child &toy &pull
+man &middle dancer &walk
+boy &door &reach
+man &time &touch
+girl &bit &stumble
+man &baby &walk
+lady &speech &give
+cat &tree &run
+camera pan &river &view
+dove &tree &fly
+bird &time &move
+camera &butterfly &turn
+outside &time &show
+fighter &glove &touch
+camera &child singing &zoom
+cloud &sun &cover
+man face &time &appear
+singer &singing &start
+hand &piece metal &set
+child &go chair &let
+man &time &flail
+van &sight &move
+man &climbing &spot
+balloon &camera &hit
+paddle boat &foot bridge &go
+man &crowd &begin
+girl &head &throw
+deer &left &begin
+dolphin &way water &jump
+sail boat &view right &come
+woman &runway &walk
+page &time &turn
+person &piece lumber &cut
+time man &view &come
+man &spark &block
+bulldozer &scoop dirt &pick
+firework &patter &come
+girl &book &put
+woman &front stage &walk
+camera &plane &zoom
+water jet &fountain &recede
+child &bowl &put
+person &fire pit &walk
+camera pan &screen &leave
+object &glass &lift
+train &stop &go
+something &left screen &appear
+bird &food &walk
+baby &clip &sneeze
+camera &speaker screen &zoom
+man &pool &help
+text &bottom frame &appear
+eye &frame &come
+potter &clay hand &form
+ant &keyboard &crawl
+baby &table &bite
+kayak &rapid &stick
+baby &box &open
+child &rest food &put
+man &tip tongue &stick
+frame &orange balloon &focus
+man &alligator &sit
+bicycle &view &come
+cat &chair &walk
+man &child &stand
+someone &picture &take
+car &camera &pass
+person &left &aim
+shadow &shore beach &move
+speechmaker &crowd &make
+person &pot &throw
+person &table &sit
+man &stone cross &walk
+camera &ball &zoom
+lizard &hole &turn
+man &camera &lift
+dog &hose &get blast
+camera &camera &move
+woman &something screen &point
+woman &microphone &take
+explosion &middle water &happen
+person &arm &throw
+performer &stance &stand
+artist &hair drawing &paint
+woman &pocket &slip
+man &plant &help
+man &art gallery &walk
+man &screen &go
+shadow &camera flash &see
+child &adult &walk
+caboose &camera &pass
+object &right frame &appear
+duck &butt &shoot
+camera &right &look
+man &head &raise
+baby &page &turn
+child &wheel &trip
+pianist &face &wipe
+skeleton &fence &hang
+camera &top &turn
+dog &hose &begin
+crowd &music &dance
+woman &face &touch
+boy &book &pull
+man &button &reach
+camera &sky &show
+child &end fence &reach
+woman &head &place
+man &face &start
+shrub &view &come
+dog &maroon pillow &run
+girl &spot &switch
+car &pit &drive
+water &river &flow
+child &candle &blow
+dog &treat &eat
+hand &dog swim &help
+someone &refrigerator &open
+dog &table &hide
+man head &machine &stick
+headlight &end clip &disappear
+camera &shirt guitarist &zoom
+someone hand &frame &enter
+man &boy hand &push
+beach scene &time &see
+person &band &walk
+boy &girl &show
+animal &view &come
+worker &sign &move
+snow track &left &cure
+camera pan &window &leave
+chair &frame &come
+adult &time &shake
+hand &thing &dump
+person &stroller &push
+person &stair &turn
+child &door &close
+camera &birthday cake &zoom
+leash &someone &shake
+word &screen &appear
+chick &camera &come
+car &curve &go
+person &ground &toss
+camera &house &show
+man &time &squat
+shot &steam &zoom
+screen &screen end &show
+light &reef &illuminate
+dog &fire &sit
+boy &ground &place
+toy &dog &toss
+baby &toy &turn
+swimmer &view &enter
+player &fence &hit
+dog &jump &jump
+train &track &begin
+baby &time &take
+cameraman &guitar player &start
+man &store &go
+motor cycle &camera &pass
+camera &crowd &zoom
+shirt sleeve &right &appear
+light &tent &flash
+hand &mouth &wipe
+camera &time &rotate
+gentleman &jacket &wear
+sun &lighthouse window &shine
+camera &crowd &move
+cat &fish &wonder
+white bird &frame &fly
+guy &hand &bring
+someone &girl &appear
+man &snow &put
+man &time &swing
+log &water &hit
+man &room &run
+dog &hoop &jump
+person &belly &touch
+racer &finish line &cross
+light &orange &start
+person &circle &wave
+thing &frame &enter
+person &stick &swoop
+woman &briefly &look
+child &finger &put
+person &side &move
+person &circle &reenter
+object &back &start
+camera &boot &stay
+truck &side &pass
+cow &side &look
+camera &sign &zoom
+person &baby &roll
+man &container &smell
+lady &camera &lower
+dog &dog &stand
+person &frame &leave
+hand &time &see
+baby &head &take
+hand &baby arm &touch
+girl &someone &talk
+instrument &skin &touch
+boy &karate &bow
+dude face &view &disappear
+lady &baby clap &make
+party &stage &walk
+soapbox car &ramp &start
+car &left &start
+crane &water &submerge
+guy &face &swat
+right &sign &stop
+man &forehead &touch
+camera &record &zoom
+camera pan &man &show
+girl &head &hold
+person &stick hand &ride
+something &water &come
+man &platform &jump
+child &arm &reach
+plant &view &come
+man &ball &grab
+rock &man &fall
+spoon &balloon &see
+man &bag &throw
+car &background &pass
+person &head &kiss
+man baby &frame &walk
+camera &face &move
+kangaroo &front &hop
+hand &puppy &touch
+boy &goat &feed
+jacket &man &take
+gorilla &camera &look
+mandala &view &disappear
+block &block &back
+waterfall &camera pan &appear
+cat &step &play
+camera &person stage &face
+rainbow &view &disappear
+scene &bird tree &cut
+truck &hamster ball &pull
+cat &time &face
+camera &left &turn
+scene &water edge &bend
+creature &water hole &crawl
+man &marker &write
+camera pan &tree &leave
+man &contents pot &stoke
+toddle &bottle &pick
+man &piece &grab
+man &sweat jacket &wear
+train &track &arrive
+person &field &work
+woman &camera &walk
+woman &hair &fix
+girl &spoon &grab
+marker &autograph &sign
+camera &panda eating &zoom
+engine &camera &go
+dog &leash &take
+shadow &baby &pass
+dog &time &back
+pickup truck &beginning video &show
+person &screen &wear
+man &camera &turn
+girl &thumb &give
+dog &time &leave
+kill &time &see
+baby &step &climb
+needle arm &record &go
+statue &view &come
+baby &camera &run
+band &person table &sing
+lady &screen &hop
+camera span &mountain &show
+boy &bat &swing
+person &street &cross
+boy &camera &point
+time boy &right &look
+snowflake image &screen &appear
+woman &sweater &take
+man &ball dough &pull
+bow &face &wipe
+boy &car &pass
+camera &car radio &turn
+child &piece food &eat
+woman &hair &play
+tube thing &view &move
+baby &towel &pull
+camera man &time &show
+someone &screen &run
+baby &left &look
+person hand &dog tail &push
+hand &slap &begin
+person &vacuum &touch
+camera &boy &zoom
+dog &frame &cross
+man &left &leave
+dolphin &way &jump
+man &stage &leave
+cat &room &walk
+boy &sword &play
+animal &bar &begin
+child &head &put
+girl &time &jump
+airplane &building &pass
+adult face &frame &enter
+hand &frame &leave
+marcher &right &turn
+car &left &shift
+girl &microphone &fight
+plane &runway &touch
+boy &microphone &talk
+clip &tree &show
+camera man &head &raise
+man &beer &drink
+performer &line &walk
+mouse &device &run
+wave &shore &touch
+woman &something plant &find
+person &deck ship &stand
+man &cupboard &carry
+car &frame &pass
+zombie &bite sandwich &take
+man &swing &complete
+man &piece &connect
+wind &leaf &move
+man &computer &stand
+woman &time &twirl
+baby &camera &reach
+camera man &left &rotate
+guide &time &face
+girl &kick &make
+boy &toy &fit
+ivy fence &view &block
+globe &center stage &rise
+guy &ball &touch
+lady &face &lower
+boy &ball &kick
+person &frame &enter
+song person &table &sit
+singer &stand &pull
+bird &egg &come
+tree trunk &view &come
+bird &tree &pop
+girl &hand drum &take
+camera &patch &zoom
+boy &ocean &begin
+car &stop light &pass
+swimmer &camera &turn
+balloon &view &disappear
+child &cart &place
+man &suit &wear
+person &park &walk
+camera &girl &pass
+someone &door &look
+cameraman &edge porch &walk
+someone &path &walk
+boy &chair &begin
+man &left &look
+table &paint &redip
+fixture &ceiling &see
+car &orange &pass
+motorcycle &moment &stop
+person rail &view &go
+man &hand &lift
+road &view &disappear
+hand &swing &push
+dog &sofa &run
+screen &briefly &go
+man &arm &uncross
+man &coffee cup &pour
+dog &yard &start
+person &pool &begin
+wave &time &see
+arm &eye &block
+person &stick &throw
+someone &corner screen &walk
+guy &nose &rub
+rat &cage &climb
+tree &ground &fall
+person &speech &laugh
+device &electricity &begin
+woman &sunglass &adjust
+camera &deer &zoom
+toy train &track &begin
+screen &setting &change
+hand &baby &reach
+camera &man singing &zoom
+cabin &view &come
+camera &choir child &zoom
+woman &background &walk
+light &object &start
+chicken &gas &run
+city &view &come
+cat &poster &jump
+lady &drink &take
+person &top device &adjust
+girl &mother &walk
+child &top &stand
+girl &nose &rub
+man &arm &wave
+hand &paper &take
+food &pot &drop
+person &amount &type
+dancer &circle &start
+waterfall &frame briefly &leave
+person &tent &walk
+fish &diver &swim
+object &view &move
+hose &toddler &take
+ball &goal &hit
+child &diving board &jump
+light &view &move
+dog &ear &see
+boat &frame &leave
+person &baby hand &shake
+arcade game &wall &see
+hand &baby hat &adjust
+camera pan &dirt road &show
+woman &dough &roll
+light &time &turn
+plane &ground &take
+tree &frame &leave
+boy &bike &ride
+person &baby &flip
+wall &view &come
+camera &crowd &span
+time camera &tree &pass
+person &hill &run
+car &headlight &show
+camera &back &show
+baby &refrigerator magnet &drop
+person &air &stick
+man &smoke ring &blow
+man &cow &walk
+bird &right frame &fly
+hand &screen &fly
+baby &camera &point
+man &stage &dance
+child &stick &sniff
+camera &paper &zoom
+woman &bowl &show
+girl &side &approach
+half &beard &cut
+man &trophy &receive
+baby &toilet seat &pull
+man &stage &enter
+toy &room &go
+rabbit &spoon &leave
+person &pack &put
+woman &face &put
+light &guitarist &shine
+jug &drink &take
+boy &skiing &start
+person &tire &walk
+man &bone &lick
+baby swing &arm &leave
+someone &time &push
+trolley &view &come
+lady &direction &turn
+toddler &doorway &start
+baby &railing &chew
+dog &pillow &sleep
+camera &person &pass
+horse &picture &come
+someone &door &close
+hand &view &come
+cat &cat camera &pounce
+squirrel &pocket &stick
+toddler &mirror &touch
+someone &tree &run
+camera man &left &start
+ride &box &pass
+cat &cat &play
+camera &girl &follow
+cameraman &view &move
+bus &view &move
+man &catch &make
+bear &time &look
+man &air head &raise
+snake &grass &disappear
+dog &back &go
+unicyclist &right &enter
+man &something bird &hold
+camera &building &zoom
+person hand &frame &see
+boy &diving board &jump
+toddler &floor &retrieve
+child &ground &lay
+child &pile &grab
+girl &face &touch
+man &something &hit
+cameraman &field &kneel
+baby &piano &hit
+man &bowl &drop
+baby &toy &push
+squirrel &railing &jump
+hand &corner &appear
+head &camera &cover
+person &train &appear
+child &hoop &start
+baby &nose &touch
+hand &foot &grab
+toddler &table &touch
+hand &snake &touch
+cat &red dot &swipe
+camera &bow ship &turn
+lady &arm &put
+guy &jacket &put
+person &piece paper &pick
+girl &dancing &turn
+man &floor &set
+man &shoulder &take
+hand &menu &see
+man &screwdriver &set
+woman &left &turn
+hand &view time &come
+ring &device &drop
+hand &ice &drop
+person &time &bend
+light &side stand &flicker
+woman &photograph &turn
+table &frame &leave
+man &horse &walk
+camera &drummer &move
+man &microphone &hold
+truck &past &drive
+baby &bite food &take
+dog &circle &run
+chicken &left &walk
+bird &limb &fly
+cat &broom &play
+head &camera &look
+child &bench &touch
+steam &wheel &come
+man &boat &stand
+woman face &view &come
+goose &gosling &pass
+adult &wrapping paper &take
+bird &feather &ruffle
+cube &time &go
+sleeve shirt &towel &replace
+hand &baby arm &put
+guy &screen &look
+cat &top ladder &climb
+baby &towel &grab
+girl &shopping cart &push
+deck exit &time &view
+woman &frame &jump
+man microphone &face &scratch
+girl &candy &look
+man &palm fire &light
+camera &chair &focus
+boy &side &fall
+toddler &camera &look
+girl &box &flip
+dog &grass &roll
+girl &puck &throw
+man &dog &run
+bird &hole ground &fall
+duck &water &float
+rock climber &bottom rock &reach
+camera &back &zoom
+lady &kiss cheek &go
+baby &hand &put
+radio &view &disappear
+shadow &contraption &move
+person &time &hold
+camera &crowd &go
+boat &frame &enter
+man &title book &point
+boy &arm &lift
+rabbit &jump &make
+girl &air &punch
+baby &right puppet &look
+hand &camera &pass
+everyone &head &touch
+girl &circle &turn
+lady &baby &move
+girl &glass &start
+man &stomach &rub
+woman &toddler &spin
+cat &sit &run
+dog &toy &take
+man &spotlight &walk
+woman &instrument &play
+crab &screen &move
+couple &park &walk
+woman &bite food &eat
+gentleman &microphone stand &adjust
+conductor &left &lean
+man &fabric &roll
+singer &stand &grab
+lantern &view time &come
+camera &building &walk
+clock &moment &leave
+baby &star &play
+girl &nose statue &touch
+car &track &stop
+somebody &background &run
+line &screen &appear
+woman &violin &play
+bot &computer &work
+plane &building &fly
+man &position &stand
+someone &hat &wave
+waitress &camera &walk
+view &man face &change
+man &gate &move
+man &shirt &wear
+boy &snow &reach
+boy &butt &hit
+man &forehead &wipe
+man &candle &blow
+foot &frame &walk
+man &step &walk
+girl &ball &drop
+creature &man hand &crawl
+plane &group onlooker &fly
+someone &street &walk
+baby &dog &crawl
+woman hand &face &touch
+child &mouth &take
+cat &paw &lick
+tree &view &disappear
+girl &camera &walk
+man &water &stop
+woman &drink &point
+man ingredient &ingredient &mix
+silver stool &view &come
+thing &stage &rise
+camera &object &show
+time woman &frame &step
+person &rope &jump
+plane engine &puff smoke &start
+person &door &slide
+air &pole &split
+stage &frame &go
+man &porch &sit
+man &person camera &start
+man &shot alcohol &take
+guitarist &right &leave
+baby &swinging &start
+girl &side &throw
+customer &store &stock
+dog &view &come
+man &dog &throw
+child &shaker &shake
+camera pan &waterfall &leave
+dancer &girl dancing &pretend
+woman &head &grab
+man &rod &pull
+man &device &assist
+cat &wall &jump
+firework &firework &lead
+trail &view &disappear
+girl &top slide &climb
+camera &bed &move
+boy &microphone &start
+someone &unicycle &ride
+dog &bicycle &retrieve
+person &photograph building &hold
+person &airplane &jump
+boy &bicycle &fall
+monk &stick &rub
+camera &light &look
+baby &eye &open
+screen &hood decal &wipe
+finger &button &push
+girl &something &reach
+girl &nose &bring
+head &mouth &open
+back &time &scratch
+bird &direction branch &face
+man &friend &take
+fan propeller &moment &turn
+man &light &step
+singer &note &hold
+camera &guitar player &zoom
+worker &sign &put
+speaker &screen &point
+baby &corn &bite
+man &computer &sit
+frame &firework explosion &start
+person &hole &poke
+man &camera time &lean
+man &storm &walk
+hand &door &touch
+cat &tube &jump
+man &sled &pull
+tree trunk &frame &pass
+woman &question presentation &ask
+dog &lawn mower &bark
+camera &pot &look
+bike &tricycle &appear
+woman &mouth &touch
+tree &view bridge &cover
+light &time &sweep
+camera &side &flip
+plane &horizon &disappear
+person &building &enter
+airplane &head &fly
+man &view cup &stop
+girl &something &throw
+person &piece &pick
+baby &dog &start
+cat &step &reach
+woman &wave camera &lean
+baby &window &touch
+man &singing &start
+camera &frame &zoom
+man &server &make
+toddler &adult &pick
+mountain &view &enter
+cat &left &turn
+object &view right &come
+billboard &view &come
+girl &bottle &play
+engine &smoke &sputter
+woman &view right &walk
+person &crowd &sit
+person &hand &point
+boat &bridge &come
+baby &head &scratch
+man &item &stick
+person &machine &walk
+time person &thing &bang
+white dog &side dog &walk
+person &right &look
+rhino &foot ground &scuff
+race car &pit &pull
+child &toothbrush &put
+man &screen &change
+person head &view person &come
+person &sunglass &wear
+boy &snowsuit &wear
+ball &play &enter
+camera pan &hair &show
+water &plane wing &become
+man &front &walk
+baby &boy &reach
+woman &camera &giggle
+dog &bush &appear
+cat &time &beg
+woman &man &jump
+person set &wood flooring &peapod
+camera &hand &zoom
+someone &cloth &lay
+dog &snow field &walk
+camera &front building &zoom
+man &collar &lower
+toddler &pedal bicycle &play
+dog &camera pan &appear
+camera pan &pole &leave
+man &swing &make
+camera &speaker &pull
+water &waterfall &flow
+camera &object &zoom
+animal &camera &turn
+person &leg &scratch
+child &swimming &start
+camera &group person &show
+baby &camera &face
+fish &scene &go
+water &gutter &drip
+girl &instrument &put
+rock &view &leave
+tiger &prey &chase
+cow &head &turn
+woman &turn &wear
+seal &fence &walk
+man &face &cover
+light &object &fade
+fish &corner &swim
+man &view &walk
+dog &cat &stop
+bird &panel &walk
+boy &sprinkler &walk
+camera holder &stair &walk
+car &curve &finish
+camera &suit &pass
+dude &plane &jump
+man &right &turn
+airplane wing &frame &stay
+view &view &move
+person &book &read
+camera &check &show
+man &fire stick &blow
+camera &lagoon &zoom
+cat &porch &rub
+man &toddler face &clean
+robot &lifting motion &repeat
+hand &dish &pour
+girl &knee &kneel
+hand &swinging &help
+chicken &board &walk
+stream &time &see
+person &snake &take
+man &crowd &point
+someone &time &run
+person &center stage &come
+person &view &disappear
+woman &pole &grab
+machine &dirt &drop
+cat &circle &turn
+dancer &darkness &appear
+camera &left &pan
+elephant &smoke &snort
+tent &right &disappear
+car &right &pass
+truck &view &come
+child &room &walk
+ball &toy &spin
+cat &person arm &play
+baby &bit &pull
+presenter &time &touch
+man &phone &turn
+person &house &walk
+otter &clip end &disappear
+person &clip &head
+baby &wall &run
+time man &bag &reach
+nobody &arm &wave
+woman &man &laugh
+person &instrument &mimic
+tray &train pass &look
+man &sign &point
+child &guitar &hold
+fire truck &left &leave
+animal &direction &go
+bus &intersection &pass
+camera pan &road &show
+man &chalk board &walk
+someone &frame &enter
+tennis coach &view &leave
+bird &cave &fly
+animal &box &place
+pitcher mound &view &come
+girl &clap &start
+hair &coat &adjust
+cameraman &cat &flop
+roof &view &come
+moon &sock &walk
+woman &time &slap
+fabric &table &put
+man &shoulder &pick
+girl &doorway &walk
+fish &rock &see
+koala &log &flip
+screen &dark &go
+fish &camera &face
+bus &end driveway &stop
+pan &end stage &leave
+man &bike &ride
+guy &frame &walk
+football team &touchdown attempt &fail
+lady &man &stand
+man face &focus &come
+someone &table &take
+dinosaur &view &come
+robot &bridge shame &fall
+car &mud &drive
+woman &paper &put
+car &area &drive
+baby lip &time &move
+girl &hand &raise
+dog &food &walk
+finger &screen &touch
+camera person &look bird &catch
+person &marina &walk
+camera &man hat &move
+man &light &hold
+object &time &see
+baby &drink &take
+girl &frame arm &start
+woman &air quote &use
+camera &time &bounce
+boy &frame &rub
+dog &ball &retrieve
+boy &tongue &stick
+helicopter &view &go
+bird &branch &move
+dog &patio table &run
+woman &frame &walk
+fountain &view &come
+man &phone &put
+child &hand &point
+something &glass water &drop
+horse &horse &start
+cushion &view &come
+hand &box &hold
+ball &air &fly
+puppy &head &lift
+figure &ceiling &descend
+man &ski &pick
+animal &barrel &run
+person &poster &walk
+helicopter &air &fly
+girl &paper &touch
+girl &eye &roll
+person &camera &zoom
+bubble &baby &fall
+singer &time &lean
+foot &view &come
+man &mouth &close
+man &air &toss
+ship &left &leave
+girl &book &hold
+baby &toy time &turn
+man &swing &take
+runner &race &start
+chicken &deck &back
+pen &finger &fall
+man &planter &pick
+man &water &look
+baby &object &chew
+woman &screen door &run
+treat &head &scratch
+something &snake &grab
+train &left &come
+ass fan &view &come
+person &bike &walk
+baby &arm &lift
+animal &frame &move
+mother &pet bed &enter
+man &hand &spin
+girl &right time &look
+bird &bird feeder &fly
+man &jar &tighten
+dog &wall &hit
+boat &water &pass
+knife &food &cut
+baby &brother &turn
+bird &perch &fly
+van &man &pass
+wood banister &view &disappear
+animal &person finger &sniff
+camera &back car &flip
+man &stick &pick
+dog &owner &jump
+kitty &rope &start
+man &camera &run
+something &distance &see
+cyclist &screen &pass
+item &guy &throw
+silver car &rain &drive
+man &frame &come
+girl &circle &spin
+someone &time &point
+server &pizza &serve
+woman &baby &cover
+tablet &glass water &drop
+dog &dog &chase
+woman &boy leg &hold
+cat &bench &run
+screen &box &show
+man &rope &hold
+box &frame &leave
+child &something &put
+dog &mat &see
+camera pan &guy &show
+child &time &face
+camera &smoke &zoom
+fish &camera &swim
+cap &bottle &remove
+rock &guy &fall
+camera pan &rock &run
+horse &screen &enter
+clock face &view &come
+bird &string &fly
+dog &water &shake
+singer &fist &pump
+lady &train ticket &show
+man &air hockey &play
+woman &pool &jump
+man &ground &lay
+person &view &run
+person &ground &pick
+hand &scene &enter
+woman &bell &hit
+person &air &throw
+dog &recliner &head
+camera &person &turn
+man &man &put
+dog &time &jump
+boy &harmonica &blow
+man &pocket &put
+oil car &view &come
+finger &lens move &cover
+camera &right &zoom
+turtle &tray &walk
+blanket &baby &cover
+boy &something square &drop
+man &stick &lick
+car &left &enter
+camera &flower &show
+creature &rock &disappear
+girl &purse &remove
+child &head &throw
+man &arm &lift
+moon &view &go
+race car &view &come
+camera &window &point
+mouse &thing &select
+person &material &pull
+person &truck &pick
+skier &frame &enter
+dog &table &run
+girl &snow &trip
+hamster &view &run
+baby &camera &crawl
+boy &bin &pick
+land &view &disappear
+camera &tree &back
+gerbil &enclosure &run
+bicycle rider &camera &pass
+freighter &view &leave
+guitar player &hair &flip
+gorilla &view &disappear
+car &time &make
+person &camera &walk
+hand &front frame &enter
+person &pizza &serve
+dancer &back &turn
+wasp &wing &flutter
+woman &picture &hold
+man &screen &scroll
+parachute &ground &fall
+monkey &stair set &sit
+man &dancing &see
+cat &cushion &jump
+individual &screen &appear
+dog &owner &nip
+guitar player &time &see
+someone &boy &feed
+bird &mouth &open
+group &tree &huddle
+boat &water &appear
+sunset sunrise &view &come
+vortex &screen &appear
+rain &car &fall
+duck &hill &crest
+hand &wire &take
+baby &bucket &touch
+driver &car &pass
+light &purple &turn
+dog &box &start
+cyclist &camera &ride
+person knuckle &corner &appear
+lady &forehead &wipe
+man &glass &take
+person &lid &remove
+dog &ground &sniff
+man &front drummer &walk
+hand &stuff &drop
+man &hat &hit
+person &snow &walk
+person &circle &begin
+camera &ground &follow
+bird &bush &run
+word &screen &disappear
+light &screen &dash
+man &paper &point
+dog &floor &rub
+excavator &right frame &turn
+camera &object water &zoom
+woman &table &turn
+woman &time &look
+cat &doorway &walk
+baby &bottle &drink
+camera pan &start water &see
+girl &nose statue &stick
+woman &float &put
+lady &skirt &lift
+girl &smile &look
+silver fish &frame &swim
+dancer &stage &see
+light &pattern &begin
+dog &girl &run
+someone &baby nose &poke
+cube &screen &appear
+child &man &run
+someone &baby &give
+camera &skier &zoom
+camera pan &stage banner &reveal
+woman &bird &reach
+girl &dog &pick
+person &time &twirl
+plane &building &go
+skyscraper &view &come
+man &post side &turn
+cat &frame &walk
+time hand &animal &touch
+car &view distance &come
+set &tone &fade
+man &fire &blow
+someone &light &block
+person &time &squeeze
+toddler &bag &drop
+hand &blanket &cover
+girl &boy &put
+tree &grass &fall
+owl &head &turn
+woman &hair &flip
+man &camera &point
+man &child couch &touch
+boy &sofa &jump
+kitten &circle &run
+man &worm &eat
+man &tongue &stick
+boy &circle &move
+baby &food &eat
+man &piece dough &cut
+dog &time &bark
+person &child hand &pat
+person &chair &stand
+person &snow head &brush
+man &fashion &put
+puck &cyclist &pass
+lady &camera &look
+ball &air &toss
+water &pot &dump
+light &structure &go
+chef &grill &wipe
+man &side computer &touch
+camera &flower &zoom
+camera &position &move
+raft &water rapid &enter
+man &cloth &turn
+toddler &window &crawl
+firework &time &explode
+man &step &take
+object &frame &enter
+hand &foreground &appear
+girl &cake &stand
+person &time &start
+dancer &head &touch
+room &view &come
+light &frame &enter
+girl bike &camera view &leave
+chariot &time &pass
+camera &book &turn
+woman &hand &walk
+person &thumb &push
+person &street lamp &film
+group &pledge &raise
+train &frame &go
+child &flotation device &throw
+singer &jacket &take
+lady &scarf &adjust
+person &road &run
+dog &floatation device &go
+camera &someone &leave
+player &ice &kneel
+man &dancing crowd &run
+baby &finger &suck
+person &rock &sit
+camera &guitarist &zoom
+stage &view &leave
+bear &tree &walk
+sign &water &stick
+fly &screen &come
+person &plate &load
+person &background &walk
+dog &dog &sniff
+man &finger &kiss
+person &sidewalk &start
+camera &ocean &show
+man &time &see point
+man &nose &touch
+person &hill &crawl
+cat &side &exit
+building &frame &go
+time camera &fire &zoom
+bird &bag &pull
+animal &trap &run
+person &ski lift &ride
+air balloon &time &see
+baby &stomach &bounce
+baby lift &mouth &leave
+boy &guitar &lift
+pole &view &pass
+cat &back &fall
+person &bottle &take
+cat &circle &spin
+man &hair &touch
+dog &bowl &jump
+person &shoe &drink
+child &ball &walk
+baby &arm &put
+woman &boy &help
+bird &water &see
+performer &arm &move
+baby girl &camera &walk
+hen &hen &fly
+shadow &water &go
+trash man &assistance item &need
+camera &boy arm &show
+man &sky &throw
+girl &food &look
+woman &something &shake
+man &hose &wash
+camera &turkey &zoom
+animal &fence &jump
+man &top rune &reach
+bird &bite food &take
+machine &view &come
+animal &way hill &start
+boy &woman &run
+baby &hand &reach
+something &camera close &pass
+snow &car &splash
+man &string &add
+engine &camera &pass
+boy &room &leave
+plane &roof &fly
+band leader &stage &cross
+violinist &eye &cover
+woman &pointer finger &poke
+man &sign flash &go
+man &piece wood &lift
+something &water &jump
+guy &view &block
+man &hand &run
+child &child cup &touch
+boy &picture &take
+horse &cone &walk
+woman &tassel &adjust
+hand &toy &appear
+vehicle &structure &pass
+child &slide &slide
+motorcycle &motion &resume
+silhouette &time &touch
+woman &golf swing &practice
+dog &water &begin
+baby &book &pick
+baby &time &lift
+person &time &shift
+log &ground &hit
+woman &face screen &sign
+skater &frame &round
+boy &camera &walk
+lady &girl &walk
+rodent &something corner &fight
+man &golf club &swing
+woman &pacifier &take
+person &silver circle &touch
+bug &leg &wiggle
+person &frame &walk
+flag &picture &move
+water &building time &appear
+camera &guy hat &zoom
+baby &thumb &put
+control plane &grass &roll
+finger &baby &tickle
+toddler &toy chair &set
+camera &flame &zoom
+baby move &side stroller &drink
+plane &landing &finish
+lady &finger &stick
+person &rope &go
+musician &sax &play
+woman &wig &put
+person &screen &leave
+waterfall exit &frame &leave
+boy &line &begin
+hockey player &balance &loose
+baby &head &lift
+camera &bit &shuffle
+waiter &camera &walk
+man &model boat &touch
+cat &time &look
+dog &camera &turn
+time text &screen &show
+pathway &view time &come
+someone &swing &flip
+camera &ocean &zoom
+crowd &number &make
+man &wood &walk
+diver head &view &come
+camera &girl hair &show
+lady &foot &tap
+car &line &take
+monitor &view &come
+child &right &look
+baby &bite pizza &take
+man &drawing board &sit
+man &chunk snow &put
+drummer &time &switch
+man &man shoulder &tap
+person &butterfly street &dress
+cat &ball &play
+person &pants &wear
+cat &laser pointer &chase
+man &look &face
+person &leg &lift
+motorcycle &view &come
+smoke &side screen &reach
+head &view &disappear
+toy &mouth &put
+something &time &appear
+hand &peace sign &make
+dog &camera &tilt
+tugboat &view &come
+group &dance &raise
+something &roof &throw
+baby &hair &take
+baby &sucker &throw
+baby &blanket &unwrap
+camera &panda &zoom
+man &table &look
+cat &paw &lift
+stair &view &come
+car &turn &go
+man &hand &throw
+baby &rug &crawl
+woman microphone &camera &walk
+bus &right &leave
+camera &car &show
+pigeon &step &start
+person &track &run
+shadow &stone structure &appear
+dog &fence &jump
+fish &past &swim
+person &kangaroo &approach
+girl &left &point
+object &sky &show
+ambulance &group car &disappear
+car &right &turn
+child &rake &scratch
+man &microphone &grab
+china girl &face &show
+car &person &drive
+otter &circle &spin
+plane &view &come
+girl &hair &adjust
+man &wave bump &go
+person &circle &spin
+woman &step mountain &take
+symbol &screen &appear
+camera pan &wheel &show
+rabbit &bite &go
+lake &view left &move
+dad &child &hold
+luggage car &airplane &pull
+triangle &statue &top
+person &front band &jump
+train car &view &leave
+camera &man face &zoom
+animal &background &hop
+camera &side briefly &flip
+lady hand &time &see
+child &slide &go
+map &view &come
+woman &cameraman &call
+girl &pool &jump
+camera &divide bridge &reach
+man &hand &rub
+man &snow figure &hug
+video &right &pan
+man &stage &walk
+snake &camera &turn
+person &bunny suit &dress
+band &show &play
+woman &folder &take
+bug &hole &crawl
+camera &way &work
+balloon &screen &hit
+man &runway &start
+finger &something board &point
+person &balloon &step
+stone column &view &come
+cat &cushion &walk
+person &time &use
+finger &time &touch
+girl &slide &ride
+camera orientation &waterfall &capture
+cameraman &card &hold
+man &something &drop
+man &dog &start
+girl &ball &throw
+goalie &goal &skate
+stingray &left &swim
+animal &head &pop
+camera &child &go
+eagle &spot &walk
+man &hand &point
+person &church &sit
+baby &bit &bounce
+man &dog mouth &remove
+person &middle frame &walk
+bus &left &pass
+person &tree branch &walk
+man &object &point
+cab &camera &pass
+camera &horse butt &zoom
+bike &vehicle &pass
+man &dog &unleash
+dog &musician &pass
+man &tie &wear
+man &thing &pick
+robot &view &run
+child &brush &take
+man &head &scratch
+phone &right &tilt
+pit crew &car &run
+man &sunglass &wear
+camera &right guy &turn
+man &tent &sleep
+girl release &lane &bowl
+boy &line &reel
+baby &hand &hold
+adult &view &come
+wave &animal track &touch
+baby &dog &look
+squirrel &camera &pose
+baby &bubble wand &reach
+something &tree &drop
+bird &bag &grab
+camera &pavement &zoom
+baby &arm &nibble
+person &bottom &reach
+baby &toy saucer &play
+car &view &drive
+hand &ground &smack
+person &bonnet &hold
+elephant &right &walk
+buffalo &view &run
+man &time &wear
+cameraman &end street &reach
+mulch &truck bed &load
+woman &microphone &put
+puppy &camera &look
+boy &something &pick
+turtle &scene &come
+someone &door vehicle &open
+camera &statue &show
+hand &knife &pick
+man hand &side frame &creep
+child &enclosure &step
+car &wall &run
+girl &stick &look
+someone &man cup &grab
+boy &porch &run
+bear &tree &go
+man &camera &face
+fish &water &move
+man &building &throw
+animal &camera &run
+man &time &talk
+child &ball &swing
+band &screen &see
+boy &bridge &throw
+dog &something &chew
+person camera &camera &carry
+arm &wheel &put
+dog &man &move
+cyclist &time &pass
+baby &balloon &look
+baby &head &turn
+man &wheelbarrow &walk
+baby &food &scoop
+animal &left &look
+person &swing &push
+person &bird &reach
+camera &cave entrance &zoom
+person &something &wear
+rodent &back &fall
+man &drum &play
+chef &dough &pick
+mother dog &crib &walk
+child &head &shake
+seal &pool time &jump
+time child &bite &take
+person &ground &appear
+baby &snack &hold
+hand &display &touch
+dog &gutter ball &bowl
+camera &side &come
+child &chair &hit
+dog &water &grab
+man &stage &climb
+engine &scene &leave
+man &group &take
+child &bike &walk
+camera &girl walking &zoom
+child &toy &raise
+guy &arm &raise
+camera &duck &show
+brick tower &frame &leave
+pug &camera &come
+man &time &place
+camera &field &pan
+person &bag &receive
+tiger &chicken &grab
+train car &view &enter
+gentleman &unison &move
+camera &label &zoom
+object &house &move
+car &screen &appear
+computer monitor &view &come
+plane &ground &lift
+lab &swimming pool &jump
+man &baseball hat &wear
+person &side &roll
+wedding party &hand &throw
+man scarf &wind &blow
+man &food &cut
+girl &arm &flap
+flashing &light &flicker
+person &bus &walk
+boy &head &lift
+man &blindfold &put
+beach goer &head &rub
+woman &arm &raise
+man &crowd &show
+someone foot &bucket &move
+man &hair &put
+baby &table &stand
+guy &time &hit
+game &score &end
+person &lady &walk
+baby &way &lay
+man &rope &pull
+puppet &screen &show
+man &control &lose
+cat &laser &chase
+camera &city &move
+vehicle &right &pass
+woman &boy &pick
+child &hat &put
+man &ear &place
+person &camera &take
+girl &time &hit
+man &finger &hold
+trumpet player &nose &rub
+camera &bike &pass
+woman &excitement &shake
+camera &duo &zoom
+group &hand &raise
+camera &plane &follow
+man &back alligator &ride
+camera &person &pan
+fish &middle frame &swim
+onlooker &picture &take
+camera &sign &pass
+boy &train &outrun
+baby &dog paw &reach
+woman &time &blink
+dog &camera &sniff
+man &child &throw
+woman &crowd &shake
+bird &tree &appear
+dog &bed &begin
+man &camera &speak
+sign &view &cover
+jet &view time &fly
+person &hand &splash
+hand &tip &squeeze
+camera person &snow &move
+person &tree &see
+girl &hand &put
+baby &tummy &crawl
+baby &paper &walk
+camera &roller coaster &point
+woman &screen &walk
+hand &balloon &smack
+girl &object &put
+shark &view &go
+wheel &view time &leave
+girl &jacket &wear
+child &camera &walk
+water &camera &explode
+woman &view &describe
+person &baby &poke
+man &something snow &read
+street &view &come
+shadow &frame &enter
+child &instrument &take
+face &bottom scene &appear
+man &screen &turn
+dog &bar &jump
+child &bottom &reach
+girl &book &arrive
+bicyclist &road &ride
+climber &hand &let
+chicken &wood &emerge
+baby &something &pick
+vehicle &right &move
+baby &toy &bite
+girl &wagon &pull
+shadow &view &come
+boy &object &set
+light &time &shine
+camera pan &water &show
+bird scratch &claw &face
+car &platform &drive
+baby &cat &roll
+crumb &frame &appear
+woman &dog show &walk
+falcon &handler hat &bite
+woman &baby face &cover
+sun &ocean &shine
+woman &towel &spin
+object &water &appear
+dog &kitten paw &lick
+man &camera &adjust
+person &sidewalk &cross
+horse exit &time &view
+time person &frame &leave
+camera &left &rotate
+cat &direction &look
+cat &camera view &walk
+someone &time &pull
+girl &curtain &come
+device &side &turn
+cat &view right &go
+dog &front paw &move
+man &baby &lift
+ballerina &stage &dance
+man &right &point
+girl &couch &leap
+person shirt &shirt &stand
+person &building &walk
+man &rope &arrive
+runner &butt &lift
+cat &bookcase &jump
+dog &window &leave
+beagle &camera &look
+girl &camera &wave
+woman &window &walk
+child &toy &move
+guy &something podium &move
+lady &candle &light
+vehicle &parade &drive
+speaker &arm &stretch
+firework &camera &pass
+girl &television &walk
+something &box &remove
+man &pocket &reach
+camera move &lamp &leave
+angle &panic frame &zoom
+camera &fire ant &zoom
+cat &camera &stare
+boy &shaker &throw
+climber &foot &stand
+woman &hand &take
+man &leg &hit
+black dot &time &drop
+snail &worm text &eat
+fish &fish &fight
+woman &microphone &sing
+person &amphitheater &walk
+girl &side rink &walk
+player &formation &break
+woman &leg &pat
+guy &china &tour
+cameraman &camera &walk
+woman &circle &twirl
+performer &toe &raise
+bird &feeder &show
+train &thing railroad &pass
+person sign &cent &say
+duck &row &back
+airplane &sun &pass
+baby &woman &hug
+guinea pig &frame &enter
+truck &river &cross
+diver &view &come
+hand &kitten &wake
+tree &wind &blow
+boy &pool &throw
+boy face &view &come
+spotlight &camera &shine
+boy &flag &wave
+woman &couch &fall
+snake &camera &lunge
+monkey &ground &jump
+lynx &frame &walk
+cat &bowl &look
+bird &camera &fly
+guy &something pocket &look
+audience &view &disappear
+seal &water &jump
+child roll &ball &bowl
+man &book &pick
+bird &feeder &fly
+woman &tambourine &shake
+person &manta ray &swim
+person &corner &stand
+ship &distance &see
+truck &boat drive &pull
+time light &cube structure &go
+person &time &bounce
+man &hand &talk
+figure &level detail &show
+guy &name tag &point
+camera shift &time &view
+bird &post &feed
+food &man &throw
+baby &toy floor &pick
+man &shoe &pull
+woman &dog &put
+cat &cloth &walk
+man &car &put
+clock tower &view &come
+baby &chair &move
+firework &sky &show
+woman &paper &hold
+ghost &time &appear
+person &aquarium rear &walk
+girl &time &stand
+woman leg &screen panel &appear
+man &paper &pull
+child dancing &time &see
+car headlight &tree &come
+baby &mirror &touch
+person &dough &flatten
+flat &stadium &go
+man &leg &uncross
+man &frame right &enter
+otter &pool &jump
+sea &water &jump
+light &tower &fill
+cup &frame &come
+light &stage &flicker
+person &pool &jump
+cat &keyboard &lick
+child &music &read
+boy &face &make
+woman &right camera &enter
+animal &animal &attack
+house &frame &come
+man &phone &hold
+light &back stage &appear
+boy &lady &walk
+camera &left &start
+light &pattern &flash
+toddler &step &lean
+cart &path &reach
+horse &stop &come
+man &hand &place
+dog &house &run
+robot &boy &move
+building &scene &leave
+girl &stair &walk
+man &crowd &walk
+baby &crib &bite
+spotlight &crowd &shine
+car &saxophone player &drive
+bird &circle &move
+dog &obstacle course &run
+woman &lane &throw
+time cat &camera &turn
+torch &night &blow
+water &water fountain &begin
+baby &sled &fall
+fish &middle frame &start
+man &sheet &haul
+index finger &baby &poke
+woman &boy leg &grab
+tree &frame &go
+camera &word paper &zoom
+leaf &frame &come
+object &air &throw
+woman &boy &step
+dog &go ball &let
+dog &gate &jump
+screen &musician &turn
+man &event &start
+plane &roof building &go
+player &banner &hold
+dog &frame &squat
+presentation &animal &show
+cat &stomach &roll
+camera &train &zoom
+toucan &beak &open
+camera &right time &move
+truck &camera view &show
+girl &bite &take
+head &water time &come
+car &tree &pass
+dog &ball &kick
+time otter &left &look
+camera zoom &train &move
+camera &screen &zoom
+plane &sight &go
+camera man &face &show
+toddler &ground &throw
+finger &time &press
+train &view &enter
+sidewalk &view &come
+dog &dog &juke
+bird &water &jump
+elephant &front pool &walk
+child &slide stomach &slide
+camera &picture baby &take
+man &menu &turn
+car &left &zoom
+person &mouth &put
+baby &corner cloth &lift
+girl &bow &take
+man &baby &turn
+someone &phone &raise
+guy &fives &give
+oven &appearance &make
+child &rock &climb
+person &pinkie finger &start
+baby &camera &look
+woman &something &pour
+horse &view &cross
+cat &row &fall
+someone &ladder &hold
+camera &area &zoom
+girl &stop &come
+child &frame &walk
+hamster &peanut &walk
+man &jacket &take
+person &stage &wear
+person &card &open
+man &bedding &adjust
+boy &grass &make
+parrot &right cage &move
+woman &cup &hold
+dog &hind leg &stand
+screen &frame &come
+toy &time &blink
+boy &ramp &fall
+shadow &ice cream &go
+woman &bus &stand
+something &person foot &run
+team &view &come
+man &ear &begin
+man shoulder &view &come
+dog &something distance &start
+cable car &frame &leave
+helicopter &chicken suit &approach
+baby &hand &eat
+man &side field &walk
+train engine &frame &leave
+vehicle &road child &pass
+guitarist &head &bob
+woman &car &walk
+child &fork &twirl
+man &hat &remove
+duck &sidewalk &show
+bike &camera &pass
+auctioneer &right &begin
+camera &moment &turn
+time sculpture &view &come
+man &shoe &drink
+man &hand &lean
+baby &arm &reach
+camera &tree &show
+woman &turn &look
+cat &blanket &snuggle
+camera &divide &reach
+person &ball &roll
+someone &swimming &see
+dog &camera &approach
+bird &sky &arrive
+time man &camera &talk
+camera &left &shift
+girl &sign &hold
+woman &screen &go
+person &rock face &travel
+camera &sun &move
+cat &toy &play
+fighter &time &kick
+chess player &move &make
+ship &ree &hide
+person &bridge &walk
+child &object &walk
+man &check &talk
+dog &floor &lay
+camera &branch &look
+child &leg &lift
+baby &book &eatt
+camera &ceiling &show
+bird &side cage &crawl
+fish &bottom tank &see
+roller coaster &peak &descend
+light &center light &appear
+man &baby &put
+hand &flower &touch
+child attention &center right &go
+arm &time &see
+person &sax &put
+scene &tree left &turn
+boy &store &run
+cat &view &leave
+dark barge &right &pass
+squirrel &wire fence &climb
+fish &fin &uncurl
+baby &leg &lift
+cat &door camera &enter
+lady &view &disappear
+stick &center square &prod
+woman &eye &rub
+camera pan &door &see
+child &circle &spin
+guy &torch &move
+woman &ice sport &practice
+camera &view road &show
+car &time &pass
+cat &couch &jump
+man &second &lick
+man jacket &arm &cross
+raccoon &gate &begin
+floor &treat &find
+snake &mouth &open
+plane &sky &appear
+person &water &run
+flash &sky &see
+line &side shot &creep
+caboose &time &pass
+yard &view &come
+light &time &start
+person &sign street &hold
+animal &camera &face
+man &something &finish
+song lyric &screen &appear
+man &back frame &walk
+bird &water &fly
+projector &darkness &illuminate
+foot &bottom &enter
+time train &left &pass
+girl &waterfall &pose
+dog &water &look
+camera &table electronics &zoom
+group &tree &leave
+camera &clock &zoom
+child &sled &fall
+hand &handle &go
+arrow &ground &light
+kitten &kitten &pounce
+light &frame &move
+tree branch &ground &fall
+person &boy &take
+baby &camera &yell
+man &water &fall
+woman hand &baby &stroke
+baby &table &touch
+camera &hiker &show
+person &jacket &wear
+foot &frame &appear
+time child &eye &rub
+child &mouth &put
+dog &camera &run
+hand &baby head &rub
+climber &arm &reach
+man &head &shake
+cave wall &view &zoom
+baby &side side &bounce
+man &phone &talk
+camera &tree &zoom
+baby &eye &touch
+skier &camera &go
+car &shot &come
+bed &laser beam &chase
+woman &dark &take
+man &bow &give
+guinea pig &food &spit
+hand &baby &feed
+baby &hand &pull
+dog &left &look
+animal &wall &run
+woman &ball &grab
+tram driver &camera &pass
+child &walkway &walk
+dancer &dance &prepare
+kitten &string &chew
+baby &patio &walk
+person &cap bottle &unscrew
+sign &frame &pass
+train engine &view &come
+camera &top building &move
+camera &audience &show
+boat &buoy &pass
+man &something floor &pick
+something &head &stick
+carpet &view &come
+hand &water &pour
+dog &snow &run
+balcony exit &time &view
+bird &pool &come
+hoodie &boy &fall
+man &bow &lower
+dog &view &walk
+camera &stuffing turkey &focus
+girl &counter &skate
+man &fighting skill &demonstrate
+train &stop &come
+hand &side frame &see
+tarp &something &cover
+guy &weight &pick
+boy &towel &drop
+man &beverage &hold
+person &photograph &hold
+plant &view background &come
+adult &toddler hand &take
+sled &camera &pass
+person &camera &wave
+bus &ground &pass
+dog &bottle &flip
+camera pan &crowd &leave
+camera &elephant &show
+fish &boat &appear
+girl &couch &walk
+man &hat &put
+bird &bird &peck
+line &time &disappear
+woman &street &ride
+man &frame &laugh
+woman &camera &turn
+squirrel &peanut &pick
+dog &brick &sniff
+man &time &grab
+doctor &father &hug
+woman &paper &shake
+girl &microphone &sing
+child &pacifier &drop
+deer &left &wander
+cat &view &enter
+helicopter &guy &approach
+bicycle &railing &lean
+camera &look wheel &zoom
+time girl &book &cover
+person &field &run
+woman &object &hold
+dog snatch &child &object
+dog &face camera &turn
+building &lattice pattern &light
+person &grass &roll
+dog &flowerpot &jump
+camera pan &post &show
+blue &view &come
+camera person &turnstile &go
+child &toy table &pick
+man &bag &carry
+man &ground &wrestle
+dog head &frame &take
+person &man &look
+man &boxing game &stretch
+boy &spoon &eat
+woman &baby &tickle
+cat &crate &jump
+dog &bucket &jump
+fish &frame &leave
+car &crowd &show
+person &something &grab
+baby &top chest &reach
+cat &master &jump
+person &exit &make
+baby &pool &crawl
+camera view &bit &shake
+car &control &lose
+cyclist &cargo &check
+light vehicle &camera &pass
+guitarist &arm &stretch
+bird &rail &fly
+plane moving &time &see
+cat briefly &camera &look
+skier &bottom &reach
+person &baby &adjust
+sunlight &hill &gleam
+man &golf ball &hit
+woman &side hip &touch
+toddler &toilet lid &close
+girl &toy &hold
+plane &tree &fly
+camera &someone &zoom
+cat &window &jump
+man &device &fill
+light &cave &appear
+shirt &frame &enter
+girl &beer &spit
+train &frame &pass
+man &container &empty
+door &time &shut
+cat &side head &scratch
+boy &ball &pick
+woman &finger &touch
+boy &camera &smile
+camera &someone &move
+animal &water &enter
+car &wood wall &run
+baby duck &water &swim
+child &time &close
+man &nose &scratch
+turkey &side &stand
+man &box &drop
+flag &pole &get lift
+wheel &spinning &keep
+camera &construction guy &zoom
+driver &pickup truck &pass
+mother &child &pick
+lady &camera &walk
+child &pole &grab
+person &champagne &start
+dog &gate &walk
+child &book &turn
+shirt &ground &fall
+man &head &turn
+man &label &point
+camera &piano &show
+mother &basket &step
+camera &bathroom &enter
+camera move &person &show
+boat &view side &come
+man &foot &shake
+cat &clip &swallow
+hand &string &grab
+boy &ball &hit
+train &bend &come
+woman &frame &pass
+man &shingle &nail
+camera star &girl &walk
+man &dancer &walk
+baby &fist &make
+child &instrument &stand
+protester &clapping &start
+cat &person &run
+camera &sign lettering &show
+exerciser &arm &raise
+girl &couch &climb
+spark &man foot &hit
+someone &man &walk
+woman &hand &switch
+man &climber &catch
+tower &view &pass
+animal &object &disappear
+boy &time &kick
+girl &ribbon wand &twirl
+camera &house &turn
+pole &view &come
+flash &float &go
+boy &neck &scratch
+person &object &pick
+dog &side &lay
+machine &object &lift
+car &direction &turn
+circle &woman microphone &flash
+rhino &foot &scuff
+bird &head &lift
+truck &right &turn
+camera &man &focus
+dancing woman &time &spin
+baby &foot &grab
+person &bite &take
+umbrella &view &come
+lady &hip &hit
+zombie bride &camera &lean
+boat &view &come
+man &alligator &grab
+television &camera &move
+person &left &lean
+woman &man &stand
+bottle &object &fall
+bunny &time &look
+chicken &wing &flutter
+girl &glass liquid &take
+turtle &left &begin
+driver &wheel &hand
+bird &direction &cross
+toy bus &right screen &drive
+dog &run master &start
+scoreboard &view &come
+robot &left &enter
+man &woman face &touch
+camera &screen &go
+lady &finger &sen
+guy &leg &kick
+viewer &bus sign &pass
+batter &contact &make
+camera &silver dirt &zoom
+man &object &hammer
+girl &page &flip
+woman &place &run
+girl &harmonica &play
+lady &time &squeeze
+girl &leg &kick
+man &fist &raise
+firework &unison &burst
+plane &box &rotate
+driver &camera &look
+hand &baby arm &grab
+woman &chest &remove
+claw &something &pick
+cat &camera &appear
+camera &bottom bucket &focus
+hand &dough &fold
+pitcher &time &throw
+man &person &touch
+trailer &frame &move
+camera &front &show
+fish &frame &enter
+person hand &screen &touch
+man &end &slide
+baby &ledge &lean
+train &station &pull
+man &camera &cross
+flag &breeze &flap
+woman &head &touch
+cat &hallway &run
+man &ground &land
+person &stick &carry
+family &museum &walk
+man &head &begin
+lady &food &eat
+cat &dog &swipe
+shadow &corner frame &flash
+rat &leg trap &make
+baby &hand &grab
+guardrail &view &come
+baby &toy car &drop
+person &grave &walk
+balloon &time &pass
+person &button &push
+boy &something box &pick
+otter &circle &swim
+camera &view &show
+camera &rock &view
+bear &tree trunk &lick
+entertainer &preparation trick &pull
+head &cup &put
+cat &laser &pounce
+animal &surface &dive
+toy &time &move
+person &van &step
+firework &sky &go
+mantis &time &move
+dog &object &run
+man &drawing board &draw
+baby &mouth &take
+bird &time &grab
+truck &view &drive
+man &peace sign &flash
+animal &time &wiggle
+sky exit &time &view
+hand &key &move
+boy &hand &leave
+foot &view &walk
+motorcycle &person &ride
+cube &love &spell
+girl &baby &move
+cat &toy &run
+camera &man helmet &show
+cork &bottle &pop
+person &direction runner &walk
+cat &newspaper &walk
+girl &eye &rub
+toddler &hand &put
+woman &head side &bob
+singer &microphone cord &unstick
+fish &view time &come
+woman &right &hold
+girl &dog &play
+woman &horse &walk
+person &arm &raise
+boy &scooter &fall
+girl &boy &give
+woman &microphone &hold
+woman &bottle &slip
+tree &view &leave
+time goalie &shot &block
+man &cap &wear
+man &camera &blow
+girl &phone &hold
+vehicle &beach &leave
+text &screen &show
+camera &orchestra &zoom
+driver &side road &pass
+child &pool &jump
+woman face &frame &disappear
+camera &floor &show
+woman &motorcycle &move
+man &pole &stab
+car &wheel &go
+rock &frame &leave
+fly &screen &fly
+lady &head &hold
+someone &swinging child &throw
+dump truck &view &come
+finger &frame &come
+girl &door &come
+spotlight &concert &shine
+camera &shoe &turn
+light &time &fade
+time man &darkness &step
+crop &filter &see
+man &piano &play
+girl &singing choir &fall
+photographer &picture couple &take
+person &time &hit
+turtle &surface water &reach
+girl &room &run
+man hand &screen &cover
+man &something ground &pick
+man &mouth &take
+screen &view &disappear
+girl &cart &push
+train &station &arrive
+person &stand &remove
+camera &motorcycle &fly
+man &cat head &tickle
+person &drink &chug
+man &log &stab
+chicken &wing &open
+girl &man hand &take
+person &screen &walk
+cloud &sky &fill
+man &bowl &pour
+frame &pipe opening &show
+man &toy &touch
+decker bus &corner &turn
+camera &fish &view
+someone &dog toy &throw
+child &back &float
+person &left &jump
+graduate &stair &slip
+man &table &sit
+baby &crawl &try
+boy &computer &use
+car &storm &park
+boat &ocean &go
+baby &ground &fall
+tree &bottom clip &cover
+deer &head &lift
+bird &head &turn
+water &frame &see
+support &climber &catch
+bird &front &turn
+leg &rope &step
+cat &cat &join
+camera &firework sky &show
+girl &duck &drop
+man &side lip &lick
+horn player &horn &raise
+person &broom &push
+man &performance &scurry
+dog &side &walk
+girl &ball &grab
+camera &girl face &show
+camera &speaker &zoom
+man &baby &kiss
+woman &position &stand
+person &switch finger &point
+coach ref &arm &hold
+singer &leg &kick
+camera &building &turn
+person &camera &appear
+lady &face &touch
+car &road sign &pass
+camera &tree &go
+car &bicyclist &pass
+child &hand &take
+kitty &bookshelf &jump
+boat &bridge &go
+camera &camera &scream
+woman &candle &blow
+stage &light &become
+man &dough &slice
+camera &waterfall &zoom
+baby arm &shirt hole &pull
+woman &graduate &embrace
+child &object &take
+camera &man ground &zoom
+crane &boat &pick
+baby &frame &leave
+person &leg &kick
+man &band &walk
+truck &side road &drive
+person &object &stand
+woman &foot &move
+man &boulder shore &walk
+light &window building &turn
+man &stroller &push
+bird &fish &go
+person &side hug &come
+dog &seesaw &run
+man &shorts &pull
+show &frame &appear
+man &glass &put
+person &face &give
+man &chair &move
+lady &note &hold
+person &window &walk
+microphone &hand &stand
+baby &camera view &come
+car &control &spin
+toy &camera &begin
+nurse &ear &adjust
+boy &dock water &jump
+person &shell egg &crack
+hand &bowl &pick
+lady &camera &go
+girl &camera &turn
+boat &bridge &emerge
+someone &right &head
+man &pocket &pull
+column &view &pass
+camera &hat girl &go
+woman &horse &lead
+man &weight &shift
+someone &something &place
+man &flag &hold
+dog &park bench &jump
+camera &water &shift
+hat &frame &disappear
+turtle &head &pop
+man &screen &point
+guy &shoe &put
+woman &clapping &start
+car &screen &disappear
+man &table &touch
+hen &bucket &look
+man &bottom &flip
+batter &camera &face
+taxi &street &pass
+fish &feeding frenzy &pass
+person &lane &run
+camera &church choir &zoom
+man &time &leave
+dog &shore &come
+child &camera &smile
+puppy &plant &climb
+joe &view &come
+camera pan &rock &leave
+man &past &walk
+man &stage &stand
+dog &bottle &start
+dog &foot &lick
+woman &menu &put
+person &deck &start
+girl &trash &walk
+woman &finger &put
+driver &arm &hold
+camera &field &start
+mother dog &puppy &lick
+baby &side &turn
+cat &squirrel &look
+man &picture &hold
+group &turn &make
+camera &scene &zoom
+wave &rock &crash
+camera &bottom ocean &leave
+baby &dog &fall
+word &screen &fade
+dog &camera &face
+stick &view &come
+person &chapel &show
