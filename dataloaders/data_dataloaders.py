@@ -7,6 +7,7 @@ from dataloaders.dataloader_msvd import MSVD_DataLoader
 from dataloaders.dataloader_didemo import DiDeMo_DataLoader
 from dataloaders.dataloader_vatex import VATEX_DataLoader
 from dataloaders.dataloader_activitynet import ActivityNet_DataLoader
+from dataloaders.dataloader_charades import Charades_DataLoader
 
 def dataloader_msrvtt_train(args, tokenizer):
     msrvtt_dataset = MSRVTT_TrainDataLoader(
@@ -22,6 +23,7 @@ def dataloader_msrvtt_train(args, tokenizer):
         frame_order=args.train_frame_order,
         slice_framepos=args.slice_framepos,
         video_data_type=args.video_data_type,
+        audio_path=args.audio_path,
     )
 
     train_sampler = torch.utils.data.distributed.DistributedSampler(msrvtt_dataset)
@@ -51,6 +53,7 @@ def dataloader_msrvtt_test(args, tokenizer, subset="test"):
         video_data_type=args.video_data_type,
         aug_json_path=args.aug_json_path,
         fqs_k=args.fqs_k,
+        audio_path=args.audio_path,
     )
     dataloader_msrvtt = DataLoader(
         msrvtt_testset,
@@ -75,6 +78,7 @@ def dataloader_msvd_train(args, tokenizer):
         frame_order=args.train_frame_order,
         slice_framepos=args.slice_framepos,
         video_data_type=args.video_data_type,
+        audio_path=args.audio_path,
     )
 
     train_sampler = torch.utils.data.distributed.DistributedSampler(msvd_dataset)
@@ -105,6 +109,7 @@ def dataloader_msvd_test(args, tokenizer, subset="test"):
         video_data_type=args.video_data_type,
         aug_json_path=args.aug_json_path,
         fqs_k=args.fqs_k,
+        audio_path=args.audio_path,
     )
     dataloader_msrvtt = DataLoader(
         msvd_testset,
@@ -128,6 +133,7 @@ def dataloader_vatex_train(args, tokenizer):
         frame_order=args.train_frame_order,
         slice_framepos=args.slice_framepos,
         video_data_type=args.video_data_type,
+        audio_path=args.audio_path,
     )
 
     train_sampler = torch.utils.data.distributed.DistributedSampler(vatex_dataset)
@@ -158,6 +164,7 @@ def dataloader_vatex_test(args, tokenizer, subset="test"):
         video_data_type=args.video_data_type,
         aug_json_path=args.aug_json_path,
         fqs_k=args.fqs_k,
+        audio_path=args.audio_path,
     )
     dataloader_vatex = DataLoader(
         vatex_testset,
@@ -181,6 +188,7 @@ def dataloader_didemo_train(args, tokenizer):
         frame_order=args.train_frame_order,
         slice_framepos=args.slice_framepos,
         video_data_type=args.video_data_type,
+        audio_path=args.audio_path,
     )
 
     train_sampler = torch.utils.data.distributed.DistributedSampler(didemo_dataset)
@@ -211,6 +219,7 @@ def dataloader_didemo_test(args, tokenizer, subset="test"):
         video_data_type=args.video_data_type,
         aug_json_path=args.aug_json_path,
         fqs_k=args.fqs_k,
+        audio_path=args.audio_path,
     )
     dataloader_didemo = DataLoader(
         didemo_testset,
@@ -235,6 +244,7 @@ def dataloader_activitynet_train(args, tokenizer):
         frame_order=args.train_frame_order,
         slice_framepos=args.slice_framepos,
         video_data_type=args.video_data_type,
+        audio_path=args.audio_path,
     )
 
     train_sampler = torch.utils.data.distributed.DistributedSampler(activitynet_dataset)
@@ -265,6 +275,7 @@ def dataloader_activitynet_test(args, tokenizer, subset="val"):
         video_data_type=args.video_data_type,
         aug_json_path=args.aug_json_path,
         fqs_k=args.fqs_k,
+        audio_path=args.audio_path,
     )
     dataloader_activitynet = DataLoader(
         activitynet_testset,
@@ -276,11 +287,67 @@ def dataloader_activitynet_test(args, tokenizer, subset="val"):
     return dataloader_activitynet, len(activitynet_testset)
 
 
+def dataloader_charades_train(args, tokenizer):
+    charades_dataset = Charades_DataLoader(
+        csv_path=args.train_csv,
+        narration_path=args.narration_path,
+        features_path=args.features_path,
+        max_words=args.max_words,
+        feature_framerate=args.feature_framerate,
+        tokenizer=tokenizer,
+        max_frames=args.max_frames,
+        frame_order=args.train_frame_order,
+        slice_framepos=args.slice_framepos,
+        video_data_type=args.video_data_type,
+        audio_path=args.audio_path,
+    )
+
+    train_sampler = torch.utils.data.distributed.DistributedSampler(charades_dataset)
+    dataloader = DataLoader(
+        charades_dataset,
+        batch_size=args.batch_size // args.n_gpu,
+        num_workers=args.num_thread_reader,
+        pin_memory=False,
+        shuffle=(train_sampler is None),
+        sampler=train_sampler,
+        drop_last=True,
+    )
+
+    return dataloader, len(charades_dataset), train_sampler
+
+
+def dataloader_charades_test(args, tokenizer, subset="test"):
+    charades_testset = Charades_DataLoader(
+        csv_path=args.val_csv,
+        narration_path=args.narration_path,
+        features_path=args.features_path,
+        max_words=args.max_words,
+        feature_framerate=args.feature_framerate,
+        tokenizer=tokenizer,
+        max_frames=args.max_frames,
+        frame_order=args.eval_frame_order,
+        slice_framepos=args.slice_framepos,
+        video_data_type=args.video_data_type,
+        aug_json_path=args.aug_json_path,
+        fqs_k=args.fqs_k,
+        audio_path=args.audio_path,
+    )
+    dataloader_charades = DataLoader(
+        charades_testset,
+        batch_size=args.batch_size_val,
+        num_workers=args.num_thread_reader,
+        shuffle=False,
+        drop_last=False,
+    )
+    return dataloader_charades, len(charades_testset)
+
+
 DATALOADER_DICT = {}
 DATALOADER_DICT["msrvtt"] = {"train":dataloader_msrvtt_train, "val":dataloader_msrvtt_test, "test":None}
 DATALOADER_DICT["msvd"] = {"train":dataloader_msvd_train, "val":dataloader_msvd_test, "test":dataloader_msvd_test}
 DATALOADER_DICT["vatex"] = {"train":dataloader_vatex_train, "val":dataloader_vatex_test, "test":dataloader_vatex_test}
 DATALOADER_DICT["didemo"] = {"train":dataloader_didemo_train, "val":dataloader_didemo_test, "test":dataloader_didemo_test}
 DATALOADER_DICT["activitynet"] = {"train":dataloader_activitynet_train, "val":dataloader_activitynet_test, "test":None}
+DATALOADER_DICT["charades"] = {"train":dataloader_charades_train, "val":dataloader_charades_test, "test":dataloader_charades_test}
 
 

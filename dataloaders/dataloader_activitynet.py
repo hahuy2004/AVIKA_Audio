@@ -8,6 +8,8 @@ from torch.utils.data import Dataset
 import numpy as np
 import json
 import math
+import torch
+import torchaudio
 from dataloaders.rawvideo_util import RawVideoExtractor
 from dataloaders.rawframes_util import RawFrameExtractor
 
@@ -28,6 +30,7 @@ class ActivityNet_DataLoader(Dataset):
             video_data_type='frames',
             aug_json_path=None,
             fqs_k=2,
+            audio_path=None,
     ):
         self.data_path = data_path
         self.narration = json.load(open(narration_path, 'r'))
@@ -45,6 +48,7 @@ class ActivityNet_DataLoader(Dataset):
         # video_data_type: 'video' or 'frames'
         self.video_data_type = video_data_type
         assert self.video_data_type in ['video', 'frames']
+        self.audios_path = audio_path
 
         # ----------- New: aug_data & fqs_k -----------
         self.fqs_k = fqs_k
@@ -396,6 +400,40 @@ class ActivityNet_DataLoader(Dataset):
 
         return narration, caption_word_masks
 
+    def _get_rawaudio(self, choice_audio_ids, sample_rate=16000):
+        target_length = 1024
+        norm_mean = -5.118
+        norm_std = 3.2527153
+        fbanks = torch.zeros((len(choice_audio_ids), target_length, 128))
+        for i, audio_id in enumerate(choice_audio_ids):
+            audio_path = os.path.join(self.audios_path, "{}.wav".format(audio_id))
+
+            if os.path.exists(audio_path) == False:
+                pass
+            else:
+                waveform, sr = torchaudio.load(audio_path)
+                if sample_rate != sr:
+                    Resample = torchaudio.transforms.Resample(sr, sample_rate)
+                    waveform = Resample(waveform)
+                waveform -= waveform.mean()
+                f_shift = waveform.shape[1] * 1000 / (sample_rate * target_length)
+                fbank = torchaudio.compliance.kaldi.fbank(
+                    waveform, htk_compat=True, sample_frequency=sample_rate,
+                    use_energy=False, window_type='hanning', num_mel_bins=128,
+                    dither=0.0, frame_shift=f_shift)
+
+                n_frames = fbank.shape[0]
+                p = target_length - n_frames
+                if p > 0:
+                    m = torch.nn.ZeroPad2d((0, 0, 0, p))
+                    fbank = m(fbank)
+                elif p < 0:
+                    fbank = fbank[0:target_length, :]
+
+                fbank = (fbank - norm_mean) / (norm_std * 2)
+                fbanks[i] = fbank
+        return fbanks
+
     def __getitem__(self, feature_idx):
         pseudo_video_id, sub_id = self.iter2video_pairs_dict[feature_idx]
 
@@ -416,6 +454,7 @@ class ActivityNet_DataLoader(Dataset):
             video, video_mask = self._get_rawvideo(choice_video_ids, s, e)
         else:  # 'frames'
             video, video_mask = self._get_rawframes(choice_video_ids)
+        fbank = self._get_rawaudio(choice_video_ids)
         
         narration_mask = video_mask
-        return pairs_text, pairs_mask, pairs_segment, video, video_mask, narration, captions_word_mask, narration_mask
+        return pairs_text, pairs_mask, pairs_segment, video, video_mask, narration, captions_word_mask, narration_mask, fbank
