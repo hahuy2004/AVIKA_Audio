@@ -729,7 +729,9 @@ def convert_weights(model: nn.Module):
         for name in ["text_projection", "proj", "audio_projection"]:
             if hasattr(l, name):
                 attr = getattr(l, name)
-                if attr is not None:
+                # CLIP projections are tensors, whereas AST PatchEmbed.proj is
+                # an nn.Conv2d module whose weights were converted above.
+                if isinstance(attr, torch.Tensor):
                     attr.data = attr.data.half()
 
     model.apply(_convert_weights_to_fp16)
