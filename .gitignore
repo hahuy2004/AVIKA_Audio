@@ -70,3 +70,6 @@ preprocess/query_generator/generate_enriched_queries.py
 README_raw.md
 preprocess/query_generator/weighted_rrf_analysis.md
 preprocess/query_generator/Reviewing Text-Video Retrieval Aggregation.md
+
+__pycache__/
+*.pyc

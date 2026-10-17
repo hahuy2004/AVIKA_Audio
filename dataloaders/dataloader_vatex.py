@@ -360,6 +360,7 @@ class VATEX_DataLoader(Dataset):
                 pass
             else:
                 waveform, sr = torchaudio.load(audio_path)
+                waveform = waveform.mean(dim=0, keepdim=True)
                 if sample_rate != sr:
                     Resample = torchaudio.transforms.Resample(sr, sample_rate)
                     waveform = Resample(waveform)

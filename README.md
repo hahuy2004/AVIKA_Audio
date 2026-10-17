@@ -11,6 +11,8 @@ and one for `LLaVa`, which is used for preprocessing to generate narrations.
 # CLIP4Clip
 conda install --yes -c pytorch pytorch=1.13.1 torchvision cudatoolkit=11.6
 pip install opencv-python==4.9.0.80 numpy==1.23.0 ftfy regex tqdm boto3 requests pandas
+# Audio branch
+pip install timm==0.6.13 torchaudio
 # Mamba
 pip install -e causal_conv1d>=1.1.0
 pip install -e mamba-1p1p1
@@ -85,3 +87,7 @@ or, download CLIP (ViT-B/16) weight,
 ```sh
 wget -P ./modules https://openaipublic.azureedge.net/clip/models/5806e77cd80f8b59890b7e101eabd078d9fb84e6937f9e85e4ecb61988df416f/ViT-B-16.pt
 ```
+
+To enable the audio branch, place the AudioSet AST checkpoint at
+`modules/audioset_10_10_0.4593.pth` (or pass `--audio_pretrained_path`), then
+run with `--use_audio --audio_path /path/to/wav/files`.
