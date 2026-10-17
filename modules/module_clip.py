@@ -14,6 +14,17 @@ import torch
 import torch.nn.functional as F
 from torch import nn
 
+try:
+    import timm
+    from timm.models.layers import to_2tuple, trunc_normal_
+except ImportError:
+    timm = None
+
+    def to_2tuple(value):
+        return value if isinstance(value, tuple) else (value, value)
+
+    trunc_normal_ = None
+
 
 _MODELS = {
     "RN50": "https://openaipublic.azureedge.net/clip/models/afeb0e10f9e5a86da6080e35cf09123aca3b358a0c3e3b6c78a7b63bc04b6762/RN50.pt",
@@ -321,6 +332,185 @@ class VisualTransformer(nn.Module):
 
         return x
 
+# AST Audio Encoder
+# AVIGATE-CVPR2025/modules/module_clip.py:327-343
+class PatchEmbed(nn.Module):
+    """Patch embedding without timm's fixed image-size assertion."""
+
+    def __init__(self, img_size=224, patch_size=16, in_chans=3, embed_dim=768):
+        super().__init__()
+        img_size = to_2tuple(img_size)
+        patch_size = to_2tuple(patch_size)
+        self.img_size = img_size
+        self.patch_size = patch_size
+        self.num_patches = ((img_size[1] // patch_size[1]) *
+                            (img_size[0] // patch_size[0]))
+        self.proj = nn.Conv2d(in_chans, embed_dim, kernel_size=patch_size, stride=patch_size)
+
+    def forward(self, x):
+        return self.proj(x).flatten(2).transpose(1, 2)
+
+# ------------ New: AST Audio Encoder --------------
+# modules/module_clip.py:345-508
+class ASTModel(nn.Module):
+    """Audio Spectrogram Transformer encoder used by AVIGATE."""
+
+    def __init__(self, label_dim=1, fstride=10, tstride=10, input_fdim=128,
+                 input_tdim=1024, imagenet_pretrain=True, audioset_pretrain=True,
+                 model_size='base384', verbose=False, checkpoint_path=None):
+        super().__init__()
+        if timm is None:
+            raise ImportError("AST audio support requires timm (AVIGATE uses timm==0.6.13).")
+
+        available_models = set(timm.list_models())
+        legacy_timm = 'vit_deit_base_distilled_patch16_384' in available_models
+        if legacy_timm:
+            timm.models.vision_transformer.PatchEmbed = PatchEmbed
+
+        def create_deit(model_name):
+            if not legacy_timm:
+                model_name = model_name.replace('vit_deit_', 'deit_')
+            model = timm.create_model(model_name, pretrained=imagenet_pretrain)
+            if hasattr(model.patch_embed, 'strict_img_size'):
+                model.patch_embed.strict_img_size = False
+            return model
+
+        if not audioset_pretrain:
+            model_names = {
+                'tiny224': 'vit_deit_tiny_distilled_patch16_224',
+                'small224': 'vit_deit_small_distilled_patch16_224',
+                'base224': 'vit_deit_base_distilled_patch16_224',
+                'base384': 'vit_deit_base_distilled_patch16_384',
+            }
+            if model_size not in model_names:
+                raise ValueError("model_size must be tiny224, small224, base224, or base384")
+            self.v = create_deit(model_names[model_size])
+            self.original_num_patches = self.v.patch_embed.num_patches
+            self.original_hw = int(self.original_num_patches ** 0.5)
+            self.original_embedding_dim = self.v.pos_embed.shape[2]
+            self.mlp_head = nn.Sequential(
+                nn.LayerNorm(self.original_embedding_dim),
+                nn.Linear(self.original_embedding_dim, label_dim),
+            )
+
+            f_dim, t_dim = self.get_shape(fstride, tstride, input_fdim, input_tdim)
+            num_patches = f_dim * t_dim
+            self.v.patch_embed.num_patches = num_patches
+            new_proj = nn.Conv2d(1, self.original_embedding_dim, kernel_size=(16, 16),
+                                 stride=(fstride, tstride))
+            if imagenet_pretrain:
+                new_proj.weight = nn.Parameter(self.v.patch_embed.proj.weight.sum(dim=1).unsqueeze(1))
+                new_proj.bias = self.v.patch_embed.proj.bias
+            self.v.patch_embed.proj = new_proj
+
+            if imagenet_pretrain:
+                new_pos_embed = self.v.pos_embed[:, 2:, :].detach()
+                new_pos_embed = new_pos_embed.reshape(
+                    1, self.original_num_patches, self.original_embedding_dim
+                ).transpose(1, 2).reshape(
+                    1, self.original_embedding_dim, self.original_hw, self.original_hw
+                )
+                if t_dim <= self.original_hw:
+                    start = self.original_hw // 2 - t_dim // 2
+                    new_pos_embed = new_pos_embed[:, :, :, start:start + t_dim]
+                else:
+                    new_pos_embed = F.interpolate(
+                        new_pos_embed, size=(self.original_hw, t_dim), mode='bilinear'
+                    )
+                if f_dim <= self.original_hw:
+                    start = self.original_hw // 2 - f_dim // 2
+                    new_pos_embed = new_pos_embed[:, :, start:start + f_dim, :]
+                else:
+                    new_pos_embed = F.interpolate(
+                        new_pos_embed, size=(f_dim, t_dim), mode='bilinear'
+                    )
+                new_pos_embed = new_pos_embed.reshape(
+                    1, self.original_embedding_dim, num_patches
+                ).transpose(1, 2)
+                self.v.pos_embed = nn.Parameter(torch.cat(
+                    [self.v.pos_embed[:, :2, :].detach(), new_pos_embed], dim=1
+                ))
+            else:
+                self.v.pos_embed = nn.Parameter(torch.zeros(
+                    1, self.v.patch_embed.num_patches + 2, self.original_embedding_dim
+                ))
+                trunc_normal_(self.v.pos_embed, std=.02)
+        else:
+            if not imagenet_pretrain:
+                raise ValueError("AudioSet pretraining also requires ImageNet pretraining")
+            if model_size != 'base384':
+                raise ValueError("AudioSet pretraining is only available for base384")
+            if checkpoint_path is None:
+                checkpoint_path = os.path.join(
+                    os.path.dirname(os.path.abspath(__file__)), 'audioset_10_10_0.4593.pth'
+                )
+            if not os.path.isfile(checkpoint_path):
+                raise FileNotFoundError(
+                    "AST checkpoint not found at '{}'. Set task_config.audio_pretrained_path "
+                    "or place audioset_10_10_0.4593.pth in modules/.".format(checkpoint_path)
+                )
+            state_dict = torch.load(checkpoint_path, map_location='cpu')
+            if isinstance(state_dict, dict) and 'state_dict' in state_dict:
+                state_dict = state_dict['state_dict']
+            state_dict = {
+                key[7:] if key.startswith('module.') else key: value
+                for key, value in state_dict.items()
+            }
+            if 'v.patch_embed.proj.weight' not in state_dict:
+                raise RuntimeError("AST checkpoint does not contain the expected encoder weights")
+            audio_model = ASTModel(
+                label_dim=527, fstride=10, tstride=10, input_fdim=128,
+                input_tdim=1024, imagenet_pretrain=False, audioset_pretrain=False,
+                model_size='base384', verbose=False,
+            )
+            audio_model.load_state_dict(state_dict, strict=False)
+            self.v = audio_model.v
+            self.original_embedding_dim = self.v.pos_embed.shape[2]
+
+            f_dim, t_dim = self.get_shape(fstride, tstride, input_fdim, input_tdim)
+            num_patches = f_dim * t_dim
+            self.v.patch_embed.num_patches = num_patches
+            new_pos_embed = self.v.pos_embed[:, 2:, :].detach()
+            new_pos_embed = new_pos_embed.reshape(1, 1212, 768).transpose(1, 2)
+            new_pos_embed = new_pos_embed.reshape(1, 768, 12, 101)
+            if t_dim < 101:
+                start = 50 - t_dim // 2
+                new_pos_embed = new_pos_embed[:, :, :, start:start + t_dim]
+            else:
+                new_pos_embed = F.interpolate(new_pos_embed, size=(12, t_dim), mode='bilinear')
+            if f_dim < 12:
+                start = 6 - f_dim // 2
+                new_pos_embed = new_pos_embed[:, :, start:start + f_dim, :]
+            elif f_dim > 12:
+                new_pos_embed = F.interpolate(new_pos_embed, size=(f_dim, t_dim), mode='bilinear')
+            new_pos_embed = new_pos_embed.reshape(1, 768, num_patches).transpose(1, 2)
+            self.v.pos_embed = nn.Parameter(torch.cat(
+                [self.v.pos_embed[:, :2, :].detach(), new_pos_embed], dim=1
+            ))
+
+    def get_shape(self, fstride, tstride, input_fdim=128, input_tdim=1000):
+        test_proj = nn.Conv2d(1, self.original_embedding_dim, kernel_size=(16, 16),
+                              stride=(fstride, tstride))
+        test_out = test_proj(torch.randn(1, 1, input_fdim, input_tdim))
+        return test_out.shape[2], test_out.shape[3]
+
+    def forward(self, x):
+        x = x.unsqueeze(1).transpose(2, 3)
+        batch_size = x.shape[0]
+        x = self.v.patch_embed(x)
+        cls_tokens = self.v.cls_token.expand(batch_size, -1, -1)
+        dist_token = self.v.dist_token.expand(batch_size, -1, -1)
+        x = torch.cat((cls_tokens.to(x.dtype), dist_token.to(x.dtype), x), dim=1)
+        x = self.v.pos_drop(x + self.v.pos_embed.to(x.dtype))
+        original_dtype = x.dtype
+        for block in self.v.blocks:
+            drop_path1 = block.drop_path1 if hasattr(block, 'drop_path1') else block.drop_path
+            drop_path2 = block.drop_path2 if hasattr(block, 'drop_path2') else block.drop_path
+            x = x + drop_path1(block.attn(block.norm1(x.float()).to(original_dtype)))
+            x = x + drop_path2(block.mlp(block.norm2(x.float()).to(original_dtype)))
+        pooled_special_token = ((x[:, 0] + x[:, 1]) / 2).unsqueeze(1)
+        return torch.cat((pooled_special_token, x[:, 2:]), dim=1)
+
 
 class CLIP(nn.Module):
     def __init__(self,
@@ -376,6 +566,9 @@ class CLIP(nn.Module):
         self.ln_final = LayerNorm(transformer_width)
 
         self.text_projection = nn.Parameter(torch.empty(transformer_width, embed_dim))
+        self.audio = None
+        self.audio_projection = None
+        self.audio_embed_dim = embed_dim
         self.logit_scale = nn.Parameter(torch.ones([]))
 
         self.initialize_parameters()
@@ -477,6 +670,29 @@ class CLIP(nn.Module):
 
         return x
 
+    # Initialize the audio encoder and projection layer
+    # Trong code này, audio được khởi tạo sau khi model cha (text và image) được khởi tạo, và audio projection layer được khởi tạo với kích thước 768 x audio_embed_dim.
+    # Nguyên nhân là vì audio encoder (ASTModel) được tải từ checkpoint hoặc pretrained, nên nó cần được khởi tạo sau khi model cha đã được khởi tạo.
+    # Nếu tạo AST pretrained trước bước self.apply(self.init_weights), self.apply(...) sẽ duyệt đệ quy vào AST và có thể khởi tạo lại các lớp Linear/LayerNorm, làm thay đổi trọng số pretrained.
+    def initialize_audio(self, checkpoint_path=None, pretrained=True):
+        """Create the AST branch after the parent model's generic initialization."""
+        self.audio = ASTModel(
+            imagenet_pretrain=pretrained,
+            audioset_pretrain=pretrained,
+            checkpoint_path=checkpoint_path,
+        )
+        self.audio_projection = nn.Parameter(torch.empty(768, self.audio_embed_dim))
+        nn.init.normal_(self.audio_projection, std=768 ** -0.5)
+
+    # AST Audio Encoder
+    # AVIGATE-CVPR2025/modules/module_clip.py:670-671
+    def encode_audio(self, audio):
+        if self.audio is None or self.audio_projection is None:
+            raise RuntimeError("Audio encoder is not initialized")
+        audio_tokens = self.audio(audio.type(self.dtype))
+        audio_tokens = self.audio.v.norm(audio_tokens.float()).type(self.dtype)
+        return audio_tokens @ self.audio_projection
+
     def forward(self, image, text):
         image_features = self.encode_image(image)
         text_features = self.encode_text(text)
@@ -509,7 +725,8 @@ def convert_weights(model: nn.Module):
                 if tensor is not None:
                     tensor.data = tensor.data.half()
 
-        for name in ["text_projection", "proj"]:
+        # Bổ sung thêm convert audio_projection sang FP16
+        for name in ["text_projection", "proj", "audio_projection"]:
             if hasattr(l, name):
                 attr = getattr(l, name)
                 if attr is not None:

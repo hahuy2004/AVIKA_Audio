@@ -33,6 +33,7 @@ def get_args(description='NarVid on Retrieval Task'):
     parser.add_argument('--val_csv', type=str, default='data/.val.csv', help='')
     parser.add_argument('--data_path', type=str, default='data/caption.pickle', help='data json file path')
     parser.add_argument('--narration_path', type=str, default='data/caption.pickle', help='caption json file path')
+    parser.add_argument('--audio_path', type=str, default='data/audio', help='directory containing WAV files')
     parser.add_argument('--features_path', type=str, default='data/videos_feature.pickle', help='feature path')
 
     parser.add_argument('--num_thread_reader', type=int, default=1, help='')
@@ -267,11 +268,9 @@ def train_epoch(epoch, args, model, train_dataloader, device, n_gpu, optimizer, 
     total_loss = 0
 
     for step, batch in enumerate(train_dataloader):
-        if n_gpu == 1:
-            # multi-gpu does scattering it-self
-            batch = tuple(t.to(device=device, non_blocking=True) for t in batch)
+        batch = tuple(t.to(device=device, non_blocking=True) for t in batch)
 
-        input_ids, input_mask, segment_ids, video, video_mask, narration, narration_word_mask, narration_mask = batch
+        input_ids, input_mask, segment_ids, video, video_mask, narration, narration_word_mask, narration_mask, _audio = batch
         loss = model(input_ids, segment_ids, input_mask, video, video_mask, narration, narration_word_mask, narration_mask)
         
         if n_gpu > 1:
@@ -404,7 +403,7 @@ def eval_epoch(args, model, test_dataloader, device, n_gpu):
         # ----------------------------
         for bid, batch in enumerate(test_dataloader):
             batch = tuple(t.to(device) for t in batch)
-            input_ids, input_mask, segment_ids, video, video_mask, narration, narration_word_mask, narration_mask = batch
+            input_ids, input_mask, segment_ids, video, video_mask, narration, narration_word_mask, narration_mask, _audio = batch
 
             if multi_sentence_:
                 # multi-sentences retrieval means: one clip has two or more descriptions.

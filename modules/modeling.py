@@ -12,7 +12,13 @@ import json
 import os
 
 from modules.until_module import PreTrainedModel, AllGather, CrossEn, HardNegativeNCE
-from modules.module_cross import CrossModel, CrossConfig, Transformer as TransformerClip
+from modules.module_cross import (
+    CrossModel,
+    CrossConfig,
+    Transformer as TransformerClip,
+    Transformer_Text,
+    Transformer_Gate,
+)
 
 from modules.module_clip import CLIP, convert_weights
 from torch.nn.utils.rnn import pad_packed_sequence, pack_padded_sequence
@@ -216,6 +222,9 @@ class CLIPKG4VidPreTrainedModel(PreTrainedModel, nn.Module):
 
         cross_config, _ = CrossConfig.get_config(cross_model_name, cache_dir, type_vocab_size, state_dict=None, task_config=task_config)
 
+        task_config.__dict__["init_audio_from_checkpoint"] = any(
+            key.startswith("clip.audio.") for key in state_dict
+        )
         model = cls(cross_config, clip_state_dict, *inputs, **kwargs)
 
         ## ===> Initialization trick [HARD CODE]
@@ -328,6 +337,26 @@ class CLIPKG4VidPreTrainedModel(PreTrainedModel, nn.Module):
                             continue
         # -------------------------------------------------
 
+        # ----------- New: Audio Initialization -----------
+        # Initialize audio modules from CLIP transformer weights when
+        # they are not present in a resumed AVIKA checkpoint.
+        if model.use_audio:
+            has_audio_resampler = any(key.startswith("audio_resampler.") for key in state_dict)
+            has_audio_video_gate = any(key.startswith("audio_video_gate.") for key in state_dict)
+            if not has_audio_resampler or not has_audio_video_gate:
+                audio_query_layers = getattr(task_config, "audio_query_layers", 4)
+                audio_fusion_layers = getattr(
+                    task_config, "audio_fusion_layers", task_config.cross_num_hidden_layers
+                )
+                for key, val in clip_state_dict.items():
+                    if not key.startswith("transformer.resblocks"):
+                        continue
+                    num_layer = int(key.split(".")[2])
+                    if not has_audio_resampler and num_layer < audio_query_layers:
+                        state_dict[key.replace("transformer.", "audio_resampler.")] = val.clone()
+                    if not has_audio_video_gate and num_layer < audio_fusion_layers:
+                        state_dict[key.replace("transformer.", "audio_video_gate.")] = val.clone()
+
         ## <=== End of initialization trick
 
         if state_dict is not None:
@@ -420,6 +449,7 @@ class CLIPKG4Vid(CLIPKG4VidPreTrainedModel):
             context_length, vocab_size, transformer_width, transformer_heads, transformer_layers-cut_top_layer,
             linear_patch=self.linear_patch
         ).float()
+        self.use_audio = bool(getattr(task_config, "use_audio", False))
 
         # ---------- New: Co-Attention Transformer for tightTransf ------------
         # Based on Cap4Video
@@ -471,6 +501,31 @@ class CLIPKG4Vid(CLIPKG4VidPreTrainedModel):
             self.lstm_caption = nn.LSTM(input_size=cross_config.hidden_size, hidden_size=cross_config.hidden_size,
                                         batch_first=True, bidirectional=False, num_layers=1)
             # ------------------------------------------------------
+
+        # ------------ New: Audio Support -------------
+        # modules/modeling.py:238-241; 268-272
+        if self.use_audio:
+            num_audio_queries = getattr(task_config, "num_audio_queries", 12)
+            audio_query_layers = getattr(task_config, "audio_query_layers", 4)
+            audio_fusion_layers = getattr(
+                task_config, "audio_fusion_layers", task_config.cross_num_hidden_layers
+            )
+            self.audio_fusion_weight = getattr(task_config, "audio_fusion_weight", 0.05)
+            self.audio_query_tokens = nn.Parameter(
+                torch.zeros(cross_config.hidden_size, num_audio_queries)
+            )
+            nn.init.orthogonal_(self.audio_query_tokens, 1.0)
+            self.audio_query_position_embeddings = nn.Embedding(
+                num_audio_queries, cross_config.hidden_size
+            )
+            # -------------- New: Audio Resampler -------------
+            self.audio_resampler = Transformer_Text(
+                width=transformer_width, layers=audio_query_layers, heads=transformer_heads
+            )
+            # ------ New: Gated (Audio-Video) Fusion Transformer -------------
+            self.audio_video_gate = Transformer_Gate(
+                width=transformer_width, layers=audio_fusion_layers, heads=transformer_heads
+            )
 
         if self.sim_header == "MUSE":
             if not MUSE_AVAILABLE:
@@ -553,6 +608,15 @@ class CLIPKG4Vid(CLIPKG4VidPreTrainedModel):
         self.loss_fct = CrossEn()
         self.apply(self.init_weights)
 
+        # -------------- New: Audio Initialization -------------
+        # Khởi tạo và chuẩn bị nhánh audio sau khi model cha đã chạy khởi tạo trọng số chung:
+        if self.use_audio:
+            self.clip.initialize_audio(
+                getattr(task_config, "audio_pretrained_path", None),
+                pretrained=not getattr(task_config, "init_audio_from_checkpoint", False),
+            )
+            convert_weights(self.clip)
+
     # ------ Function for [Phase 1]: Entry Point & Feature Extraction ----------
     # Note in image: Frame encoder, Text Encoder, Narration Encoder
     # Output: [B, 1, D] - CLS token embedding
@@ -587,8 +651,58 @@ class CLIPKG4Vid(CLIPKG4VidPreTrainedModel):
 
         return sequence_hidden, words_hidden
 
+    # ---------- New: Get audio output from AST and fuse with visual features -------------
+    # New: Get audio output from AST
+    # Output: [B, N_audio_queries, D] - Audio query-level features
+    def get_audio_output(self, audio):
+        if not self.use_audio:
+            return None
+        if audio is None:
+            raise ValueError("Audio input is required when use_audio is enabled")
+        if audio.dim() == 4 and audio.size(1) == 1:
+            audio = audio.squeeze(1)
+        if audio.dim() != 3:
+            raise ValueError(
+                "Audio input must have shape [batch, 1, time, frequency] or "
+                "[batch, time, frequency]"
+            )
+        return self.clip.encode_audio(audio).float()
+
+    # New: Fuse audio and visual features using Gated (Audio-Video) Fusion Transformer
+    def fuse_audio_visual(self, visual_output, audio_output):
+        """Resample AST tokens and apply AVIGATE gated fusion to frame features."""
+        if not self.use_audio:
+            return visual_output, None
+        if audio_output is None:
+            raise ValueError("audio_output is required when use_audio is enabled")
+        if visual_output.size(0) != audio_output.size(0):
+            raise ValueError("Audio and video batch sizes must match")
+
+        batch_size = visual_output.size(0)
+        query_tokens = self.audio_query_tokens.t().unsqueeze(0).expand(batch_size, -1, -1)
+        position_ids = torch.arange(
+            query_tokens.size(1), dtype=torch.long, device=visual_output.device
+        ).unsqueeze(0).expand(batch_size, -1)
+        query_tokens = query_tokens + self.audio_query_position_embeddings(position_ids)
+
+        query_tokens = query_tokens.permute(1, 0, 2)
+        audio_tokens = audio_output.permute(1, 0, 2)
+        audio_queries = self.audio_resampler(query_tokens, audio_tokens)
+
+        original_visual = visual_output
+        fused_visual, _, _, attention_gates, feed_forward_gates = self.audio_video_gate(
+            visual_output.permute(1, 0, 2), audio_queries, None
+        )
+        fused_visual = fused_visual.permute(1, 0, 2)
+        weight = self.audio_fusion_weight
+        fused_visual = weight * fused_visual + (1.0 - weight) * original_visual
+        gate_values = (torch.stack(attention_gates, dim=1),
+                       torch.stack(feed_forward_gates, dim=1))
+        return fused_visual.contiguous(), gate_values
+    # ---------------------------------------------------
+
     # Output: [B, N_frames, D] - Frame-level features
-    def get_visual_output(self, video, video_mask, shaped=False, video_frame=-1):
+    def get_visual_output(self, video, video_mask, shaped=False, video_frame=-1, audio=None):
         if shaped is False:
             video_mask = video_mask.view(-1, video_mask.shape[-1])
             video = torch.as_tensor(video).float()
@@ -603,10 +717,32 @@ class CLIPKG4Vid(CLIPKG4VidPreTrainedModel):
             visual_cls, visual_hidden = self.clip.encode_image(video, return_hidden=True, video_frame=video_frame)
             visual_cls = visual_cls.float().view(bs_pair, -1, visual_cls.size(-1))           # [B, T, D]
             visual_hidden = visual_hidden.float().view(bs_pair, -1, visual_hidden.size(-1))  # [B, T*L, D]
+            # ------------ New: Fuse audio and visual features using Gated (Audio-Video) Fusion Transformer -------------
+            # If audio is provided, fuse audio and visual features using the Gated (Audio-Video) Fusion Transformer.
+            if self.use_audio and audio is not None:
+                audio_valid = audio.reshape(audio.size(0), -1).abs().sum(dim=1) > 0
+                original_visual_cls = visual_cls
+                visual_cls, _ = self.fuse_audio_visual(
+                    visual_cls, self.get_audio_output(audio)
+                )
+                visual_cls = torch.where(
+                    audio_valid[:, None, None], visual_cls, original_visual_cls
+                )
             return visual_cls, visual_hidden  # tuple: (CLS, all-patch-tokens)
         else:
             visual_hidden = self.clip.encode_image(video, video_frame=video_frame).float()
             visual_hidden = visual_hidden.view(bs_pair, -1, visual_hidden.size(-1))
+            # ------------ New: Fuse audio and visual features using Gated (Audio-Video) Fusion Transformer -------------
+            # If audio is provided, fuse audio and visual features using the Gated (Audio-Video) Fusion Transformer.
+            if self.use_audio and audio is not None:
+                audio_valid = audio.reshape(audio.size(0), -1).abs().sum(dim=1) > 0
+                original_visual_hidden = visual_hidden
+                visual_hidden, _ = self.fuse_audio_visual(
+                    visual_hidden, self.get_audio_output(audio)
+                )
+                visual_hidden = torch.where(
+                    audio_valid[:, None, None], visual_hidden, original_visual_hidden
+                )
             return visual_hidden
 
     # ---------- New: Get narration output -----------
@@ -631,7 +767,8 @@ class CLIPKG4Vid(CLIPKG4VidPreTrainedModel):
     # - narration_output: All narration word embeddings [B, N_narration_words, D]
     # - visual_output: All frame embeddings [B, N_frames, D]
     def get_sequence_narration_visual_output(self, input_ids, token_type_ids, attention_mask, narration, 
-                                   nar_attention_mask, nar_batch_mask, video, video_mask, shaped=False, video_frame=-1):
+                                   nar_attention_mask, nar_batch_mask, video, video_mask, shaped=False,
+                                   video_frame=-1, audio=None):
         if shaped is False:
             input_ids = input_ids.view(-1, input_ids.shape[-1])
             token_type_ids = token_type_ids.view(-1, token_type_ids.shape[-1])
@@ -653,7 +790,9 @@ class CLIPKG4Vid(CLIPKG4VidPreTrainedModel):
         # --------- New: Get narration output ------------------
         narration_output = self.get_narration_output(narration, nar_attention_mask, nar_batch_mask, shaped=True)
         # ------------------------------------------------------
-        visual_output = self.get_visual_output(video, video_mask, shaped=True, video_frame=video_frame)
+        visual_output = self.get_visual_output(
+            video, video_mask, shaped=True, video_frame=video_frame, audio=audio
+        )
         return sequence_output, narration_output, visual_output
 
     # Original version: get_sequence_visual_output of CLIP4Clip (without narration)
@@ -663,7 +802,8 @@ class CLIPKG4Vid(CLIPKG4VidPreTrainedModel):
     # - narration_output: All narration word embeddings [B, N_narration_words, D]
     # - visual_output: All frame embeddings [B, N_frames, D]
     def get_sequence_words_narration_visual_output(self, input_ids, token_type_ids, attention_mask, narration, 
-                                    nar_attention_mask, nar_batch_mask, video, video_mask, shaped=False, video_frame=-1):
+                                    nar_attention_mask, nar_batch_mask, video, video_mask, shaped=False,
+                                    video_frame=-1, audio=None):
         if shaped is False:
             input_ids = input_ids.view(-1, input_ids.shape[-1])
             token_type_ids = token_type_ids.view(-1, token_type_ids.shape[-1])
@@ -687,7 +827,9 @@ class CLIPKG4Vid(CLIPKG4VidPreTrainedModel):
         # ---------- New: Get narration output -----------------
         narration_output = self.get_narration_output(narration, nar_attention_mask, nar_batch_mask, shaped=True)
         # -------------------------------------------------------
-        visual_output = self.get_visual_output(video, video_mask, shaped=True, video_frame=video_frame)
+        visual_output = self.get_visual_output(
+            video, video_mask, shaped=True, video_frame=video_frame, audio=audio
+        )
         # return sequence_output, visual_output
         return sequence_output, words_output, narration_output, visual_output
     
@@ -999,8 +1141,9 @@ class CLIPKG4Vid(CLIPKG4VidPreTrainedModel):
         return retrieve_logits
 
     # --- CORE MATCHING PIPELINE: Co-Attention + Weighted Token-Video Interaction + Multi-granularity Similarity + Loss Computation
-    def get_similarity_logits(self, sequence_output, word_output, visual_output, narration_output, 
-                                attention_mask, video_mask, narration_mask, shaped=False):
+    def get_similarity_logits(self, sequence_output, word_output, visual_output, narration_output,
+                                attention_mask, video_mask, narration_mask, shaped=False,
+                                audio_output=None):
         if shaped is False:
             attention_mask = attention_mask.view(-1, attention_mask.shape[-1])
             video_mask = video_mask.view(-1, video_mask.shape[-1])
@@ -1015,6 +1158,11 @@ class CLIPKG4Vid(CLIPKG4VidPreTrainedModel):
         visual_hidden_patches = None
         if self.sim_header == "MUSE":
             visual_output, visual_hidden_patches = visual_output  # [B,T,D], [B,T*L,D]
+
+        # AVIGATE enhances frame-level features before AVIKA's existing
+        # narration co-attention, temporal modeling, and matching pipeline.
+        if self.use_audio and audio_output is not None:
+            visual_output, _ = self.fuse_audio_visual(visual_output, audio_output)
 
         # ----- Phase [2.1]: Co-Attention Fusion (visual CLS ↔ narration) -----
         # Note in image: Module Frame-Level Co-attention Block
@@ -1132,28 +1280,28 @@ class CLIPKG4Vid(CLIPKG4VidPreTrainedModel):
         return tv_loss, tn_loss
     # --------------------------------------------------------------
 
-    # Forward function
-    # Using for training and evaluation (retrieval) for both video-to-text and text-to-video
-        # Input: (text_query, video_frames, narration_captions)
-        # ↓
-        # 1. Extract features via CLIP encoders
-        # ↓
-        # 2. Co-Attention (visual ↔ narration)
-        # ↓
-        # 3. Temporal aggregation (LSTM/Transformer)
-        # ↓
-        # 4. Compute adaptive weights (WTI + Nucleus Filtering)
-        # ↓
-        # 5. Multi-granularity matching (coarse + fine)
-        # ↓
-        # 6. Compute similarity matrices
-        # ↓
-        # 7. Calculate losses (NCE + Hard Negative)
-        # loss = tv_nce_loss + tn_nce_loss + α * (tv_hard_neg_loss + tn_hard_neg_loss)
-        # ↓
-        # Output: Loss (training) / Similarity scores (inference)
-    def forward(self, input_ids, token_type_ids, attention_mask, video, 
-                video_mask, narration, narration_word_mask, narration_mask):
+    # Training forward pass
+    # Input: text query, video frames, frame-level narrations, and optional audio fbank.
+    #
+    # Text ────────────────────────────────┐
+    # Narrations ──────────────────────────┤
+    # Video → CLIP visual encoder ──────┐  │
+    # Audio → AST → audio resampler ────┴→ gated audio-video fusion
+    #                                      ↓
+    #                         Audio-enhanced visual features
+    #                                      ↓
+    # Narration co-attention → temporal aggregation → query-aware filtering
+    #                                      ↓
+    #                    Coarse- and fine-grained T2V/T2N matching
+    #                                      ↓
+    # loss = L_NCE(T2V) + L_NCE(T2N)
+    #      + alpha * (L_HN(T2V) + L_HN(T2N))
+    #
+    # Audio has no independent retrieval loss; it is optimized through the
+    # audio-enhanced visual branch. Evaluation computes similarities through
+    # the feature-caching path outside this forward method.
+    def forward(self, input_ids, token_type_ids, attention_mask, video,
+                video_mask, narration, narration_word_mask, narration_mask, audio=None):
         
         input_ids = input_ids.view(-1, input_ids.shape[-1])
         token_type_ids = token_type_ids.view(-1, token_type_ids.shape[-1])
@@ -1171,80 +1319,146 @@ class CLIPKG4Vid(CLIPKG4VidPreTrainedModel):
         video = video.view(b * pair * bs * ts, channel, h, w)
         video_frame = bs * ts
 
-        # Phase 1: Entry Point & Feature Extraction
+        # Phase 1: Entry Point & Multimodal Feature Extraction
         # ├── [Input Reshaping]
-        # │   ├── input_ids, attention_mask (Text query)
-        # │   ├── video, video_mask (Video frames)
-        # │   └── narration, narration_word_mask, narration_mask (Narrations)
+        # │   ├── input_ids, token_type_ids, attention_mask          (text query)
+        # │   ├── video, video_mask                                  (video frames)
+        # │   ├── narration, narration_word_mask, narration_mask    (frame narrations)
+        # │   └── audio [B,1,1024,128]                               (audio fbank)
         # │
-        # └── get_sequence_words_narration_visual_output()
-        #     ├── get_sequence_words_output()
+        # └── get_sequence_words_narration_visual_output(..., audio=audio)
+        #     ├── get_sequence_words_output(input_ids, token_type_ids, attention_mask)
         #     │   └── self.clip.encode_text(input_ids, return_hidden=True)  [CLIP Text Encoder]
-        #     │       └── Returns: sequence_output [B,1,D], words_output [B,N_words,D]
+        #     │       └── Returns: sequence_output [B,1,D],
+        #     │                    word_output [B,N_words,D]
         #     │
-        #     ├── get_narration_output()
-        #     │   └── self.clip.encode_text(narration)  [CLIP Text Encoder]
+        #     ├── get_narration_output(narration, narration_word_mask, narration_mask)
+        #     │   └── self.clip.encode_text(narration)               [CLIP Text Encoder]
         #     │       └── Returns: narration_output [B,N_narrations,D]
         #     │
-        #     └── get_visual_output()
-        #         └── self.clip.encode_image(video, video_frame)  [CLIP Visual Encoder]
-        #             └── Returns: visual_output [B,N_frames,D]
+        #     └── get_visual_output(video, video_mask, audio=audio)
+        #         ├── self.clip.encode_image(video, video_frame)     [CLIP Visual Encoder]
+        #         │   └── Returns: original visual_output [B,N_frames,D]
+        #         │
+        #         └── if self.use_audio and audio is not None:
+        #             ├── get_audio_output(audio)
+        #             │   └── self.clip.encode_audio(audio)          [AST + audio projection]
+        #             │       └── Returns: audio_output [B,N_audio_tokens,D]
+        #             ├── fuse_audio_visual(visual_output, audio_output)
+        #             │   ├── self.audio_resampler(query_tokens, audio_tokens)
+        #             │   │   └── Returns: audio_queries [B,N_audio_queries,D]
+        #             │   ├── self.audio_video_gate(visual_output, audio_queries)
+        #             │   │   └── Returns: fused frames, attention gates, FF gates
+        #             │   └── fused_visual = w*fused + (1-w)*original
+        #             │       └── Returns: fused_visual [B,N_frames,D], gate_values
+        #             └── torch.where(audio_valid, fused_visual, original_visual)
+        #                 └── missing/all-zero audio keeps the original visual feature
+        #
+        # MUSE note: get_visual_output() calls
+        # self.clip.encode_image(video, return_hidden=True, video_frame=video_frame),
+        # audio-enhances only frame-level CLS features, and preserves raw patch
+        # tokens for agg_video_feat().
+        # Returns from get_sequence_words_narration_visual_output():
+        #     sequence_output, word_output, narration_output, visual_output
+        # where visual_output is [B,N_frames,D], or
+        # (visual_cls [B,N_frames,D], visual_hidden [B,N_frames*N_patches,D]) for MUSE.
         
         # sequence_output, visual_output = self.get_sequence_visual_output(input_ids, token_type_ids, attention_mask,
         #                                                                  video, video_mask, shaped=True, video_frame=video_frame)
         sequence_output, word_output, narration_output, visual_output = self.get_sequence_words_narration_visual_output(input_ids, token_type_ids, attention_mask, 
-                                                        narration, narration_word_mask, narration_mask, video, video_mask, shaped=True, video_frame=video_frame)
+                                                        narration, narration_word_mask, narration_mask, video, video_mask,
+                                                        shaped=True, video_frame=video_frame, audio=audio)
 
         if self.training:
             # Phase 2: Multi-granularity Matching & Loss Computation
-            # ├── get_similarity_logits()  <- CORE MATCHING PIPELINE
+            # ├── get_similarity_logits(...)  <- receives audio-enhanced visual_output
             # │   │
             # │   ├── [2.1] Co-Attention Fusion
             # │   │   └── for co_layer in self.co_connetion_transformer_model_block:
-            # │   │       └── co_layer(visual_output, narration_output)  [Co_attention_block]
-            # │   │           └── Returns: enhanced visual_output, enhanced narration_output
+            # │   │       └── co_layer(visual_output, cross_video_mask,
+            # │   │                    narration_output, cross_narration_mask)  [Co_attention_block]
+            # │   │           └── Returns: enhanced visual_output,
+            # │   │                        enhanced narration_output, co_attention_probs
             # │   │
             # │   ├── [2.2] Temporal Aggregation
-            # │   │   ├── agg_video_feat(visual_output, video_mask, sim_header)
-            # │   │   │   ├── if sim_header == "seqTransf":
-            # │   │   │   │   ├── + self.frame_position_embeddings(position_ids)
-            # │   │   │   │   └── self.transformerClip(visual_output)  [TransformerClip]
-            # │   │   │   ├── if sim_header == "seqLSTM":
-            # │   │   │   │   └── self.lstm_visual(visual_output)
-            # │   │   │   └── Returns: aggregated visual_output
+            # │   │   ├── agg_video_feat(visual_output, video_mask, self.sim_header,
+            # │   │   │                      visual_hidden=visual_hidden_patches)
+            # │   │   │   ├── if meanP: no additional temporal module
+            # │   │   │   ├── if seqLSTM: self.lstm_visual(...) + residual
+            # │   │   │   ├── if seqTransf:
+            # │   │   │   │   ├── self.frame_position_embeddings(position_ids)
+            # │   │   │   │   └── self.transformerClip(visual_output, extended_video_mask) + residual
+            # │   │   │   └── if MUSE:
+            # │   │   │       ├── self.mamba_stages(...)             [multi-scale spatial features]
+            # │   │   │       └── self.MS_mamba[layer](...)          [Mamba aggregation]
+            # │   │   │   └── Returns: aggregated visual_output [B,N_frames,D]
             # │   │   │
-            # │   │   └── agg_narration_feat(narration_output, narration_mask, sim_header)
-            # │   │       ├── if sim_header == "seqTransf":
-            # │   │       │   ├── + self.caption_position_embeddings(position_ids)
-            # │   │       │   └── self.transformerCaption(narration_output)  [TransformerClip]
-            # │   │       ├── if sim_header == "seqLSTM":
-            # │   │       │   └── self.lstm_caption(narration_output)
-            # │   │       └── Returns: aggregated narration_output
+            # │   │   └── agg_narration_feat(narration_output, narration_mask, self.sim_header)
+            # │   │       ├── if meanP: no additional temporal module
+            # │   │       ├── if seqLSTM: self.lstm_caption(...) + residual
+            # │   │       ├── if seqTransf:
+            # │   │       │   ├── self.caption_position_embeddings(position_ids)
+            # │   │       │   └── self.transformerCaption(narration_output, extended_mask) + residual
+            # │   │       └── if MUSE: self.MS_mamba_nar[layer](...)
+            # │   │       └── Returns: aggregated narration_output [B,N_narrations,D]
             # │   │
-            # │   ├── [2.3] Distributed Training (if training)
-            # │   │   └── allgather() ×7 (visual, video_mask, narration, narration_mask, sequence, word, attention_mask)
+            # │   ├── [2.3] Distributed Training (if self.training)
+            # │   │   ├── allgather(visual_output, task_config)       [1]
+            # │   │   ├── allgather(video_mask, task_config)          [2]
+            # │   │   ├── allgather(narration_output, task_config)    [3]
+            # │   │   ├── allgather(narration_mask, task_config)      [4]
+            # │   │   ├── allgather(sequence_output, task_config)     [5]
+            # │   │   ├── allgather(word_output, task_config)         [6]
+            # │   │   ├── allgather(attention_mask, task_config)      [7]
+            # │   │   └── torch.distributed.barrier()
+            # │   │       └── Updates: all seven tensors now contain the global DDP batch;
+            # │   │                    audio needs no separate gather because it is already
+            # │   │                    embedded in visual_output before this phase.
             # │   │
-            # │   ├── [2.4] Adaptive Weighting & Filtering
-            # │   │   └── get_weights_and_mask()
-            # │   │       ├── wti_interaction(word_output, word_mask, visual_output)
-            # │   │       │   └── self.text_weight_fc(word_output)  [MLP]
-            # │   │       │       └── Returns: word_weights [B_t,B_v,N_t]
+            # │   ├── [2.4] Query-Aware Adaptive Weighting & Filtering
+            # │   │   └── get_weights_and_mask(sequence_output, word_output, visual_output,
+            # │   │                            narration_output, attention_mask,
+            # │   │                            video_mask, narration_mask)
             # │   │       │
-            # │   │       ├── get_softmax_weights(sequence_output, narration_output) ×2
-            # │   │       │   ├── F.normalize() - L2 normalization
-            # │   │       │   ├── torch.matmul() - Cosine similarity
-            # │   │       │   └── F.softmax(cosine_sim/temperature)
-            # │   │       │       └── Returns: seq_nar_weights, seq_vis_weights
+            # │   │       ├── Expand pairwise masks
+            # │   │       │   ├── word_mask.unsqueeze(1).repeat(...)      → [B_t,B_v,N_t]
+            # │   │       │   ├── video_mask.unsqueeze(0).repeat(...)     → [B_t,B_v,N_v]
+            # │   │       │   └── narration_mask.unsqueeze(0).repeat(...) → [B_t,B_v,N_n]
             # │   │       │
-            # │   │       ├── apply_nucleus_filtering(seq_nar_weights, nucleus_P) ×2  [Section 3.4]
-            # │   │       │   ├── torch.sort() - Sort descending
-            # │   │       │   ├── torch.cumsum() - Cumulative probability
-            # │   │       │   ├── Filter out low-prob frames (p > nucleus_P)
-            # │   │       │   └── Re-normalize
-            # │   │       │       └── Returns: filtered weights
+            # │   │       ├── wti_interaction(word_output, word_mask, visual_output, temperature)
+            # │   │       │   ├── self.text_weight_fc(word_output).squeeze(2)  [MLP]
+            # │   │       │   ├── masked_fill(word_mask == 0, -inf)
+            # │   │       │   ├── F.softmax(text_weight / temperature, dim=-1)
+            # │   │       │   └── Returns: word_weights [B_t,B_v,N_t]
             # │   │       │
-            # │   │       └── adjust_weights_and_mask() ×3
-            # │   │           └── Returns: word_weights, visual_weights, narration_weights + masks
+            # │   │       ├── get_softmax_weights(sequence_output, modality_output,
+            # │   │       │                       modality_mask, temperature) ×2
+            # │   │       │   ├── F.normalize(sequence_output, modality_output)  [L2]
+            # │   │       │   ├── expand query features for every video/narration candidate
+            # │   │       │   ├── torch.matmul(query, modality.transpose(1,2))  [cosine scores]
+            # │   │       │   ├── masked_fill(modality_mask == 0, -inf)
+            # │   │       │   ├── F.softmax(cosine_sim / temperature, dim=-1)
+            # │   │       │   ├── Returns: seq_vis_weights [B_t,B_v,N_v]
+            # │   │       │   └── Returns: seq_nar_weights [B_t,B_v,N_n]
+            # │   │       │
+            # │   │       ├── apply_nucleus_filtering(weights, nucleus_P) ×2
+            # │   │       │   ├── torch.sort(weights, descending=True)
+            # │   │       │   ├── torch.cumsum(sorted_weights)        [cumulative probability]
+            # │   │       │   ├── set weights after cumulative p to 0
+            # │   │       │   │   (always retain the highest-weight element)
+            # │   │       │   ├── restore original token/frame order
+            # │   │       │   ├── re-normalize retained weights
+            # │   │       │   └── Returns: filtered seq_vis_weights / seq_nar_weights
+            # │   │       │
+            # │   │       ├── adjust_weights_and_mask(weights, existing_mask) ×3
+            # │   │       │   ├── weights_masked = weights * existing_mask
+            # │   │       │   ├── updated_mask[weights == 0] = 0
+            # │   │       │   └── Returns: (masked_weights, updated_mask) for
+            # │   │       │       words, visual frames, and narration tokens
+            # │   │       │
+            # │   │       └── Returns: word_weights, visual_weights, narration_weights,
+            # │   │                    adjusted_word_mask, adjusted_video_mask,
+            # │   │                    adjusted_narration_mask
             # │   │
             # │   └── [2.5] Coarse-grained Matching & Fine-grained Matching [Section 3.5]
             # |       |
@@ -1271,6 +1485,10 @@ class CLIPKG4Vid(CLIPKG4VidPreTrainedModel):
             # │       │
             # │       └── _loose_fine_similarity(word_output, narration_output, ...)
             # │           └── Returns: retrieve_logits_T2N_fine [B_text, B_narration]
+            # │
+            # │       Returns from get_similarity_logits():
+            # │       (retrieve_logits_T2V_coarse, retrieve_logits_T2N_coarse,
+            # │        retrieve_logits_T2V_fine, retrieve_logits_T2N_fine)
             # │
             # ├── [Combine Coarse & Fine]
             # │   ├── tv_sim_matrix = (tv_sim_matrix_coarse + tv_sim_matrix_fine)/2
@@ -1323,7 +1541,8 @@ class CLIPKG4Vid(CLIPKG4VidPreTrainedModel):
             alpha = self.task_config.hard_negative_weighting
 
             tv_sim_matrix_coarse, tn_sim_matrix_coarse, tv_sim_matrix_fine, tn_sim_matrix_fine = self.get_similarity_logits(
-                sequence_output, word_output, visual_output, narration_output, attention_mask, video_mask, narration_mask, shaped=True)
+                sequence_output, word_output, visual_output, narration_output, attention_mask,
+                video_mask, narration_mask, shaped=True)
 
             tv_sim_matrix = (tv_sim_matrix_coarse + tv_sim_matrix_fine)/2
             tn_sim_matrix = (tn_sim_matrix_coarse + tn_sim_matrix_fine)/2

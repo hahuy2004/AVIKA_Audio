@@ -129,6 +129,130 @@ class Transformer(nn.Module):
     def forward(self, x: torch.Tensor, attn_mask: torch.Tensor):
         return self.resblocks((x, attn_mask))[0]
 
+# ---------- New: Audio Resampler --------------
+class ResidualAttentionBlock_Text(nn.Module):
+    """Self- and cross-attention block used by the AVIGATE audio resampler."""
+
+    def __init__(self, d_model: int, n_head: int):
+        super().__init__()
+        self.attn = nn.MultiheadAttention(d_model, n_head)
+        self.cross_attn = nn.MultiheadAttention(d_model, n_head)
+        self.ln_1 = LayerNorm(d_model)
+        self.ln_2 = LayerNorm(d_model)
+        self.ln_3 = LayerNorm(d_model)
+        self.mlp = nn.Sequential(OrderedDict([
+            ("c_fc", nn.Linear(d_model, d_model * 4)),
+            ("gelu", QuickGELU()),
+            ("c_proj", nn.Linear(d_model * 4, d_model)),
+        ]))
+        self.n_head = n_head
+
+    # Đây là self-attention giữa các learned query token, mà tất cả query token đều hợp lệ, không có padding hay vị trí cần che.
+    # attn_mask chỉ cần cho cross-attention để che các memory token không hợp lệ.
+    def attention(self, x: torch.Tensor):
+        return self.attn(x, x, x, need_weights=False)[0]
+
+    def cross_attention(self, query: torch.Tensor, memory: torch.Tensor, attn_mask=None):
+        if attn_mask is not None:
+            attn_mask = attn_mask.repeat_interleave(self.n_head, dim=0)
+        return self.cross_attn(query, memory, memory, need_weights=False, attn_mask=attn_mask)[0]
+
+    def forward(self, inputs: tuple):
+        query, memory, attn_mask = inputs
+        query = query + self.attention(self.ln_1(query))
+        query = query + self.cross_attention(self.ln_3(query), self.ln_3(memory), attn_mask)
+        query = query + self.mlp(self.ln_2(query))
+        return query, memory, attn_mask
+
+# ---------- New: Audio Resampler -------------
+class Transformer_Text(nn.Module):
+    """AVIGATE audio resampler that maps AST tokens to fixed learned queries."""
+
+    def __init__(self, width: int, layers: int, heads: int):
+        super().__init__()
+        self.width = width
+        self.layers = layers
+        self.resblocks = nn.Sequential(*[
+            ResidualAttentionBlock_Text(width, heads) for _ in range(layers)
+        ])
+
+    def forward(self, query: torch.Tensor, memory: torch.Tensor, attn_mask=None):
+        return self.resblocks((query, memory, attn_mask))[0]
+
+# ---------- New: Gated (Audio-Video) Fusion Transformer -------------
+class ResidualAttentionBlock_Gate(nn.Module):
+    """Gated audio-to-video fusion block from AVIGATE."""
+
+    def __init__(self, d_model: int, n_head: int):
+        super().__init__()
+        self.attn = nn.MultiheadAttention(d_model, n_head)
+        self.cross_attn = nn.MultiheadAttention(d_model, n_head)
+        self.ln_1 = LayerNorm(d_model)
+        self.ln_2 = LayerNorm(d_model)
+        self.ln_3 = LayerNorm(d_model)
+        self.ln_4 = LayerNorm(d_model)
+        self.mlp = nn.Sequential(OrderedDict([
+            ("c_fc", nn.Linear(d_model, d_model * 4)),
+            ("gelu", QuickGELU()),
+            ("c_proj", nn.Linear(d_model * 4, d_model)),
+        ]))
+        self.cross_ff = nn.Sequential(OrderedDict([
+            ("cross_fc", nn.Linear(d_model, d_model * 4, bias=False)),
+            ("cross_gelu", QuickGELU()),
+            ("cross_proj", nn.Linear(d_model * 4, d_model, bias=False)),
+        ]))
+        self.attn_gate = nn.Sequential(OrderedDict([
+            ("ag_fc", nn.Linear(d_model * 2, d_model // 2, bias=False)),
+            ("ag_gelu", QuickGELU()),
+            ("ag_proj", nn.Linear(d_model // 2, 1, bias=False)),
+        ]))
+        self.ff_gate = nn.Sequential(OrderedDict([
+            ("fg_fc", nn.Linear(d_model * 2, d_model // 2, bias=False)),
+            ("fg_gelu", QuickGELU()),
+            ("fg_proj", nn.Linear(d_model // 2, 1, bias=False)),
+        ]))
+        self.n_head = n_head
+        
+    # Đây là self-attention giữa các learned query token, mà tất cả query token đều hợp lệ, không có padding hay vị trí cần che.
+    # attn_mask chỉ cần cho cross-attention để che các memory token không hợp lệ.
+    def attention(self, x: torch.Tensor):
+        return self.attn(x, x, x, need_weights=False)[0]
+
+    def cross_attention(self, query: torch.Tensor, memory: torch.Tensor, attn_mask=None):
+        if attn_mask is not None:
+            attn_mask = attn_mask.repeat_interleave(self.n_head, dim=0)
+        return self.cross_attn(query, memory, memory, need_weights=False, attn_mask=attn_mask)[0]
+
+    def forward(self, inputs: tuple):
+        x, memory, attn_mask, attn_gates, ff_gates = inputs
+        gate_input = torch.cat((x.mean(dim=0), memory.mean(dim=0)), dim=1)
+        attn_gate = self.attn_gate(gate_input).tanh()
+        ff_gate = self.ff_gate(gate_input).tanh()
+
+        x = x + self.cross_attention(self.ln_3(x), memory, attn_mask) * attn_gate
+        x = x + self.cross_ff(self.ln_4(x)) * ff_gate
+        x = x + self.attention(self.ln_1(x))
+        x = x + self.mlp(self.ln_2(x))
+
+        attn_gates.append(attn_gate.view(-1))
+        ff_gates.append(ff_gate.view(-1))
+        return x, memory, attn_mask, attn_gates, ff_gates
+
+# ---------- New: Gated (Audio-Video) Fusion Transformer -------------
+class Transformer_Gate(nn.Module):
+    """AVIGATE gated fusion transformer."""
+
+    def __init__(self, width: int, layers: int, heads: int):
+        super().__init__()
+        self.width = width
+        self.layers = layers
+        self.resblocks = nn.Sequential(*[
+            ResidualAttentionBlock_Gate(width, heads) for _ in range(layers)
+        ])
+
+    def forward(self, query: torch.Tensor, memory: torch.Tensor, attn_mask=None):
+        return self.resblocks((query, memory, attn_mask, [], []))
+
 class CrossEmbeddings(nn.Module):
     """Construct the embeddings from word, position and token_type embeddings.
     """

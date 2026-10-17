@@ -39,6 +39,13 @@ def get_args(description='CLIPKG4Vid on Retrieval Task'):
     parser.add_argument('--data_path', type=str, default='data/caption.pickle', help='data json file path')
     # --- New: add --narration_path for frame-level caption data
     parser.add_argument('--narration_path', type=str, default='data/caption.pickle', help='caption json file path')
+    parser.add_argument('--audio_path', type=str, default='data/audio', help='directory containing WAV files')
+    parser.add_argument('--use_audio', action='store_true', help='enable AVIGATE AST audio-video fusion')
+    parser.add_argument('--audio_pretrained_path', type=str, default=None, help='AudioSet AST checkpoint path')
+    parser.add_argument('--audio_query_layers', type=int, default=4, help='number of audio resampler layers')
+    parser.add_argument('--audio_fusion_layers', type=int, default=4, help='number of gated audio-video fusion layers')
+    parser.add_argument('--num_audio_queries', type=int, default=12, help='number of learned audio queries')
+    parser.add_argument('--audio_fusion_weight', type=float, default=0.05, help='weight of audio-enhanced visual features')
     # ------------------------------------------------------
     parser.add_argument('--features_path', type=str, default='data/videos_feature.pickle', help='feature path')
 
@@ -328,15 +335,14 @@ def train_epoch(epoch, args, model, train_dataloader, device, n_gpu, optimizer, 
     total_loss = 0
 
     for step, batch in enumerate(train_dataloader):
-        if n_gpu == 1:
-            # multi-gpu does scattering it-self
-            batch = tuple(t.to(device=device, non_blocking=True) for t in batch)
+        batch = tuple(t.to(device=device, non_blocking=True) for t in batch)
 
         # --- New: add narration to the batch ---
         # input_ids, input_mask, segment_ids, video, video_mask = batch
         # loss = model(input_ids, segment_ids, input_mask, video, video_mask)
-        input_ids, input_mask, segment_ids, video, video_mask, narration, narration_word_mask, narration_mask = batch
-        loss = model(input_ids, segment_ids, input_mask, video, video_mask, narration, narration_word_mask, narration_mask)
+        input_ids, input_mask, segment_ids, video, video_mask, narration, narration_word_mask, narration_mask, audio = batch
+        loss = model(input_ids, segment_ids, input_mask, video, video_mask, narration,
+                     narration_word_mask, narration_mask, audio)
         # ---------------------------------------
 
         if n_gpu > 1:
@@ -584,7 +590,7 @@ def eval_epoch(args, model, test_dataloader, device, n_gpu):
         
         for bid, batch in enumerate(test_dataloader):
             batch = tuple(t.to(device) for t in batch)
-            input_ids, input_mask, segment_ids, video, video_mask, narration, narration_word_mask, narration_mask = batch
+            input_ids, input_mask, segment_ids, video, video_mask, narration, narration_word_mask, narration_mask, audio = batch
 
             if multi_sentence_:
                 # multi-sentences retrieval means: one clip has two or more descriptions.
@@ -600,7 +606,8 @@ def eval_epoch(args, model, test_dataloader, device, n_gpu):
                 if len(filter_inds) > 0:
                     video, video_mask = video[filter_inds, ...], video_mask[filter_inds, ...]
                     narration, narration_mask = narration[filter_inds, ...], narration_mask[filter_inds, ...]
-                    visual_output = model.get_visual_output(video, video_mask)
+                    audio = audio[filter_inds, ...]
+                    visual_output = model.get_visual_output(video, video_mask, audio=audio)
                     narration_output = model.get_narration_output(narration, narration_word_mask, narration_mask)
                     
                     batch_visual_output_list.append(visual_output)
@@ -612,7 +619,8 @@ def eval_epoch(args, model, test_dataloader, device, n_gpu):
                 total_video_num += b
             else:
                 sequence_output, word_output, narration_output, visual_output = model.get_sequence_words_narration_visual_output(input_ids, segment_ids, input_mask, 
-                                                        narration, narration_word_mask, narration_mask, video, video_mask)
+                                                        narration, narration_word_mask, narration_mask, video, video_mask,
+                                                        audio=audio)
 
                 batch_sequence_output_list.append(sequence_output)
                 batch_list_t.append((input_mask, segment_ids,))
@@ -839,7 +847,7 @@ def eval_epoch_for_fqs(args, model, test_dataloader, device, n_gpu):
 
         for bid, batch in enumerate(test_dataloader):
             batch = tuple(t.to(device) for t in batch)
-            input_ids, input_mask, segment_ids, video, video_mask, narration, narration_word_mask, narration_mask = batch
+            input_ids, input_mask, segment_ids, video, video_mask, narration, narration_word_mask, narration_mask, audio = batch
 
             # Keep all text tensors aligned in 2D to avoid shape mismatch later in similarity computation.
             if len(input_ids.shape) == 3:
@@ -869,7 +877,8 @@ def eval_epoch_for_fqs(args, model, test_dataloader, device, n_gpu):
                 if len(filter_inds) > 0:
                     video, video_mask = video[filter_inds, ...], video_mask[filter_inds, ...]
                     narration, narration_mask = narration[filter_inds, ...], narration_mask[filter_inds, ...]
-                    visual_output = model.get_visual_output(video, video_mask)
+                    audio = audio[filter_inds, ...]
+                    visual_output = model.get_visual_output(video, video_mask, audio=audio)
                     narration_output = model.get_narration_output(narration, narration_word_mask, narration_mask)
                     batch_visual_output_list.append(visual_output)
                     batch_list_v.append((video_mask,))
@@ -884,7 +893,7 @@ def eval_epoch_for_fqs(args, model, test_dataloader, device, n_gpu):
                 batch_word_output_list.append(word_output)
                 batch_list_t.append((input_mask, segment_ids,))
 
-                visual_output = model.get_visual_output(video, video_mask)
+                visual_output = model.get_visual_output(video, video_mask, audio=audio)
                 narration_output = model.get_narration_output(narration, narration_word_mask, narration_mask)
                 batch_visual_output_list.append(visual_output)
                 batch_list_v.append((video_mask,))
@@ -1291,12 +1300,17 @@ def main():
         for name, param in model.clip.named_parameters():
             # top layers always need to train
             if name.find("ln_final.") == 0 or name.find("text_projection") == 0 or name.find("logit_scale") == 0 \
-                    or name.find("visual.ln_post.") == 0 or name.find("visual.proj") == 0:
+                    or name.find("visual.ln_post.") == 0 or name.find("visual.proj") == 0 \
+                    or name.find("audio_projection") == 0 or name.find("audio.v.norm.") == 0:
                 continue    # need to train
             elif name.find("visual.transformer.resblocks.") == 0 or name.find("transformer.resblocks.") == 0:
                 layer_num = int(name.split(".resblocks.")[1].split(".")[0])
                 if layer_num >= args.freeze_layer_num:
                     continue    # need to train
+            elif name.find("audio.v.blocks.") == 0:
+                layer_num = int(name.split(".blocks.")[1].split(".")[0])
+                if layer_num >= args.freeze_layer_num:
+                    continue
 
             if args.linear_patch == "3d" and name.find("conv2."):
                 continue
