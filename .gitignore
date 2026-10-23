@@ -59,6 +59,8 @@ docs/PROPOSED_METHOD_FROM_CODE.md
 /KG/stanford-corenlp-4.5.4.zip
 
 datasets/MSRVTT/msrvtt_data_*.zip
+datasets/MSVD/msvd_data_*.zip
+datasets/Vatex/vatex_data_*.zip
 datasets/DiDeMo/didemo_data_*.zip
 
 scripts/generate_captions.py
@@ -73,3 +75,5 @@ preprocess/query_generator/Reviewing Text-Video Retrieval Aggregation.md
 
 __pycache__/
 *.pyc
+
+scripts/split_vatex_frames.py
