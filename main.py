@@ -385,7 +385,7 @@ def train_epoch(epoch, args, model, train_dataloader, device, n_gpu, optimizer, 
             elif args.datatype == "didemo":
                 should_step_eval = ((global_step % 50 == 0) or global_step == 1)
             elif args.datatype == "vatex":
-                should_step_eval = ((global_step % 150 == 0) or global_step == 1)
+                should_step_eval = ((global_step % 1000 == 0) or global_step == 1)
                 
             if should_step_eval:
                 if test_dataloader is not None:
